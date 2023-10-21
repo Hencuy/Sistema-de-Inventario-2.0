@@ -27,7 +27,7 @@
                     <TextBlock  VerticalAlignment="Center" FontSize="15" Margin="0 0 0 0" FontFamily="Verdana">Numero de NIT</TextBlock>
                     <materialDesign:PackIcon Height="20" Width="20" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0"/>
                 </StackPanel>
-                <TextBox x:Name="txtNIT" Foreground="Black" Width="260" Margin="0 15 0 0"></TextBox>
+                <TextBox x:Name="txtNIT" PreviewTextInput="NumericTextBox_PreviewTextInput" Foreground="Black" Width="260" Margin="0 15 0 0"></TextBox>
             </StackPanel>
             <StackPanel Margin="20 0 0 0">
                 <StackPanel Orientation="Horizontal">
@@ -72,13 +72,13 @@
                 <StackPanel Orientation="Horizontal">
                     <TextBlock  VerticalAlignment="Center" FontSize="15" Margin="0 0 0 0" FontFamily="Verdana">Nombre del Encargado</TextBlock>
                 </StackPanel>
-                <TextBox x:Name="txtNombreEncargado" Foreground="Black" Width="260" Margin="0 15 0 0"></TextBox>
+                <TextBox x:Name="txtNombreEncargado" PreviewTextInput="TextOnlyTextBox_PreviewTextInput" Foreground="Black" Width="260" Margin="0 15 0 0"></TextBox>
             </StackPanel>
             <StackPanel Margin="20 0 0 0">
                 <StackPanel Orientation="Horizontal">
                     <TextBlock  VerticalAlignment="Center" FontSize="15" Margin="0 0 0 0" FontFamily="Verdana">Telefono</TextBlock>
                 </StackPanel>
-                <TextBox x:Name="txtTelefonoEncargado" Foreground="Black" Width="260" Margin="0 15 0 0"></TextBox>
+                <TextBox x:Name="txtTelefonoEncargado" PreviewTextInput="NumericTextBox_PreviewTextInput" Foreground="Black" Width="260" Margin="0 15 0 0"></TextBox>
             </StackPanel>
             <StackPanel Margin="20 0 0 0">
                 <StackPanel Orientation="Horizontal">

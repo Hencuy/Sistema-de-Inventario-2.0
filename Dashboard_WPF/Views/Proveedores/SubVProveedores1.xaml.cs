@@ -42,8 +42,16 @@ namespace Dashboard_WPF.Views.Proveedores
                 SqlCommand cmd = new SqlCommand(query, conexion);
 
                 // Reemplaza estos valores con los datos de tus TextBox y ComboBox
-                cmd.Parameters.AddWithValue("@NIT", Convert.ToInt64(txtNIT.Text));
-                cmd.Parameters.AddWithValue("@NombreCompañia", txtNombreCompañia.Text);
+                if(txtNIT.Text != "" || txtNombreCompañia.Text != "")
+                {
+                    cmd.Parameters.AddWithValue("@NIT", Convert.ToInt64(txtNIT.Text));
+                    cmd.Parameters.AddWithValue("@NombreCompañia", txtNombreCompañia.Text);
+                }
+                else
+                {
+                    MessageBox.Show("Llene los campos obligatorios");
+                }
+                
                 cmd.Parameters.AddWithValue("@NombreEncargado", txtNombreEncargado.Text);
 
                 // Convierte el valor del ComboBox a 1 o 0 según la selección
@@ -63,8 +71,8 @@ namespace Dashboard_WPF.Views.Proveedores
                 // Ejecuta la consulta
                 cmd.ExecuteNonQuery();
 
-                // Cierra la conexión
-                conexion.Close();
+                
+
                 // Limpia los campos de TextBox
                 txtNIT.Clear();
                 txtNombreCompañia.Clear();
@@ -81,7 +89,8 @@ namespace Dashboard_WPF.Views.Proveedores
             catch(Exception ex) {
                 MessageBox.Show("Error al insertar proveedor: " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
-            
+            // Cierra la conexión
+            conexion.Close();
         }
 
         private void btnLimpiarCampos_Click(object sender, RoutedEventArgs e)
@@ -97,5 +106,34 @@ namespace Dashboard_WPF.Views.Proveedores
             // Establece el ComboBox en "Habilitado" (asumiendo que "Habilitado" es el primer elemento en el ComboBox)
             comboBoxEstado.SelectedIndex = 0;
         }
+
+        private void NumericTextBox_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+            if (!IsTextNumeric(e.Text))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private bool IsTextNumeric(string text)
+        {
+            return int.TryParse(text, out _);
+        }
+
+        private void TextOnlyTextBox_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+            // Verifica si el texto introducido contiene solo letras (caracteres alfabéticos)
+            if (!IsTextAlphabetic(e.Text))
+            {
+                e.Handled = true; // Cancela la entrada de caracteres no alfabéticos
+            }
+        }
+
+        private bool IsTextAlphabetic(string text)
+        {
+            return text.All(char.IsLetter); // Verifica si todos los caracteres son letras
+        }
+
+
     }
 }

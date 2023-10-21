@@ -8,6 +8,16 @@
       mc:Ignorable="d" 
       d:DesignHeight="420" d:DesignWidth="870"
       Title="SubVProveedores3">
+    <Page.Resources>
+        <Style x:Key="DataGridColumnHeaderStyle" TargetType="{x:Type DataGridColumnHeader}">
+            <Setter Property="Background" Value="#2D4356"/>
+            <!-- Cambia "ColorDeFondoDeseado" al color que desees -->
+            <Setter Property="Foreground" Value="White"/>
+            <!-- Cambia "Blanco" al color de fuente que desees -->
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+
+    </Page.Resources>
 
     <Grid Background="White" Height="420" Width="870">
         <StackPanel Height="420">
@@ -22,75 +32,21 @@
                 </Button>
             </StackPanel>
             <StackPanel Margin="0 20 0 0" Width="870">
-                <DataGrid x:Name="DataGridBuscar" AutoGenerateColumns="False" CanUserAddRows="False" ColumnHeaderStyle="{DynamicResource DataGridColumnHeaderStyle2}">
+                <DataGrid  x:Name="DataGridBuscar" AutoGenerateColumns="False" IsReadOnly="True" CanUserAddRows="False">
                     <DataGrid.Columns>
-                        <DataGridTemplateColumn Header="#" IsReadOnly="True" CanUserResize="False" Width="auto">
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <StackPanel Orientation="Horizontal">
-                                        <Border Width="auto" Height="auto" CornerRadius="3" Margin="0 0 0 0" Background="Transparent" BorderBrush="Transparent" BorderThickness="2">
-                                            <TextBlock Text="{Binding Number}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
-                                        </Border>
-                                    </StackPanel>
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                        </DataGridTemplateColumn>
-                        <DataGridTemplateColumn Header="NIT" IsReadOnly="True" CanUserResize="False" Width="auto">
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <StackPanel Orientation="Horizontal">
-                                        <Border Width="auto" Height="auto" CornerRadius="3" Margin="0 0 0 0" Background="Transparent" BorderBrush="Transparent" BorderThickness="2">
-                                            <TextBlock Text="{Binding NIT}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
-                                        </Border>
-                                    </StackPanel>
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                        </DataGridTemplateColumn>
-                        <DataGridTemplateColumn Header="Nombre Compañia" IsReadOnly="True" CanUserResize="False" Width="auto">
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <StackPanel Orientation="Horizontal">
-                                        <Border Width="auto" Height="auto" CornerRadius="3" Margin="0 0 0 0" Background="Transparent" BorderBrush="Transparent" BorderThickness="2">
-                                            <TextBlock Text="{Binding NombreCompañia}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
-                                        </Border>
-                                    </StackPanel>
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                        </DataGridTemplateColumn>
-                        <DataGridTemplateColumn Header="Telefono Encargado" IsReadOnly="True" CanUserResize="False" Width="auto">
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <StackPanel Orientation="Horizontal">
-                                        <Border Width="auto" Height="auto" CornerRadius="3" Margin="0 0 0 0" Background="Transparent" BorderBrush="Transparent" BorderThickness="2">
-                                            <TextBlock Text="{Binding TelefonoEncargado}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
-                                        </Border>
-                                    </StackPanel>
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                        </DataGridTemplateColumn>
-                        <DataGridTemplateColumn Header="Email" IsReadOnly="True" CanUserResize="False" Width="auto">
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <StackPanel Orientation="Horizontal">
-                                        <Border Width="auto" Height="auto" CornerRadius="3" Margin="0 0 0 0" Background="Transparent" BorderBrush="Transparent" BorderThickness="2">
-                                            <TextBlock Text="{Binding Email}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
-                                        </Border>
-                                    </StackPanel>
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                        </DataGridTemplateColumn>
-                        <DataGridTemplateColumn Header="Estado" IsReadOnly="True" CanUserResize="False" Width="auto">
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <StackPanel Orientation="Horizontal">
-                                        <Border Width="auto" Height="auto" CornerRadius="3" Margin="0 0 0 0" Background="Transparent" BorderBrush="Transparent" BorderThickness="2">
-                                            <TextBlock Text="{Binding Estado}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
-                                        </Border>
-                                    </StackPanel>
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                        </DataGridTemplateColumn>
-                        
+
+                        <DataGridTextColumn Header="#" Width="auto" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Number}"/>
+
+                        <DataGridTextColumn Header="NIT" Width="*"  HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding NIT}"/>
+
+                        <DataGridTextColumn Header="Nombre Compañia" Width="*"  HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding NombreCompañia}"/>
+
+                        <DataGridTextColumn Header="Telefono Encargado" Width="*"  HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding TelefonoEncargado}"/>
+
+                        <DataGridTextColumn Header="Email" Width="*"  HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Email}"/>
+
+                        <DataGridTextColumn Header="Estado" Width="*"  HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Estado}"/>
+
                     </DataGrid.Columns>
                 </DataGrid>
             </StackPanel>
