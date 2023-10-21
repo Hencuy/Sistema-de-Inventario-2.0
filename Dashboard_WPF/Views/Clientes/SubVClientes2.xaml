@@ -1,0 +1,50 @@
+﻿<Page x:Class="Dashboard_WPF.Views.Clientes.SubVClientes2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Dashboard_WPF.Views.Clientes"
+      mc:Ignorable="d" 
+      d:DesignHeight="420" d:DesignWidth="870"
+      Title="subVClientes2">
+
+    <Page.Resources>
+        <Style x:Key="DataGridColumnHeaderStyle" TargetType="{x:Type DataGridColumnHeader}">
+            <Setter Property="Background" Value="#2D4356"/>
+            <!-- Cambia "ColorDeFondoDeseado" al color que desees -->
+            <Setter Property="Foreground" Value="White"/>
+            <!-- Cambia "Blanco" al color de fuente que desees -->
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+
+    </Page.Resources>
+
+    <Grid Background="White" Height="420" Width="870">
+        <DataGrid x:Name="dataGridClientes" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="#" Width="40" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Num}"/>
+                <DataGridTextColumn Header="Documento CI" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding CI}"/>
+                <DataGridTextColumn Header="Nombre" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Nombres}"/>
+                <DataGridTextColumn Header="Apellidos" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Apellidos}"/>
+                <DataGridTemplateColumn Header="Actualizar" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Actualizar" Click="ActualizarButton_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <!-- Columna de Eliminar con botón -->
+                <DataGridTemplateColumn Header="Eliminar" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Eliminar" Click="EliminarButton_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+    </Grid>
+</Page>

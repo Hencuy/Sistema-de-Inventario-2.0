@@ -1,0 +1,58 @@
+﻿<Page x:Class="Dashboard_WPF.Views.Categorias.VPCategoria"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:local="clr-namespace:Dashboard_WPF.Views.Categorias"
+      mc:Ignorable="d" 
+      d:DesignHeight="670" d:DesignWidth="950"
+      Title="VPCategoria">
+    <Border Name="Page1" CornerRadius="15" Background="#EFF2F7" Height="610" Width="880">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" Orientation="Horizontal">
+                <materialDesign:PackIcon Height="35" Width="35" Kind="LabelMultiple" VerticalAlignment="Center" Margin="20 0 0 0"/>
+                <TextBlock  VerticalAlignment="Center" FontSize="25" Margin="20 0 0 0" FontFamily="Verdana">CATEGORIAS</TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Orientation="Horizontal">
+                <TextBlock Margin="5 0 0 0" TextWrapping="Wrap" Width="870" >
+                    En el módulo CATEGORÍA usted podrá registrar las categorías que servirán para agregar 
+                    productos y también podrá ver los productos que pertenecen a una categoría 
+                    determinada. Además de lo antes mencionado, puede actualizar los datos de las 
+                    categorías, realizar búsquedas de categorías o eliminarlas si así lo desea.
+                </TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button x:Name="C1"  Margin="0 0 0 0" Cursor="Hand" Click="C1_Click" >
+                    <WrapPanel>
+                        <materialDesign:PackIcon Kind="LabelMultiple" VerticalAlignment="Center" Margin="0 0 7 0"/>
+                        <TextBlock FontSize="14">Nueva categoria</TextBlock>
+                    </WrapPanel>
+                </Button>
+                <Button x:Name="C2"  Margin="15 0 0 0" Click="C2_Click" >
+                    <WrapPanel>
+                        <materialDesign:PackIcon Kind="ListBox" VerticalAlignment="Center" Margin="0 0 7 0"/>
+                        <TextBlock FontSize="14">Lista de categorias</TextBlock>
+                    </WrapPanel>
+                </Button>
+                <Button x:Name="C3"  Margin="15 0 0 0" Click="C3_Click" >
+                    <WrapPanel>
+                        <materialDesign:PackIcon Kind="Magnify" VerticalAlignment="Center" Margin="0 0 7 0"/>
+                        <TextBlock FontSize="14">Buscar categoria</TextBlock>
+                    </WrapPanel>
+                </Button>
+            </StackPanel>
+            <StackPanel Grid.Row="3">
+                <Frame x:Name="FrameCategorias" NavigationUIVisibility="Hidden"></Frame>
+            </StackPanel>
+
+        </Grid>
+    </Border>
+</Page>

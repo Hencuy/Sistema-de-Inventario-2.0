@@ -1,0 +1,76 @@
+﻿<Page x:Class="Dashboard_WPF.Views.Categorias.subVCategoraias1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:local="clr-namespace:Dashboard_WPF.Views.Categorias"
+      mc:Ignorable="d" 
+      d:DesignHeight="420" d:DesignWidth="870"
+      Title="subVCategoraias1">
+
+    <Grid Background="White" Height="420" Width="870" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="140"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="15,0,0,0">
+            <materialDesign:PackIcon Height="35" Width="35" Kind="InformationCircleOutline" VerticalAlignment="Center" Margin="7 0 0 0"/>
+            <TextBlock  VerticalAlignment="Center" FontSize="23" Margin="10 0 0 0" FontFamily="Verdana">Información de la categoría</TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,10,0,0">
+            <StackPanel Margin="30 0 0 0">
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock  VerticalAlignment="Center" FontSize="15" Margin="0 0 0 0" FontFamily="Verdana">Nombre categoría</TextBlock>
+                        <materialDesign:PackIcon Height="15" Width="15" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0"/>
+                    </StackPanel>
+                    <TextBox x:Name="txtNombre" Foreground="Black" Width="260" Margin="0 7 0 0"></TextBox>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Margin="20 0 0 0" Orientation="Vertical">
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock  VerticalAlignment="Center" FontSize="15" Margin="0 0 0 0" FontFamily="Verdana">Pasillo o ubicación del producto</TextBlock>
+                        <materialDesign:PackIcon Height="15" Width="15" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0"/>
+                    </StackPanel>
+                    <TextBox x:Name="txtUbicacion" Foreground="Black" Width="260" Margin="0 7 0 0"></TextBox>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Margin="20 0 0 0" Orientation="Vertical">
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock  VerticalAlignment="Center" FontSize="15" Margin="0 0 0 0" FontFamily="Verdana">Estado de la categoría</TextBlock>
+                        <materialDesign:PackIcon Height="15" Width="15" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0"/>
+                    </StackPanel>
+                    <ComboBox x:Name="ComboEstado" Width="230" Margin="0 10 0 0" SelectedIndex="0">
+                        <ComboBoxItem>Habilitado</ComboBoxItem>
+                        <ComboBoxItem>Deshabilitado</ComboBoxItem>
+                    </ComboBox>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal" >
+                <Button Name="btnLimpiar" Margin="0 0 0 0" Background="Gray" Click="btnLimpiar_Click">
+                    <WrapPanel>
+                        <materialDesign:PackIcon Kind="Broom" VerticalAlignment="Center" Margin="0 0 7 0"/>
+                        <TextBlock FontSize="14">Limpiar</TextBlock>
+                    </WrapPanel>
+                </Button>
+                <Button Name="btnGuardar" Margin="20 0 0 0" Click="btnGuardar_Click">
+                    <WrapPanel>
+                        <materialDesign:PackIcon Kind="ContentSaveCheck" VerticalAlignment="Center" Margin="0 0 7 0"/>
+                        <TextBlock FontSize="14">Guardar</TextBlock>
+                    </WrapPanel>
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 20 0 0" >
+                <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="0 0 0 0" FontFamily="Verdana" >Los campos marcados con</TextBlock>
+                <materialDesign:PackIcon Height="15" Width="15" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0"/>
+                <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="0 0 0 0" FontFamily="Verdana">son obligatorios</TextBlock>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,57 @@
+﻿<Page x:Class="Dashboard_WPF.Views.Proveedores.VPProveedores"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Dashboard_WPF.Views.Proveedores" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+       d:DesignHeight="670" d:DesignWidth="950"
+      Title="VPProveedores">
+
+    <Border Name="Page1" CornerRadius="15" Background="#EFF2F7" Height="610" Width="880">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" Orientation="Horizontal">
+                <materialDesign:PackIcon Height="35" Width="35" Kind="TruckFast" VerticalAlignment="Center" Margin="20 0 0 0"/>
+                <TextBlock  VerticalAlignment="Center" FontSize="25" Margin="20 0 0 0" FontFamily="Verdana">PROVEEDORES</TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Orientation="Horizontal">
+                <TextBlock Margin="20 0 0 0" TextWrapping="Wrap" Width="850" >
+                    En el modulo PROVEEDORES usted podra registra los proveedores de productos o mercancia.Ademas, podra actualizar los
+                    datos de los proveedores, ver todos los proveedores registrados en el sistemas,buscar proveedores en el sistema o eliminarlos si asi desea.
+                </TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button x:Name="btnRegistrarProvee"  Margin="0 0 0 0" Cursor="Hand" Click="btnRegistrarProvee_Click" >
+                    <WrapPanel>
+                        <materialDesign:PackIcon Kind="TruckFast" VerticalAlignment="Center" Margin="0 0 7 0"/>
+                        <TextBlock FontSize="14">Nuevo Proovedor</TextBlock>
+                    </WrapPanel>
+                </Button>
+                <Button x:Name="btnListaProvee"  Margin="15 0 0 0" Click="btnListaProvee_Click" >
+                    <WrapPanel>
+                        <materialDesign:PackIcon Kind="ListBox" VerticalAlignment="Center" Margin="0 0 7 0"/>
+                        <TextBlock FontSize="14">Lista de Proveedores</TextBlock>
+                    </WrapPanel>
+                </Button>
+                <Button x:Name="btnBuscarProvee"  Margin="15 0 0 0" Click="btnBuscarProvee_Click" >
+                    <WrapPanel>
+                        <materialDesign:PackIcon Kind="Magnify" VerticalAlignment="Center" Margin="0 0 7 0"/>
+                        <TextBlock FontSize="14">Buscar Proveedor</TextBlock>
+                    </WrapPanel>
+                </Button>
+            </StackPanel>
+            <StackPanel Grid.Row="3">
+                <Frame x:Name="FrameProveedores" NavigationUIVisibility="Hidden"></Frame>
+            </StackPanel>
+            
+        </Grid>
+    </Border>
+</Page>

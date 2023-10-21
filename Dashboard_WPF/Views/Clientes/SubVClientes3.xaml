@@ -1,0 +1,65 @@
+﻿<Page x:Class="Dashboard_WPF.Views.Clientes.SubVClientes3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Dashboard_WPF.Views.Clientes"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="420" d:DesignWidth="870"
+      Title="subVClientes3">
+    <Page.Resources>
+        <Style x:Key="DataGridColumnHeaderStyle" TargetType="{x:Type DataGridColumnHeader}">
+            <Setter Property="Background" Value="#2D4356"/>
+            <!-- Cambia "ColorDeFondoDeseado" al color que desees -->
+            <Setter Property="Foreground" Value="White"/>
+            <!-- Cambia "Blanco" al color de fuente que desees -->
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+
+    </Page.Resources>
+    <Grid Background="White" Height="420" Width="870">
+        <StackPanel Background="#F9F5F6" Margin="0,37,0,232" Orientation="Vertical">
+            <TextBlock FontSize="14" HorizontalAlignment="Center">¿Qué cliente estas buscando?</TextBlock>
+            <TextBox x:Name="txtClienteBus" KeyDown="txtClienteBus_KeyDown" Foreground="Black" Width="400" Margin="0 30 0 0" TextWrapping="NoWrap" AcceptsReturn="False" BorderThickness="0,0,0,1">
+                <TextBox.Style>
+                    <Style TargetType="TextBox">
+                        <Setter Property="HorizontalContentAlignment" Value="Center" />
+                    </Style>
+                </TextBox.Style>
+            </TextBox>
+            <Button x:Name="btnBuscar" Margin="0 40 0 0" Width="150" Click="btnBuscar_Click">
+                <WrapPanel>
+                    <materialDesign:PackIcon Kind="Magnify" VerticalAlignment="Center" Margin="0 0 7 0"/>
+                    <TextBlock FontSize="14">Buscar</TextBlock>
+                </WrapPanel>
+            </Button>
+        </StackPanel>
+        <StackPanel Background="#F9F5F6" Margin="0,207,0,0" Orientation="Vertical">
+            <DataGrid x:Name="dataGridClientesBusqueda" Visibility="Collapsed" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="#" Width="40" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Num}"/>
+                    <DataGridTextColumn Header="Documento CI" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding CI}"/>
+                    <DataGridTextColumn Header="Nombre" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Nombres}"/>
+                    <DataGridTextColumn Header="Apellidos" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Apellidos}"/>
+                    <DataGridTemplateColumn Header="Actualizar" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="Actualizar" />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <!-- Columna de Eliminar con botón -->
+                    <DataGridTemplateColumn Header="Eliminar" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="Eliminar" />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+    </Grid>
+
+</Page>

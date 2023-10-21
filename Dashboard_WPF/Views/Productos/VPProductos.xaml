@@ -1,0 +1,63 @@
+﻿<Page x:Class="Dashboard_WPF.Views.Productos.VPProductos"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Dashboard_WPF.Views.Productos"
+      mc:Ignorable="d" 
+      d:DesignHeight="670" d:DesignWidth="950"
+      Title="VPProductos">
+    
+    <Border Name="Page1" CornerRadius="15" Background="#EFF2F7" Height="610" Width="880">
+        <Grid>
+            <StackPanel Orientation="Horizontal" Margin="10,10,0,542">
+                <materialDesign:PackIcon Height="35" Width="35" Kind="PackageVariant" VerticalAlignment="Center" Margin="20 0 0 0"/>
+                <TextBlock  VerticalAlignment="Center" FontSize="25" Margin="20 0 0 0" FontFamily="Verdana"><Run Text="P"/><Run Language="es-bo" Text="RODUCTOS"/></TextBlock>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,68,0,0">
+                <Button x:Name="btnNuevoProducto" Cursor="Hand" Height="25" Width="125" Margin="0,0,10,0" Click="btnNuevoProducto_Click" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <materialDesign:PackIcon Height="15" Width="15" Kind="PlusBox" VerticalAlignment="Center" Margin="-16,0,0,0"/>
+                        <TextBlock FontSize="10" Margin="4,0,-16,0">Nuevo producto</TextBlock>
+                    </Grid>
+                </Button>
+                <Button x:Name="btnEnAlmacen" Cursor="Hand" Height="25" Width="125" Margin="0,0,10,0" Click="btnEnAlmacen_Click">
+                    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Image Height="15" Width="15" VerticalAlignment="Center" Margin="-64,0,0,0" Source="/Views/Productos/Imagenes/almacen2.png"></Image>
+                        <TextBlock FontSize="10" Margin="4,0,-16,0">En almacén</TextBlock>
+                    </Grid>
+                </Button>
+                <Button x:Name="btnMasVendidos" Cursor="Hand" Height="25" Width="125" Margin="0,0,10,0" Click="btnMasVendidos_Click">
+                    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Image Height="15" Width="15" VerticalAlignment="Center" Margin="-64,0,0,0" Source="/Views/Productos/Imagenes/mejor-vendido.png"></Image>
+                        <TextBlock FontSize="10" Margin="4,0,-16,0">Más vendidos</TextBlock>
+                    </Grid>
+                </Button>
+                <Button x:Name="btnPorCategoria" Cursor="Hand" Height="25" Width="125" Margin="0,0,10,0" Click="btnPorCategoria_Click">
+                    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Image Height="15" Width="15" VerticalAlignment="Center" Margin="-64,0,0,0" Source="/Views/Productos/Imagenes/categorias.png"></Image>
+                        <TextBlock FontSize="10" Margin="4,0,-16,0">Por categoría</TextBlock>
+                    </Grid>
+                </Button>
+                <Button x:Name="btnPorVencimiento" Cursor="Hand" Height="25" Width="125" Margin="0,0,10,0" Click="btnPorVencimiento_Click">
+                    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Image Height="15" Width="15" VerticalAlignment="Center" Margin="-64,0,0,0" Source="/Views/Productos/Imagenes/fecha-de-vencimiento.png"></Image>
+                        <TextBlock FontSize="10" Margin="15,0,-16,0">Por vencimiento</TextBlock>
+                    </Grid>
+                </Button>
+                <Button x:Name="btnStockMinimo" Cursor="Hand" Height="25" Width="125" Margin="0,0,10,0" Click="btnStockMinimo_Click">
+                    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <materialDesign:PackIcon Height="15" Width="15" Kind="Alert" VerticalAlignment="Center" Margin="-16,0,0,0"/>
+                        <TextBlock FontSize="10" Margin="4,0,-16,0">En Stok mínimo</TextBlock>
+                    </Grid>
+                </Button>
+            </StackPanel>
+
+            <ScrollViewer Name="Home" Margin="0,114,10,10">
+                <Frame x:Name="FrameProductos" NavigationUIVisibility="Hidden" Margin="0,0,0,0" Width="880"></Frame>
+            </ScrollViewer>
+        </Grid>
+    </Border>
+</Page>

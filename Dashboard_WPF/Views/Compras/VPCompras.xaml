@@ -1,0 +1,56 @@
+﻿<Page x:Class="Dashboard_WPF.Views.Compras.VPCompras"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Dashboard_WPF.Views.Compras" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+       d:DesignHeight="670" d:DesignWidth="950"
+      Title="VPCompras">
+
+    <Border Name="Page1" CornerRadius="15" Background="#EFF2F7" Height="610" Width="880">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" Orientation="Horizontal">
+                <materialDesign:PackIcon Name="Icono" Height="35" Width="35" Kind="Shopping" VerticalAlignment="Center" Margin="20 0 0 0"/>
+                <TextBlock Name="Titulo" VerticalAlignment="Center" FontSize="25" Margin="20 0 0 0" FontFamily="Verdana">NUEVA COMPRA</TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Orientation="Horizontal">
+                <TextBlock Margin="20 0 0 0" TextWrapping="Wrap" Width="850" >
+                    En el modulo COMPRAS usted podra registrar compras de procutos ya sea nuevos o ya registrados en sistema.Tambien puede ver la lista de todas 
+                    las compras realizadas, buscar compras y ver la informacion mas detallada de cada compra
+                </TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button x:Name="btnRegistrarCompra"  Margin="0 0 0 0" Cursor="Hand" Click="btnRegistrarCompra_Click" >
+                    <WrapPanel>
+                        <materialDesign:PackIcon Kind="Shopping" VerticalAlignment="Center" Margin="0 0 7 0"/>
+                        <TextBlock FontSize="14">Nueva Compra</TextBlock>
+                    </WrapPanel>
+                </Button>
+                <Button x:Name="btnListaCompras"  Margin="15 0 0 0" Click="btnListaCompras_Click"  >
+                    <WrapPanel>
+                        <materialDesign:PackIcon Kind="ListBox" VerticalAlignment="Center" Margin="0 0 7 0"/>
+                        <TextBlock FontSize="14">Compras Realizadas</TextBlock>
+                    </WrapPanel>
+                </Button>
+                <Button x:Name="btnBuscarCompra"  Margin="15 0 0 0" Click="btnBuscarCompra_Click"  >
+                    <WrapPanel>
+                        <materialDesign:PackIcon Kind="Magnify" VerticalAlignment="Center" Margin="0 0 7 0"/>
+                        <TextBlock FontSize="14">Buscar Compra</TextBlock>
+                    </WrapPanel>
+                </Button>
+            </StackPanel>
+            <StackPanel Grid.Row="3">
+                <Frame x:Name="FrameCompras" NavigationUIVisibility="Hidden"></Frame>
+            </StackPanel>
+
+        </Grid>
+    </Border>
+</Page>

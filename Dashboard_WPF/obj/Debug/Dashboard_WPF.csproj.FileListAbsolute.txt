@@ -1,0 +1,1488 @@
+C:\Users\Home\source\repos\Dashboard_WPF\Dashboard_WPF\bin\Debug\Dashboard_WPF.exe.config
+C:\Users\Home\source\repos\Dashboard_WPF\Dashboard_WPF\bin\Debug\Dashboard_WPF.exe
+C:\Users\Home\source\repos\Dashboard_WPF\Dashboard_WPF\bin\Debug\Dashboard_WPF.pdb
+C:\Users\Home\source\repos\Dashboard_WPF\Dashboard_WPF\bin\Debug\MaterialDesignColors.dll
+C:\Users\Home\source\repos\Dashboard_WPF\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Home\source\repos\Dashboard_WPF\Dashboard_WPF\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Home\source\repos\Dashboard_WPF\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Home\source\repos\Dashboard_WPF\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Home\source\repos\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.csprojAssemblyReference.cache
+C:\Users\Home\source\repos\Dashboard_WPF\Dashboard_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\Home\source\repos\Dashboard_WPF\Dashboard_WPF\obj\Debug\App.g.cs
+C:\Users\Home\source\repos\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF_MarkupCompile.cache
+C:\Users\Home\source\repos\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF_MarkupCompile.lref
+C:\Users\Home\source\repos\Dashboard_WPF\Dashboard_WPF\obj\Debug\App.baml
+C:\Users\Home\source\repos\Dashboard_WPF\Dashboard_WPF\obj\Debug\MainWindow.baml
+C:\Users\Home\source\repos\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.g.resources
+C:\Users\Home\source\repos\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.Properties.Resources.resources
+C:\Users\Home\source\repos\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.GenerateResource.cache
+C:\Users\Home\source\repos\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CoreCompileInputs.cache
+C:\Users\Home\source\repos\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CopyComplete
+C:\Users\Home\source\repos\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.exe
+C:\Users\Home\source\repos\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.pdb
+C:\Users\antou\Downloads\Dashboard_WPF\Dashboard_WPF\bin\Debug\Dashboard_WPF.exe.config
+C:\Users\antou\Downloads\Dashboard_WPF\Dashboard_WPF\bin\Debug\Dashboard_WPF.exe
+C:\Users\antou\Downloads\Dashboard_WPF\Dashboard_WPF\bin\Debug\Dashboard_WPF.pdb
+C:\Users\antou\Downloads\Dashboard_WPF\Dashboard_WPF\bin\Debug\MaterialDesignColors.dll
+C:\Users\antou\Downloads\Dashboard_WPF\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\antou\Downloads\Dashboard_WPF\Dashboard_WPF\bin\Debug\MaterialDesignColors.pdb
+C:\Users\antou\Downloads\Dashboard_WPF\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\antou\Downloads\Dashboard_WPF\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\antou\Downloads\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.AssemblyReference.cache
+C:\Users\antou\Downloads\Dashboard_WPF\Dashboard_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\antou\Downloads\Dashboard_WPF\Dashboard_WPF\obj\Debug\App.g.cs
+C:\Users\antou\Downloads\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF_MarkupCompile.cache
+C:\Users\antou\Downloads\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF_MarkupCompile.lref
+C:\Users\antou\Downloads\Dashboard_WPF\Dashboard_WPF\obj\Debug\App.baml
+C:\Users\antou\Downloads\Dashboard_WPF\Dashboard_WPF\obj\Debug\MainWindow.baml
+C:\Users\antou\Downloads\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.g.resources
+C:\Users\antou\Downloads\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.Properties.Resources.resources
+C:\Users\antou\Downloads\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.GenerateResource.cache
+C:\Users\antou\Downloads\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CoreCompileInputs.cache
+C:\Users\antou\Downloads\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CopyComplete
+C:\Users\antou\Downloads\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.exe
+C:\Users\antou\Downloads\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.pdb
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\bin\Debug\Dashboard_WPF.exe.config
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\bin\Debug\Dashboard_WPF.exe
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\bin\Debug\Dashboard_WPF.pdb
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\bin\Debug\MaterialDesignColors.dll
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\bin\Debug\MaterialDesignColors.pdb
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.AssemblyReference.cache
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.SuggestedBindingRedirects.cache
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\MainWindow.g.cs
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Dashboard\PDashboard.g.cs
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\App.g.cs
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF_MarkupCompile.cache
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF_MarkupCompile.lref
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\App.baml
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\MainWindow.baml
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Dashboard\PDashboard.baml
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.g.resources
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.Properties.Resources.resources
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.GenerateResource.cache
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CoreCompileInputs.cache
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CopyComplete
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.exe
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Dashboard_WPF.pdb
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Categorias\VPCategoria.g.cs
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Clientes\VPClientes.g.cs
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Compras\VPCompras.g.cs
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Kardex\VPKardex.g.cs
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Productos\VPProductos.g.cs
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Proveedores\VPProveedores.g.cs
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Reportes\VPReportes.g.cs
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Usuarios\VPUsuarios.g.cs
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Ventas\VPVentas.g.cs
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Categorias\VPCategoria.baml
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Clientes\VPClientes.baml
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Compras\VPCompras.baml
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Kardex\VPKardex.baml
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Productos\VPProductos.baml
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Proveedores\VPProveedores.baml
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Reportes\VPReportes.baml
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Usuarios\VPUsuarios.baml
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Ventas\VPVentas.baml
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores1.g.cs
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores1.baml
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores2.g.cs
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores3.g.cs
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores2.baml
+D:\4to Semestre\Proyecto Sistemas I\Dashboard_WPF\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores3.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.AssemblyReference.cache
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\VPCategoria.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\VPClientes.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VPCompras.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Dashboard\PDashboard.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\VPKardex.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores1.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores2.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores3.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\VPProveedores.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\VPReportes.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Usuarios\VPUsuarios.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\VPVentas.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\App.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF_MarkupCompile.cache
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF_MarkupCompile.lref
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.exe
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.exe.config
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.exe
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignColors.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignColors.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_NuevoProducto.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\VPProductos.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\App.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\MainWindow.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\VPCategoria.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\VPClientes.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VPCompras.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Dashboard\PDashboard.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\VPKardex.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\VPProductos.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores1.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores2.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores3.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\VPProveedores.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\VPReportes.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Usuarios\VPUsuarios.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\VPVentas.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_NuevoProducto.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.g.resources
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.Properties.Resources.resources
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.GenerateResource.cache
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CoreCompileInputs.cache
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CopyComplete
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_BuscarProducto.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_EnAlmacen.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_MasVendido.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorCategorias.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorVencimiento.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_StockMinimo.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_BuscarProducto.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_EnAlmacen.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_MasVendido.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorCategorias.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorVencimiento.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_StockMinimo.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.exe.config
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.exe
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignColors.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignColors.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.AssemblyReference.cache
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\VPCategoria.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\VPClientes.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VPCompras.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Dashboard\PDashboard.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\VPKardex.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_BuscarProducto.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_EnAlmacen.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_MasVendido.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_NuevoProducto.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorCategorias.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorVencimiento.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_StockMinimo.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\VPProductos.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores1.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores2.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores3.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\VPProveedores.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\VPReportes.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Usuarios\VPUsuarios.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas1.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas2.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas3.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas4.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\VPVentas.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\App.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF_MarkupCompile.cache
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF_MarkupCompile.lref
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\App.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\MainWindow.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\VPCategoria.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\VPClientes.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VPCompras.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Dashboard\PDashboard.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\VPKardex.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_BuscarProducto.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_EnAlmacen.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_MasVendido.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_NuevoProducto.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorCategorias.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorVencimiento.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_StockMinimo.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\VPProductos.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores1.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores2.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores3.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\VPProveedores.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\VPReportes.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Usuarios\VPUsuarios.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\VPVentas.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas1.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas2.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas3.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas4.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.g.resources
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.Properties.Resources.resources
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.GenerateResource.cache
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CoreCompileInputs.cache
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CopyComplete
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.exe
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.exe.config
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.exe
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignColors.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignColors.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.AssemblyReference.cache
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.SuggestedBindingRedirects.cache
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\MainWindow.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\VPCategoria.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\VPClientes.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras1.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras2.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras3.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VEmergente.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VPCompras.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Dashboard\PDashboard.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\VPKardex.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_BuscarProducto.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_EnAlmacen.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_MasVendido.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_NuevoProducto.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorCategorias.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorVencimiento.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_StockMinimo.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\VPProductos.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores1.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores2.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores3.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\VPProveedores.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\VPReportes.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Usuarios\VPUsuarios.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas1.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas2.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas3.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas4.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\VPVentas.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\App.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF_MarkupCompile.cache
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF_MarkupCompile.lref
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\App.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\MainWindow.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\VPCategoria.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\VPClientes.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VPCompras.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Dashboard\PDashboard.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\VPKardex.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_BuscarProducto.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_EnAlmacen.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_MasVendido.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_NuevoProducto.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorCategorias.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorVencimiento.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_StockMinimo.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\VPProductos.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores1.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores2.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores3.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\VPProveedores.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\VPReportes.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Usuarios\VPUsuarios.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas1.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas2.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas3.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas4.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\VPVentas.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras1.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras2.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras3.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VEmergente.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.g.resources
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.Properties.Resources.resources
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.GenerateResource.cache
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CoreCompileInputs.cache
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CopyComplete
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.exe
+D:\4to Semestre\Proyecto Sistemas I\weas\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras1.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras2.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras3.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VEmergente.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas1.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas2.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas3.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas4.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras1.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras2.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras3.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VEmergente.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas1.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas2.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas3.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas4.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.exe.config
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.exe
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.pdb
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignColors.dll
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignColors.pdb
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.AssemblyReference.cache
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias1.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias2.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias3.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\VPCategoria.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\VPClientes.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras1.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras2.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras3.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VEmergente.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VPCompras.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Dashboard\PDashboard.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\VPKardex.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_BuscarProducto.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_EnAlmacen.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_MasVendido.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_NuevoProducto.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorCategorias.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorVencimiento.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_StockMinimo.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\VPProductos.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores1.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores2.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores3.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\VPProveedores.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\VPReportes.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Usuarios\VPUsuarios.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas1.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas2.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas3.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas4.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\VPVentas.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\App.g.cs
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF_MarkupCompile.cache
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF_MarkupCompile.lref
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\App.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\MainWindow.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\VPCategoria.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\VPClientes.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras1.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras2.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras3.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VEmergente.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VPCompras.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Dashboard\PDashboard.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\VPKardex.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_BuscarProducto.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_EnAlmacen.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_MasVendido.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_NuevoProducto.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorCategorias.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorVencimiento.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_StockMinimo.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\VPProductos.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores1.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores2.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores3.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\VPProveedores.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\VPReportes.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Usuarios\VPUsuarios.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas1.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas2.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas3.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas4.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\VPVentas.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias1.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias2.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias3.baml
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.g.resources
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.Properties.Resources.resources
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.GenerateResource.cache
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CoreCompileInputs.cache
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CopyComplete
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.exe
+C:\Users\nogal\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias1.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias2.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias3.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras1.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras2.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras3.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VEmergente.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex1.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex2.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex3.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias1.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias2.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias3.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras1.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras2.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras3.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VEmergente.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex1.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex2.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex3.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes1.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes2.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes3.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes1.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes2.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes3.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes1.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes2.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes3.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes1.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes2.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes3.baml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.SuggestedBindingRedirects.cache
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.exe.config
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.exe
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BootstrapIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Codicons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Coolicons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Entypo.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FileIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontaudio.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontisto.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.ForkAwesome.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Ionicons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.JamIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Microns.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Modern.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Octicons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PixelartIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RadixIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RemixIcon.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Typicons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Unicons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.VaadinIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Zondicons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignColors.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BootstrapIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BootstrapIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Codicons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Codicons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Coolicons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Coolicons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Entypo.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Entypo.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FileIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FileIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontaudio.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontaudio.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontisto.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontisto.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.ForkAwesome.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.ForkAwesome.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Ionicons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Ionicons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.JamIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.JamIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Microns.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Microns.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Modern.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Modern.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Octicons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Octicons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PixelartIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PixelartIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RadixIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RadixIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RemixIcon.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RemixIcon.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Typicons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Typicons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Unicons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Unicons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.VaadinIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.VaadinIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Zondicons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Zondicons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignColors.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.AssemblyReference.cache
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.SuggestedBindingRedirects.cache
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\MainWindow.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias1.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias2.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias3.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\VPCategoria.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes1.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes2.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes3.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\VPClientes.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras1.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras2.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras3.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VEmergente.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VPCompras.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Dashboard\PDashboard.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex1.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex2.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex3.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\VPKardex.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_BuscarProducto.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_EnAlmacen.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_MasVendido.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_NuevoProducto.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorCategorias.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorVencimiento.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_StockMinimo.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\VPProductos.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores1.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores2.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores3.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\VPProveedores.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes1.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes2.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes3.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\VPReportes.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Usuarios\VPUsuarios.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas1.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas2.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas3.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas4.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\VPVentas.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\App.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF_MarkupCompile.cache
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF_MarkupCompile.lref
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\App.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\MainWindow.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias1.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias2.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias3.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\VPCategoria.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes1.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes2.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes3.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\VPClientes.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras1.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras2.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras3.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VEmergente.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VPCompras.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Dashboard\PDashboard.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex1.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex2.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex3.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\VPKardex.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_BuscarProducto.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_EnAlmacen.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_MasVendido.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_NuevoProducto.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorCategorias.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorVencimiento.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_StockMinimo.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\VPProductos.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores1.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores2.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores3.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\VPProveedores.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes1.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes2.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes3.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\VPReportes.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Usuarios\VPUsuarios.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas1.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas2.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas3.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas4.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\VPVentas.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.g.resources
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.Properties.Resources.resources
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.GenerateResource.cache
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CoreCompileInputs.cache
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CopyComplete
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.exe
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 2\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BootstrapIcons.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Codicons.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Coolicons.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Entypo.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FileIcons.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontaudio.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontisto.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.ForkAwesome.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Ionicons.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.JamIcons.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Microns.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Modern.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Octicons.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PixelartIcons.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RadixIcons.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RemixIcon.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Typicons.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Unicons.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.VaadinIcons.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Zondicons.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\System.Data.SqlClient.dll
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BootstrapIcons.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BootstrapIcons.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Codicons.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Codicons.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Coolicons.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Coolicons.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Entypo.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Entypo.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FileIcons.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FileIcons.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontaudio.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontaudio.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontisto.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontisto.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.ForkAwesome.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.ForkAwesome.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Ionicons.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Ionicons.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.JamIcons.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.JamIcons.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Microns.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Microns.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Modern.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Modern.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Octicons.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Octicons.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PixelartIcons.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PixelartIcons.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RadixIcons.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RadixIcons.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RemixIcon.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RemixIcon.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Typicons.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Typicons.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Unicons.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Unicons.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.VaadinIcons.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.VaadinIcons.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Zondicons.pdb
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Zondicons.xml
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\System.Data.SqlClient.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.exe.config
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.exe
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BootstrapIcons.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Codicons.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Coolicons.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Entypo.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FileIcons.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontaudio.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontisto.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.ForkAwesome.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Ionicons.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.JamIcons.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Microns.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Modern.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Octicons.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PixelartIcons.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RadixIcons.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RemixIcon.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Typicons.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Unicons.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.VaadinIcons.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Zondicons.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignColors.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\System.Data.SqlClient.dll
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BootstrapIcons.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BootstrapIcons.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Codicons.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Codicons.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Coolicons.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Coolicons.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Entypo.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Entypo.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FileIcons.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FileIcons.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontaudio.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontaudio.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontisto.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontisto.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.ForkAwesome.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.ForkAwesome.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Ionicons.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Ionicons.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.JamIcons.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.JamIcons.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Microns.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Microns.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Modern.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Modern.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Octicons.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Octicons.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PixelartIcons.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PixelartIcons.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RadixIcons.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RadixIcons.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RemixIcon.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RemixIcon.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Typicons.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Typicons.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Unicons.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Unicons.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.VaadinIcons.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.VaadinIcons.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Zondicons.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Zondicons.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignColors.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\System.Data.SqlClient.xml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.AssemblyReference.cache
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias1.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias2.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias3.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\VPCategoria.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes1.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes2.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes3.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\VPClientes.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras1.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras2.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras3.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VEmergente.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VPCompras.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Dashboard\PDashboard.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex1.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex2.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex3.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\VPKardex.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_BuscarProducto.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_EnAlmacen.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_MasVendido.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_NuevoProducto.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorCategorias.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorVencimiento.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_StockMinimo.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\VPProductos.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores1.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores2.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores3.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\VPProveedores.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes1.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes2.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes3.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\VPReportes.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Usuarios\VPUsuarios.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas1.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas2.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas3.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas4.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\VPVentas.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\App.g.cs
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF_MarkupCompile.cache
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF_MarkupCompile.lref
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\App.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\MainWindow.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias1.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias2.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias3.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\VPCategoria.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes1.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes2.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes3.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\VPClientes.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras1.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras2.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras3.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VEmergente.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VPCompras.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Dashboard\PDashboard.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex1.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex2.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex3.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\VPKardex.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_BuscarProducto.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_EnAlmacen.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_MasVendido.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_NuevoProducto.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorCategorias.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorVencimiento.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_StockMinimo.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\VPProductos.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores1.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores2.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores3.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\VPProveedores.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes1.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes2.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes3.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\VPReportes.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Usuarios\VPUsuarios.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas1.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas2.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas3.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas4.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\VPVentas.baml
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.g.resources
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.Properties.Resources.resources
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.GenerateResource.cache
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CoreCompileInputs.cache
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CopyComplete
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.exe
+C:\Users\antou\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.exe.config
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.exe
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BootstrapIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Codicons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Coolicons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Entypo.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FileIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontaudio.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontisto.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.ForkAwesome.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Ionicons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.JamIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Microns.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Modern.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Octicons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PixelartIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RadixIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RemixIcon.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Typicons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Unicons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.VaadinIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Zondicons.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignColors.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\System.Data.SqlClient.dll
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BootstrapIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BootstrapIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Codicons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Codicons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Coolicons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Coolicons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Entypo.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Entypo.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FileIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FileIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontaudio.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontaudio.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontisto.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontisto.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.ForkAwesome.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.ForkAwesome.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Ionicons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Ionicons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.JamIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.JamIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Microns.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Microns.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Modern.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Modern.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Octicons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Octicons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PixelartIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PixelartIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RadixIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RadixIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RemixIcon.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RemixIcon.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Typicons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Typicons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Unicons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Unicons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.VaadinIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.VaadinIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Zondicons.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Zondicons.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignColors.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\System.Data.SqlClient.xml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.AssemblyReference.cache
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.SuggestedBindingRedirects.cache
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\MainWindow.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias1.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias2.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias3.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\VPCategoria.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes1.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes2.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes3.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\VPClientes.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras1.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras2.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras3.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VEmergente.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VPCompras.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Dashboard\PDashboard.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex1.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex2.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex3.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\VPKardex.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_BuscarProducto.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_EnAlmacen.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_MasVendido.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_NuevoProducto.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorCategorias.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorVencimiento.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_StockMinimo.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\VPProductos.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\ActualizarProvee.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores1.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores2.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores3.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\VPProveedores.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes1.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes2.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes3.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\VPReportes.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Usuarios\VPUsuarios.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas1.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas2.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas3.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas4.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\VPVentas.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\App.g.cs
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF_MarkupCompile.cache
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF_MarkupCompile.lref
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\App.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\MainWindow.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias1.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias2.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias3.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\VPCategoria.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes1.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes2.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes3.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\VPClientes.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras1.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras2.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras3.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VEmergente.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VPCompras.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Dashboard\PDashboard.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex1.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex2.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex3.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\VPKardex.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_BuscarProducto.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_EnAlmacen.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_MasVendido.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_NuevoProducto.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorCategorias.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorVencimiento.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_StockMinimo.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\VPProductos.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\ActualizarProvee.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores1.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores2.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores3.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\VPProveedores.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes1.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes2.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes3.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\VPReportes.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Usuarios\VPUsuarios.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas1.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas2.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas3.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas4.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\VPVentas.baml
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.g.resources
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.Properties.Resources.resources
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.GenerateResource.cache
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CoreCompileInputs.cache
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CopyComplete
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.exe
+D:\4to Semestre\Proyecto Sistemas I\weas\weas 3\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BootstrapIcons.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Codicons.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Coolicons.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Entypo.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FileIcons.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontaudio.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontisto.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.ForkAwesome.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Ionicons.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.JamIcons.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Microns.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Modern.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Octicons.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PixelartIcons.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RadixIcons.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RemixIcon.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Typicons.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Unicons.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.VaadinIcons.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Zondicons.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\System.Data.SqlClient.dll
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BootstrapIcons.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BootstrapIcons.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Codicons.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Codicons.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Coolicons.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Coolicons.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Entypo.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Entypo.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FileIcons.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FileIcons.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontaudio.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontaudio.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontisto.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontisto.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.ForkAwesome.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.ForkAwesome.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Ionicons.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Ionicons.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.JamIcons.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.JamIcons.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Microns.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Microns.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Modern.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Modern.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Octicons.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Octicons.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PixelartIcons.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PixelartIcons.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RadixIcons.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RadixIcons.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RemixIcon.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RemixIcon.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Typicons.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Typicons.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Unicons.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Unicons.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.VaadinIcons.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.VaadinIcons.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Zondicons.pdb
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Zondicons.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\System.Data.SqlClient.xml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias1.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias2.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias3.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes1.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes2.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes3.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex1.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex2.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex3.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\ActualizarProvee.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes1.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes2.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes3.g.cs
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias1.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias2.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias3.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes1.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes2.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes3.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex1.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex2.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex3.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\ActualizarProvee.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes1.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes2.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes3.baml
+C:\Users\antou\source\repos\Hencuy\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\ActualizarProvee.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\edu79\Source\Repos\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\ActualizarProvee.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.exe.config
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.exe
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\Dashboard_WPF.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BootstrapIcons.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Codicons.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Coolicons.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Entypo.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FileIcons.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontaudio.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontisto.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.ForkAwesome.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Ionicons.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.JamIcons.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Microns.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Modern.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Octicons.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PixelartIcons.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RadixIcons.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RemixIcon.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Typicons.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Unicons.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.VaadinIcons.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Zondicons.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignColors.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\System.Data.SqlClient.dll
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BootstrapIcons.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BootstrapIcons.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Codicons.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Codicons.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Coolicons.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Coolicons.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Entypo.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Entypo.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FileIcons.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FileIcons.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontaudio.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontaudio.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontisto.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Fontisto.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.ForkAwesome.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.ForkAwesome.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Ionicons.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Ionicons.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.JamIcons.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.JamIcons.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Microns.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Microns.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Modern.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Modern.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Octicons.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Octicons.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PixelartIcons.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.PixelartIcons.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RadixIcons.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RadixIcons.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RemixIcon.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RemixIcon.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Typicons.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Typicons.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Unicons.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Unicons.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.VaadinIcons.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.VaadinIcons.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Zondicons.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Zondicons.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignColors.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\bin\Debug\System.Data.SqlClient.xml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.AssemblyReference.cache
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\MainWindow.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias1.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias2.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias3.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\VPCategoria.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes1.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes2.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes3.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes4.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\VPClientes.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras1.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras2.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras3.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VEmergente.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VPCompras.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Dashboard\PDashboard.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex1.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex2.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex3.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\VPKardex.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_BuscarProducto.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_EnAlmacen.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_MasVendido.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_NuevoProducto.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorCategorias.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorVencimiento.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_StockMinimo.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\VPProductos.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\ActualizarProvee.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores1.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores2.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores3.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\VPProveedores.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes1.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes2.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes3.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\VPReportes.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Usuarios\VPUsuarios.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas1.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas2.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas3.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas4.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\VPVentas.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\App.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF_MarkupCompile.cache
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF_MarkupCompile.lref
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\App.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\MainWindow.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias1.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias2.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias3.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Categorias\VPCategoria.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes1.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes2.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes3.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\VPClientes.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras1.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras2.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\SubVCompras3.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VEmergente.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Compras\VPCompras.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Dashboard\PDashboard.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex1.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex2.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\SubVKardex3.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Kardex\VPKardex.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_BuscarProducto.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_EnAlmacen.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_MasVendido.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_NuevoProducto.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorCategorias.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_PorVencimiento.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\Sub_StockMinimo.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Productos\VPProductos.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\ActualizarProvee.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores1.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores2.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\SubVProveedores3.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Proveedores\VPProveedores.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes1.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes2.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\SubVReportes3.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Reportes\VPReportes.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Usuarios\VPUsuarios.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas1.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas2.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas3.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\SubVVentas4.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Ventas\VPVentas.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Views\Clientes\SubVClientes4.baml
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.g.resources
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.Properties.Resources.resources
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.GenerateResource.cache
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CoreCompileInputs.cache
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CopyComplete
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.exe
+D:\weas 8\SistemadeInventarioVentas\Dashboard_WPF\obj\Debug\Dashboard_WPF.pdb

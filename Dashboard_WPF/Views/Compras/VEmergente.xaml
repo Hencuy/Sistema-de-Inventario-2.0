@@ -1,0 +1,115 @@
+﻿<Window x:Class="Dashboard_WPF.Views.Compras.VEmergente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dashboard_WPF.Views.Compras" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="VEmergente" Height="450" Width="600"
+        AllowsTransparency="True"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"></RowDefinition>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition Height="200"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <TextBlock HorizontalAlignment="Left" VerticalAlignment="Center" Margin="30 0 0 0" FontSize="15">Agregar Producto a Compra</TextBlock>
+            <Button Name="btnCerrar" BorderBrush="Transparent" HorizontalAlignment="Right" Background="Transparent" Click="btnCerrar_Click">
+                <materialDesign:PackIcon Foreground="Black" Kind="WindowClose" VerticalAlignment="Center" HorizontalAlignment="Center"  Cursor="Hand"></materialDesign:PackIcon>
+            </Button>
+        </Grid>
+        <StackPanel Grid.Row="1">
+            <StackPanel Orientation="Horizontal" Margin="0 25 0 0">
+                <materialDesign:PackIcon Name="Icono" Height="30" Width="30" Kind="Barcode" VerticalAlignment="Center" Margin="20 0 0 0"/>
+                <TextBlock Name="Titulo" VerticalAlignment="Center" FontSize="15" Margin="20 0 0 0" FontFamily="Verdana">Codigo y Nombre</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 20 0 0">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="10 0 0 0" FontFamily="Verdana">Codigo de Barras</TextBlock>
+                        
+                    </StackPanel>
+                    <TextBox Width="250"></TextBox>
+                </StackPanel>
+                <StackPanel Margin="30 0 0 0">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="10 0 0 0" FontFamily="Verdana">Nombre</TextBlock>
+                        
+                    </StackPanel>
+                    <TextBox Width="250"></TextBox>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Grid.Row="2">
+            <StackPanel Orientation="Horizontal">
+                <materialDesign:PackIcon  Height="30" Width="30" Kind="PackageVariantClosed" VerticalAlignment="Center" Margin="20 0 0 0"/>
+                <TextBlock  VerticalAlignment="Center" FontSize="15" Margin="20 0 0 0" FontFamily="Verdana">Informacion del Producto</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 25 0 0">
+                
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="10 0 0 0" FontFamily="Verdana">Stock o existencia compradas</TextBlock>
+                        <materialDesign:PackIcon Height="10" Width="10" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0"/>
+                    </StackPanel>
+                    <TextBox Width="250"></TextBox>
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical" Margin="30 0 0 0">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="10 0 0 0" FontFamily="Verdana">Precio de Compra (Con impuesto Incluido)</TextBlock>
+                        <materialDesign:PackIcon Height="10" Width="10" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0"/>
+                    </StackPanel>
+                    <TextBox Width="250"></TextBox>
+                </StackPanel>
+                
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 25 0 0">
+
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="10 0 0 0" FontFamily="Verdana">Precio de Venta(Con impuesto incluido)</TextBlock>
+                        <materialDesign:PackIcon Height="10" Width="10" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0"/>
+                    </StackPanel>
+                    <TextBox Width="250"></TextBox>
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical" Margin="30 0 0 0">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="10 0 0 0" FontFamily="Verdana">Precio de venta por mayoreo (Con impuesto Incluido)</TextBlock>
+                        <materialDesign:PackIcon Height="10" Width="10" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0"/>
+                    </StackPanel>
+                    <TextBox Width="250"></TextBox>
+                </StackPanel>
+
+            </StackPanel>
+        </StackPanel>
+        <Grid Grid.Row="3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0 0 0 0" HorizontalAlignment="Center" >
+                <TextBlock  VerticalAlignment="Center" FontSize="8" Margin="0 0 0 0" FontFamily="Verdana" >Los campos marcados con</TextBlock>
+                <materialDesign:PackIcon Height="10" Width="10" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0"/>
+                <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="0 0 0 0" FontFamily="Verdana">son obligatorios</TextBlock>
+            </StackPanel>
+            <Button Grid.Row="1" HorizontalAlignment="Right" Name="btnCerrar2" Margin="0 0 179 10" Background="Transparent" Foreground="Black" BorderBrush="Transparent" Click="btnCerrar2_Click" >
+                <WrapPanel>
+                    <TextBlock FontSize="14">Cerrar</TextBlock>
+                </WrapPanel>
+            </Button>
+            <Button Grid.Row="1" HorizontalAlignment="Right" Name="btnVerificarProducto" Margin="0 0 10 10" Background="Transparent" Foreground="Green" BorderBrush="Transparent" >
+                <WrapPanel>
+                    <materialDesign:PackIcon Foreground="Green" Kind="AddCircle" VerticalAlignment="Center" Margin="0 0 7 0"/>
+                    <TextBlock FontSize="14">Verificar Producto</TextBlock>
+                </WrapPanel>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>
