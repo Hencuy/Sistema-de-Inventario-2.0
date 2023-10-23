@@ -20,6 +20,9 @@ namespace Dashboard_WPF.Views.Categorias
 {
     public partial class subVCategoraias1 : Page
     {
+        //kjhhjkhk
+        //hjihhoj
+        int v;
         string Nombre = "";
         string Ubicacion = "";
         int Estado = 0;
