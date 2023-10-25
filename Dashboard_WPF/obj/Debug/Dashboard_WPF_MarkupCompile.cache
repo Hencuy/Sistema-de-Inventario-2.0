@@ -12,9 +12,9 @@ DEBUG;TRACE
 C:\Users\PABLO\Source\Repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\App.xaml
 43305972838
 
-492013676919
+4891898798
 491504133564
 MainWindow.xaml;Views\Categorias\subVCategoraias1.xaml;Views\Categorias\subVCategoraias2.xaml;Views\Categorias\subVCategoraias3.xaml;Views\Categorias\VPCategoria.xaml;Views\Clientes\SubVClientes1.xaml;Views\Clientes\SubVClientes2.xaml;Views\Clientes\SubVClientes3.xaml;Views\Clientes\SubVClientes4.xaml;Views\Clientes\VPClientes.xaml;Views\Compras\SubVCompras1.xaml;Views\Compras\SubVCompras2.xaml;Views\Compras\SubVCompras3.xaml;Views\Compras\VEmergente.xaml;Views\Compras\VPCompras.xaml;Views\Dashboard\PDashboard.xaml;Views\Kardex\SubVKardex1.xaml;Views\Kardex\SubVKardex2.xaml;Views\Kardex\SubVKardex3.xaml;Views\Kardex\VPKardex.xaml;Views\Productos\Sub_BuscarProducto.xaml;Views\Productos\Sub_EnAlmacen.xaml;Views\Productos\Sub_MasVendido.xaml;Views\Productos\Sub_NuevoProducto.xaml;Views\Productos\Sub_PorCategorias.xaml;Views\Productos\Sub_PorVencimiento.xaml;Views\Productos\Sub_StockMinimo.xaml;Views\Productos\VPProductos.xaml;Views\Proveedores\ActualizarProvee.xaml;Views\Proveedores\SubVProveedores1.xaml;Views\Proveedores\SubVProveedores2.xaml;Views\Proveedores\SubVProveedores3.xaml;Views\Proveedores\VPProveedores.xaml;Views\Reportes\SubVReportes1.xaml;Views\Reportes\SubVReportes2.xaml;Views\Reportes\SubVReportes3.xaml;Views\Reportes\VPReportes.xaml;Views\Usuarios\VPUsuarios.xaml;Views\Ventas\SubVVentas1.xaml;Views\Ventas\SubVVentas2.xaml;Views\Ventas\SubVVentas3.xaml;Views\Ventas\SubVVentas4.xaml;Views\Ventas\VPVentas.xaml;
 
-True
+False
 

@@ -26,7 +26,7 @@
                         <TextBlock  VerticalAlignment="Center" FontSize="15" Margin="0 0 0 0" FontFamily="Verdana">Nombre categoría</TextBlock>
                         <materialDesign:PackIcon Height="15" Width="15" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0"/>
                     </StackPanel>
-                    <TextBox x:Name="txtNombre" Foreground="Black" Width="260" Margin="0 7 0 0"></TextBox>
+                    <TextBox x:Name="txtNombre" Foreground="Black" Width="260" Margin="0 7 0 0" PreviewTextInput="txtNombre_PreviewTextInput"></TextBox> 
                 </StackPanel>
             </StackPanel>
             <StackPanel Margin="20 0 0 0" Orientation="Vertical">

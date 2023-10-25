@@ -34,6 +34,14 @@ namespace Dashboard_WPF.Views.Categorias
 
         private void btnGuardar_Click(object sender, RoutedEventArgs e)
         {
+            // Verifica si los campos están vacíos
+            if (string.IsNullOrWhiteSpace(txtNombre.Text) || string.IsNullOrWhiteSpace(txtUbicacion.Text) || ComboEstado.SelectedItem == null)
+            {
+                MessageBox.Show("Por favor, complete todos los campos antes de guardar.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                return; // Sale del método sin guardar los datos
+            }
+
+            // Si todos los campos están llenos, continúa con el proceso de guardar los datos
             SacarDatos();
 
             conexion.Open();
@@ -47,7 +55,7 @@ namespace Dashboard_WPF.Views.Categorias
             conexion.Close();
 
             LimpiarXD();
-            MessageBox.Show("Se ha añadido la categoría con exito");
+            MessageBox.Show("Se ha añadido la categoría con éxito");
         }
         private void SacarDatos()
         {
@@ -78,6 +86,13 @@ namespace Dashboard_WPF.Views.Categorias
             txtNombre.Text = "";
             txtUbicacion.Text = "";
             ComboEstado.SelectedIndex = 0;
+        }
+
+        private void txtNombre_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+            // Usa una expresión regular para permitir solo letras en el campo de texto
+            Regex regex = new Regex("[^a-zA-Z]+");
+            e.Handled = regex.IsMatch(e.Text);
         }
     }
 }
