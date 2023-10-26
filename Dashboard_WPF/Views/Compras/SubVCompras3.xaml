@@ -3,30 +3,52 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:Dashboard_WPF.Views.Compras" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:local="clr-namespace:Dashboard_WPF.Views.Compras" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
       mc:Ignorable="d" 
       d:DesignHeight="420" d:DesignWidth="870"
       Title="SubVCompras3">
+    <Page.Resources>
+        <Style x:Key="DataGridColumnHeaderStyle" TargetType="{x:Type DataGridColumnHeader}">
+            <Setter Property="Background" Value="#2D4356"/>
+            <!-- Cambia "ColorDeFondoDeseado" al color que desees -->
+            <Setter Property="Foreground" Value="White"/>
+            <!-- Cambia "Blanco" al color de fuente que desees -->
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
 
-    <Grid Background="Transparent" Height="420" Width="870">
-        <StackPanel Background="White" Height="200" Margin="0,0,0,183" Orientation="Vertical">
+    </Page.Resources>
+
+    <Grid Background="White" Height="420" Width="870">
+        <StackPanel Background="White" Height="auto" Margin="0,0,0,0" Orientation="Vertical">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <StackPanel>
                     <TextBlock FontSize="14" HorizontalAlignment="Center" Margin="0 30 0 0">Fecha Inicial (dia/mes/año)</TextBlock>
-                    <DatePicker Foreground="Black" Width="300" Margin="0 20 0 0"></DatePicker>
+                    <DatePicker Name="dtpFechaInicio" Foreground="Black" Width="300" Margin="0 20 0 0"></DatePicker>
                 </StackPanel>
                 <StackPanel Margin="50 0 0 0">
                     <TextBlock FontSize="14" HorizontalAlignment="Center" Margin="0 30 0 0">Fecha Final (dia/mes/año)</TextBlock>
-                    <DatePicker Foreground="Black" Width="300" Margin="0 20 0 0"></DatePicker>
+                    <DatePicker Name="dtpFechaFinal" Foreground="Black" Width="300" Margin="0 20 0 0"></DatePicker>
                 </StackPanel>
             </StackPanel>
            
-            <Button Margin="0 40 0 0" Width="150">
+            <Button Name="btnBuscar" Margin="0 40 0 20" Width="150" Click="btnBuscar_Click">
                 <WrapPanel>
                     <materialDesign:PackIcon Kind="Magnify" VerticalAlignment="Center" Margin="0 0 7 0"/>
                     <TextBlock FontSize="14">Buscar</TextBlock>
                 </WrapPanel>
             </Button>
+            <DataGrid Name="TablaBuscarCompra" IsReadOnly="True" CanUserAddRows="False" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" Width="*"  HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding idDetallesCompra}"/>
+                    <DataGridTextColumn Header="Fecha" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Fecha}"/>
+                    <DataGridTextColumn Header="Total" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Total}"/>
+                    <DataGridTextColumn Header="Proveedor" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding NombreCompañia}"/>
+
+                </DataGrid.Columns>
+            </DataGrid>
         </StackPanel>
+
+        
+
     </Grid>
 </Page>

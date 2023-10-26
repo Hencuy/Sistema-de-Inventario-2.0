@@ -8,7 +8,7 @@
         Title="VEmergente" Height="450" Width="600"
         AllowsTransparency="True"
         WindowStyle="None"
-        WindowStartupLocation="CenterScreen"
+        WindowStartupLocation="CenterScreen" Loaded="Window_Loaded"
         >
     <Grid>
         <Grid.RowDefinitions>
@@ -34,14 +34,13 @@
                         <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="10 0 0 0" FontFamily="Verdana">Codigo de Barras</TextBlock>
                         
                     </StackPanel>
-                    <TextBox Width="250"></TextBox>
+                    <TextBox Name="txtCodigoBarras" Width="250" IsReadOnly="True"></TextBox>
                 </StackPanel>
                 <StackPanel Margin="30 0 0 0">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="10 0 0 0" FontFamily="Verdana">Nombre</TextBlock>
-                        
                     </StackPanel>
-                    <TextBox Width="250"></TextBox>
+                    <TextBox Name="txtNombres"  Width="250" IsReadOnly="True"></TextBox>
                 </StackPanel>
             </StackPanel>
         </StackPanel>
@@ -57,7 +56,7 @@
                         <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="10 0 0 0" FontFamily="Verdana">Stock o existencia compradas</TextBlock>
                         <materialDesign:PackIcon Height="10" Width="10" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0"/>
                     </StackPanel>
-                    <TextBox Width="250"></TextBox>
+                    <TextBox Name="txtStock" Width="250"></TextBox>
                 </StackPanel>
 
                 <StackPanel Orientation="Vertical" Margin="30 0 0 0">
@@ -65,7 +64,7 @@
                         <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="10 0 0 0" FontFamily="Verdana">Precio de Compra (Con impuesto Incluido)</TextBlock>
                         <materialDesign:PackIcon Height="10" Width="10" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0"/>
                     </StackPanel>
-                    <TextBox Width="250"></TextBox>
+                    <TextBox Name ="txtPrecioCompra"  Width="250"></TextBox>
                 </StackPanel>
                 
             </StackPanel>
@@ -76,7 +75,7 @@
                         <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="10 0 0 0" FontFamily="Verdana">Precio de Venta(Con impuesto incluido)</TextBlock>
                         <materialDesign:PackIcon Height="10" Width="10" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0"/>
                     </StackPanel>
-                    <TextBox Width="250"></TextBox>
+                    <TextBox Name="txtPrecioVenta"  Width="250"></TextBox>
                 </StackPanel>
 
                 <StackPanel Orientation="Vertical" Margin="30 0 0 0">
@@ -84,7 +83,7 @@
                         <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="10 0 0 0" FontFamily="Verdana">Precio de venta por mayoreo (Con impuesto Incluido)</TextBlock>
                         <materialDesign:PackIcon Height="10" Width="10" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0"/>
                     </StackPanel>
-                    <TextBox Width="250"></TextBox>
+                    <TextBox Name="txtPrecioMayoreo" Width="250"></TextBox>
                 </StackPanel>
 
             </StackPanel>
@@ -104,7 +103,7 @@
                     <TextBlock FontSize="14">Cerrar</TextBlock>
                 </WrapPanel>
             </Button>
-            <Button Grid.Row="1" HorizontalAlignment="Right" Name="btnVerificarProducto" Margin="0 0 10 10" Background="Transparent" Foreground="Green" BorderBrush="Transparent" >
+            <Button Grid.Row="1" HorizontalAlignment="Right" Name="btnVerificarProducto" Margin="0 0 10 10" Background="Transparent" Foreground="Green" BorderBrush="Transparent" Click="btnVerificarProducto_Click" >
                 <WrapPanel>
                     <materialDesign:PackIcon Foreground="Green" Kind="AddCircle" VerticalAlignment="Center" Margin="0 0 7 0"/>
                     <TextBlock FontSize="14">Verificar Producto</TextBlock>

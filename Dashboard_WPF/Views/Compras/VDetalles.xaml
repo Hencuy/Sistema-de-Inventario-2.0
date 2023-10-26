@@ -1,0 +1,46 @@
+﻿<Page x:Class="Dashboard_WPF.Views.Compras.VDetalles"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Dashboard_WPF.Views.Compras" xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="420" d:DesignWidth="870"
+      Title="VDetalles" Loaded="Page_Loaded">
+    <Page.Resources>
+        <Style x:Key="DataGridColumnHeaderStyle" TargetType="{x:Type DataGridColumnHeader}">
+            <Setter Property="Background" Value="#2D4356"/>
+            <!-- Cambia "ColorDeFondoDeseado" al color que desees -->
+            <Setter Property="Foreground" Value="White"/>
+            <!-- Cambia "Blanco" al color de fuente que desees -->
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+
+    </Page.Resources>
+    <Grid Background="White" Height="420" Width="870" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock VerticalAlignment="Center" FontSize="25" FontFamily="Verdana" Margin="30 0 0 0">Detalles de Compra</TextBlock>
+            <Button Name="btnRegresar"  Margin="450 0 0 0"  Cursor="Hand" Click="btnRegresar_Click">
+                <WrapPanel>
+                    <materialDesign:PackIcon Kind="ArrowLeftTopBold" VerticalAlignment="Center" Margin="0 0 0 0"/>
+                    <TextBlock FontSize="14">Regresar</TextBlock>
+                </WrapPanel>
+            </Button>
+        </StackPanel>
+        <DataGrid Grid.Row="1" Name="TablaDetallesCompra" IsReadOnly="True" CanUserAddRows="False" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="#" Width="*"  HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Number}"/>
+                <DataGridTextColumn Header="Producto" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Nombre}"/>
+                <DataGridTextColumn Header="Cantidad" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding StockEntrada}"/>
+                <DataGridTextColumn Header="Precio" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding PrecioCompra}"/>
+                <DataGridTextColumn Header="Total" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Total}"/>
+
+            </DataGrid.Columns>
+        </DataGrid>
+        
+    </Grid>
+</Page>

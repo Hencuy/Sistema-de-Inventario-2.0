@@ -8,7 +8,7 @@
       xmlns:Icon="clr-namespace:MahApps.Metro.IconPacks;assembly=MahApps.Metro.IconPacks.Material"
       mc:Ignorable="d" 
       d:DesignHeight="420" d:DesignWidth="870"
-      Title="SubVCompras1">
+      Title="SubVCompras1" Loaded="Page_Loaded">
 
 
     <Grid Background="White" Height="420" Width="870" >
@@ -27,7 +27,7 @@
                     <StackPanel Orientation="Horizontal">
                         <TextBlock  VerticalAlignment="Center" FontSize="15" Margin="0 0 0 0" FontFamily="Verdana">Codigo de Barras</TextBlock>
                     </StackPanel>
-                    <TextBox Foreground="Black" Width="350" Margin="0 10 0 0"></TextBox>
+                    <TextBox Name="txtCodigoBarra" Foreground="Black" Width="350" Margin="0 10 0 0"></TextBox>
                 </StackPanel>
                 <Button Name="btnVerificarProducto" Margin="15 0 0 0" Background="Transparent" Foreground="Green" BorderBrush="Transparent" Click="btnVerificarProducto_Click">
                     <WrapPanel>
@@ -37,87 +37,26 @@
                 </Button>
             </StackPanel>
             <StackPanel Grid.Row="1">
-                <DataGrid ColumnHeaderStyle="{DynamicResource DataGridColumnHeaderStyle1}">
+                <DataGrid Name="TablaCompras" IsReadOnly="True" CanUserAddRows="False"  ColumnHeaderStyle="{DynamicResource DataGridColumnHeaderStyle1}">
                     <DataGrid.Columns>
-                        <DataGridTemplateColumn  Header="#" IsReadOnly="True" CanUserResize="False" Width="auto">
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <StackPanel Orientation="Horizontal">
-                                        <Border Width="25" Height="35" CornerRadius="3" Margin="0 -15 0 0" Background="#44546A" BorderBrush="#7030A0" BorderThickness="2">
-                                            <TextBlock Text="{Binding Number}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
-                                        </Border>
-                                    </StackPanel>
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                        </DataGridTemplateColumn>
+                        <DataGridTextColumn Header="Código de Barras" Binding="{Binding CodigoBarra}" />
+                        <DataGridTextColumn Header="Producto" Binding="{Binding Producto}" />
+                        <DataGridTextColumn Header="Cantidad" Binding="{Binding Cantidad}" />
+                        <DataGridTextColumn Header="Precio Compra" Binding="{Binding PrecioCompra}" />
+                        <DataGridTextColumn Header="Precio Venta" Binding="{Binding PrecioVenta}" Visibility="Collapsed" />
+                        <DataGridTextColumn Header="Precio Mayoreo" Binding="{Binding PrecioMayoreo}" Visibility="Collapsed" />
+                        <DataGridTextColumn Header="SubTotal" Binding="{Binding SubTotal}" />
 
-                        <DataGridTemplateColumn  Header="Codigo de Barra" IsReadOnly="True" CanUserResize="False" Width="auto"  >
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <StackPanel Orientation="Horizontal">
-                                        <Border Width="25" Height="35" CornerRadius="3" Margin="0 -15 0 0" Background="#44546A" BorderBrush="#7030A0" BorderThickness="2">
-                                            <TextBlock Text="{Binding CodigoBarra}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
-                                        </Border>
-                                    </StackPanel>
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                        </DataGridTemplateColumn>
 
-                        <DataGridTemplateColumn  Header="Producto" IsReadOnly="True" CanUserResize="False" Width="auto"  >
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <StackPanel Orientation="Horizontal">
-                                        <Border Width="25" Height="35" CornerRadius="3" Margin="0 -15 0 0" Background="#44546A" BorderBrush="#7030A0" BorderThickness="2">
-                                            <TextBlock Text="{Binding Producto}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
-                                        </Border>
-                                    </StackPanel>
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                        </DataGridTemplateColumn>
-
-                        <DataGridTemplateColumn  Header="Cantidad" IsReadOnly="True" CanUserResize="False" Width="auto"  >
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <StackPanel Orientation="Horizontal">
-                                        <Border Width="25" Height="35" CornerRadius="3" Margin="0 -15 0 0" Background="#44546A" BorderBrush="#7030A0" BorderThickness="2">
-                                            <TextBlock Text="{Binding Cantidad}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
-                                        </Border>
-                                    </StackPanel>
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                        </DataGridTemplateColumn>
-
-                        <DataGridTemplateColumn  Header="Precio" IsReadOnly="True" CanUserResize="False" Width="auto"  >
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <StackPanel Orientation="Horizontal">
-                                        <Border Width="25" Height="35" CornerRadius="3" Margin="0 -15 0 0" Background="#44546A" BorderBrush="#7030A0" BorderThickness="2">
-                                            <TextBlock Text="{Binding Precio}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
-                                        </Border>
-                                    </StackPanel>
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                        </DataGridTemplateColumn>
-
-                        <DataGridTemplateColumn  Header="SubTotal" IsReadOnly="True" CanUserResize="False" Width="auto"  >
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <StackPanel Orientation="Horizontal">
-                                        <Border Width="25" Height="35" CornerRadius="3" Margin="0 -15 0 0" Background="#44546A" BorderBrush="#7030A0" BorderThickness="2">
-                                            <TextBlock Text="{Binding SubTotal}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
-                                        </Border>
-                                    </StackPanel>
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                        </DataGridTemplateColumn>
+                        
 
                         <DataGridTemplateColumn Header="Remover" IsReadOnly="True" Width="auto">
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
                                     <StackPanel Orientation="Horizontal">
-                                        <Border Width="50" Height="35" CornerRadius="5" Margin="0 -10 0  0" Background="#44546A" BorderBrush="#7030A0" BorderThickness="2" >
-                                            <Button  Style="{StaticResource gridEditButton}" Background="Transparent">
-                                                <Icon:PackIconMaterial Kind="More" Height="25" Width="25"  Foreground="White" />
+                                        <Border Width="auto" Height="35" CornerRadius="5" Margin="0 -10 0  0"  BorderThickness="2" >
+                                            <Button  Style="{StaticResource gridEditButton}" Background="Red" Name="btnEliminar" Click="btnEliminar_Click">
+                                                <Icon:PackIconMaterial Kind="TrashCan" Height="25" Width="25"  Foreground="Black" />
                                             </Button>
                                         </Border>
                                     </StackPanel>
@@ -132,11 +71,11 @@
         </Grid>
         <Grid Grid.Column="1">
             <Grid.RowDefinitions>
-                <RowDefinition Height="85"></RowDefinition>
-                <RowDefinition Height="85"></RowDefinition>
-                <RowDefinition Height="85"></RowDefinition>
-                <RowDefinition Height="85"></RowDefinition>
-                <RowDefinition Height="85"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="80"></RowDefinition>
+                <RowDefinition Height="90"></RowDefinition>
             </Grid.RowDefinitions>
             <TextBlock Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center">DATOS DE LA COMPRA</TextBlock>
 
@@ -145,7 +84,7 @@
                     <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="10 0 0 0" FontFamily="Verdana">Fecha</TextBlock>
                     <materialDesign:PackIcon Height="10" Width="10" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0"/>
                 </StackPanel>
-                <DatePicker Width="250"></DatePicker>
+                <DatePicker Name="dtpFecha" Width="250"></DatePicker>
             </StackPanel>
 
             <StackPanel Grid.Row="2" Margin="0 0 0 0">
@@ -153,24 +92,32 @@
                     <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="10 0 0 0" FontFamily="Verdana">Proveedor</TextBlock>
                     <materialDesign:PackIcon Height="10" Width="10" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0"/>
                 </StackPanel>
-                <ComboBox Width="250"></ComboBox>
+                <ComboBox Name="CmbProve" Width="250"></ComboBox>
             </StackPanel>
             <StackPanel Grid.Row="3" HorizontalAlignment="Center">
                 <StackPanel Orientation="Horizontal">
                     <TextBlock >SubTotal</TextBlock>
-                    <TextBlock Margin="100 0 0 0">$0.00 USD</TextBlock>
+                    <TextBlock Name="txtSubtotal" Margin="100 0 0 0">$0.00 USD</TextBlock>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="0 20 0 0">
-                    <TextBlock>IVA (16%)</TextBlock>
-                    <TextBlock Margin="95 0 0 0">$0.00 USD</TextBlock>
+                    <TextBlock>IVA (18%)</TextBlock>
+                    <TextBlock Name="txtIva" Margin="95 0 0 0">$0.00 USD</TextBlock>
                 </StackPanel>
             </StackPanel>
             <StackPanel Grid.Row="4" HorizontalAlignment="Center">
                 <StackPanel Orientation="Horizontal">
                     <TextBlock >Total</TextBlock>
-                    <TextBlock Margin="120 0 0 0">$0.00 USD</TextBlock>
+                    <TextBlock Name="txtTotal" Margin="120 0 0 0">$0.00 USD</TextBlock>
                 </StackPanel>
-                <StackPanel Orientation="Horizontal" Margin="0 30 0 0" HorizontalAlignment="Center" >
+                <StackPanel>
+                    <Button HorizontalAlignment="Center" Name="btnGuardarCompra" Margin="0 20 0 0" Background="#279EFF" Foreground="White" BorderBrush="Transparent" Click="btnGuardarCompra_Click" Cursor="Hand" >
+                        <WrapPanel >
+                            <materialDesign:PackIcon Foreground="White" Kind="ContentSave"  VerticalAlignment="Center" Margin="0 0 0 0"/>
+                            <TextBlock FontSize="10">Guardar Compra</TextBlock>
+                        </WrapPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0 10 0 0" HorizontalAlignment="Center" >
                     <TextBlock  VerticalAlignment="Center" FontSize="8" Margin="0 0 0 0" FontFamily="Verdana" >Los campos marcados con</TextBlock>
                     <materialDesign:PackIcon Height="10" Width="10" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0"/>
                     <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="0 0 0 0" FontFamily="Verdana">son obligatorios</TextBlock>

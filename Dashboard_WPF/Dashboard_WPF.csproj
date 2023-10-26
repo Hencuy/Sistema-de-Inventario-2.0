@@ -203,6 +203,9 @@
     <Compile Include="Views\Compras\SubVCompras3.xaml.cs">
       <DependentUpon>SubVCompras3.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Compras\VDetalles.xaml.cs">
+      <DependentUpon>VDetalles.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Compras\VEmergente.xaml.cs">
       <DependentUpon>VEmergente.xaml</DependentUpon>
     </Compile>
@@ -350,6 +353,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Compras\SubVCompras3.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Compras\VDetalles.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

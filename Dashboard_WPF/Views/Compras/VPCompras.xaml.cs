@@ -22,7 +22,7 @@ namespace Dashboard_WPF.Views.Compras
     public partial class VPCompras : Page
     {
         SubVCompras1 subVCompras1 = new SubVCompras1 ();
-        SubVCompras2 subVCompras2 = new SubVCompras2 ();
+       
         SubVCompras3 subVCompras3 = new SubVCompras3 ();
         public VPCompras()
         {
@@ -41,7 +41,7 @@ namespace Dashboard_WPF.Views.Compras
         {
             Titulo.Text = "COMPRAS REALIZADAS";
             Icono.Kind = MaterialDesignThemes.Wpf.PackIconKind.ListBox;
-            FrameCompras.NavigationService.Navigate(subVCompras2);
+            FrameCompras.NavigationService.Navigate(new SubVCompras2(FrameCompras));
         }
 
         private void btnBuscarCompra_Click(object sender, RoutedEventArgs e)
