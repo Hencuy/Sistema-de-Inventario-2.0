@@ -9,29 +9,94 @@
       d:DesignHeight="420" d:DesignWidth="870"
       Title="SubVProveedores3">
     <Grid Background="White" Height="420" Width="870">
-        <StackPanel Background="#F9F5F6" Height="200" Margin="0,37,0,183" Orientation="Vertical">
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                <StackPanel Margin="0 30 80 0">
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="0 0 0 0" FontFamily="Verdana" Foreground="#455A64">Fecha inicial (dia/mes/año)</TextBlock>
-                        <materialDesign:PackIcon Height="10" Width="10" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0" Foreground="#455A64"/>
-                    </StackPanel>
-                    <DatePicker Foreground="Black" Width="300"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,336" Width="850">
+            <StackPanel Margin="0 30 80 0">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="0 0 0 0" FontFamily="Verdana" Foreground="#455A64">Fecha inicial (dia/mes/año)</TextBlock>
+                    <materialDesign:PackIcon Height="10" Width="10" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0" Foreground="#455A64"/>
                 </StackPanel>
-                <StackPanel Margin="0 30 0 0">
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="0 0 0 0" FontFamily="Verdana" Foreground="#455A64">Fecha final (dia/mes/año)</TextBlock>
-                        <materialDesign:PackIcon Height="10" Width="10" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0" Foreground="#455A64"/>
-                    </StackPanel>
-                    <DatePicker Foreground="Black" Width="300"/>
-                </StackPanel>
+                <DatePicker x:Name="FechaInicialPicker" Foreground="Black" Width="300"/>
             </StackPanel>
-            <Button Margin="0 40 0 0" Width="150">
+            <StackPanel Margin="0 30 0 0">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="0 0 0 0" FontFamily="Verdana" Foreground="#455A64">Fecha final (dia/mes/año)</TextBlock>
+                    <materialDesign:PackIcon Height="10" Width="10" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0" Foreground="#455A64"/>
+                </StackPanel>
+                <DatePicker x:Name="FechaFinalPicker" Foreground="Black" Width="300"/>
+            </StackPanel>
+            <Button x:Name="BuscarButton" Margin="20 13 0 0" Width="140" Click="BuscarButton_Click">
                 <WrapPanel>
                     <materialDesign:PackIcon Kind="Magnify" VerticalAlignment="Center" Margin="0 0 7 0"/>
                     <TextBlock FontSize="14">Buscar</TextBlock>
                 </WrapPanel>
             </Button>
         </StackPanel>
+        <DataGrid x:Name="VentasDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True" BorderThickness="0" Margin="0,73,0,0">
+            <DataGrid.CellStyle>
+                <Style TargetType="DataGridCell">
+                    <Setter Property="HorizontalAlignment" Value="Center" />
+                    <Setter Property="VerticalAlignment" Value="Center" />
+                </Style>
+            </DataGrid.CellStyle>
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="ID Venta" Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding idProductosVenta}" Foreground="Black"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Precio de Compra" Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding PrecioCompra}" Foreground="Black"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Precio de Venta" Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding PrecioVenta}" Foreground="Black"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Precio al Mayoreo" Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding PrecioMayoreo}" Foreground="Black"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="ID Producto" Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding idProducto}" Foreground="Black"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="ID Detalles Venta" Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding idDetallesVenta}" Foreground="Black"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Stock de Salida" Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding StockSalida}" Foreground="Black"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Fecha" Width="auto" Binding="{Binding Fecha}">
+                    <!-- Agregar esta columna -->
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="Foreground" Value="Black"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Page>

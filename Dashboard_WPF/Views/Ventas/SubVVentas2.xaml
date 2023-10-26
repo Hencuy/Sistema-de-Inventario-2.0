@@ -10,25 +10,70 @@
     <Page.Resources>
         <Style x:Key="DataGridColumnHeaderStyle" TargetType="{x:Type DataGridColumnHeader}">
             <Setter Property="Background" Value="#2D4356"/>
-            <!-- Cambia "ColorDeFondoDeseado" al color que desees -->
             <Setter Property="Foreground" Value="White"/>
-            <!-- Cambia "Blanco" al color de fuente que desees -->
             <Setter Property="HorizontalContentAlignment" Value="Center"/>
         </Style>
-
     </Page.Resources>
 
-    <Grid Background="White" Height="420" Width="870">
-        <DataGrid>
+
+    <Grid Background="White" Height="420" Width="920">
+        <DataGrid x:Name="VentasDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True" BorderThickness="0">
+            <DataGrid.CellStyle>
+                <Style TargetType="DataGridCell">
+                    <Setter Property="HorizontalAlignment" Value="Center" />
+                    <Setter Property="VerticalAlignment" Value="Center" />
+                </Style>
+            </DataGrid.CellStyle>
             <DataGrid.Columns>
-                <DataGridTextColumn Header="#" Width="40" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
-                <DataGridTextColumn Header="Tipo" Width="130" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
-                <DataGridTextColumn Header="Código" Width="150" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
-                <DataGridTextColumn Header="Cliente" Width="100" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
-                <DataGridTextColumn Header="Vendedor" Width="150" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
-                <DataGridTextColumn Header="Total" Width="100" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
-                <DataGridTextColumn Header="Estado" Width="100" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
-                <DataGridTextColumn Header="Opciones" Width="100" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
+                <DataGridTemplateColumn Header="ID Venta" Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding idProductosVenta}" Foreground="Black"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Precio de Compra" Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding PrecioCompra}" Foreground="Black"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Precio de Venta" Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding PrecioVenta}" Foreground="Black"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Precio al Mayoreo" Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding PrecioMayoreo}" Foreground="Black"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="ID Producto" Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding idProducto}" Foreground="Black"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="ID Detalles Venta" Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding idDetallesVenta}" Foreground="Black"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Stock de Salida" Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding StockSalida}" Foreground="Black"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

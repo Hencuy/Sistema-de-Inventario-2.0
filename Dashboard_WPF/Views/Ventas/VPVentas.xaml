@@ -56,10 +56,9 @@
                     </WrapPanel>
                 </Button>
             </StackPanel>
-            <StackPanel Grid.Row="3">
+            <ScrollViewer Grid.Row="3" Name="Home" Margin="0,0,10,10">
                 <Frame x:Name="FrameProveedores" NavigationUIVisibility="Hidden"></Frame>
-            </StackPanel>
-
+            </ScrollViewer>
         </Grid>
     </Border>
 </Page>

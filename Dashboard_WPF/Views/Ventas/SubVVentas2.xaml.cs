@@ -1,28 +1,41 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+using System.Data;
+using System.Data.SqlClient;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Dashboard_WPF.Views.Ventas
 {
-    /// <summary>
-    /// Interaction logic for SubVVentas2.xaml
-    /// </summary>
     public partial class SubVVentas2 : Page
     {
         public SubVVentas2()
         {
             InitializeComponent();
+            CargarDatosVentas();
+        }
+
+        private void CargarDatosVentas()
+        {
+            // Utiliza tu cadena de conexión existente.
+            string connectionString = "Server=(LocalDB)\\MSSQLLocalDB;Database=BDInventarioVenta;Integrated Security=true;TrustServerCertificate=True";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+
+                string consulta = "SELECT idProductosVenta, PrecioCompra, PrecioVenta, PrecioMayoreo, idProducto, idDetallesVenta, StockSalida FROM ProductosVenta";
+
+                using (SqlCommand command = new SqlCommand(consulta, connection))
+                {
+                    using (SqlDataAdapter adapter = new SqlDataAdapter(command))
+                    {
+                        DataTable dataTable = new DataTable();
+                        adapter.Fill(dataTable);
+
+                        VentasDataGrid.ItemsSource = dataTable.DefaultView;
+                    }
+                }
+            }
         }
     }
 }
