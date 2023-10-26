@@ -41,13 +41,13 @@
                         <TextBlock FontSize="10" Margin="4,0,-16,0">Por categoría</TextBlock>
                     </Grid>
                 </Button>
-                <Button x:Name="btnPorVencimiento" Cursor="Hand" Height="25" Width="125" Margin="0,0,10,0" Click="btnPorVencimiento_Click">
+                <Button x:Name="btnPorVencimiento" Cursor="Hand" Height="25" Width="125" Margin="0,0,10,0" Click="btnPorVencimiento_Click" Visibility="Hidden">
                     <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
                         <Image Height="15" Width="15" VerticalAlignment="Center" Margin="-64,0,0,0" Source="/Views/Productos/Imagenes/fecha-de-vencimiento.png"></Image>
                         <TextBlock FontSize="10" Margin="15,0,-16,0">Por vencimiento</TextBlock>
                     </Grid>
                 </Button>
-                <Button x:Name="btnStockMinimo" Cursor="Hand" Height="25" Width="125" Margin="0,0,10,0" Click="btnStockMinimo_Click">
+                <Button x:Name="btnStockMinimo" Cursor="Hand" Height="25" Width="125" Margin="0,0,10,0" Click="btnStockMinimo_Click" Visibility="Hidden">
                     <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
                         <materialDesign:PackIcon Height="15" Width="15" Kind="Alert" VerticalAlignment="Center" Margin="-16,0,0,0"/>
                         <TextBlock FontSize="10" Margin="4,0,-16,0">En Stok mínimo</TextBlock>

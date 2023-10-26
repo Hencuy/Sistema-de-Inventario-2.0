@@ -6,7 +6,7 @@
        xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks" 
       xmlns:local="clr-namespace:Dashboard_WPF.Views.Productos"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="450" d:DesignWidth="880"
       Title="Sub_EnAlmacen">
     <Page.Resources>
         <Style x:Key="DataGridColumnHeaderStyle" TargetType="{x:Type DataGridColumnHeader}">
@@ -18,8 +18,14 @@
     </Page.Resources>
 
 
-    <Grid Background="White" Height="420" Width="800">
-        <DataGrid x:Name="EnAlmacen" AutoGenerateColumns="False" CanUserAddRows="False" ColumnHeaderStyle="{DynamicResource DataGridColumnHeaderStyle2}">
+    <Grid Background="White" Height="420" Width="920">
+        <DataGrid x:Name="EnAlmacen" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True" BorderThickness="0">
+            <DataGrid.CellStyle>
+                <Style TargetType="DataGridCell">
+                    <Setter Property="HorizontalAlignment" Value="Center" />
+                    <Setter Property="VerticalAlignment" Value="Center" />
+                </Style>
+            </DataGrid.CellStyle>
             <DataGrid.Columns>
                 <DataGridTemplateColumn Header="Foto" Width="auto">
                     <DataGridTemplateColumn.CellTemplate>
