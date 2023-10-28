@@ -1,44 +1,41 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Dashboard_WPF.Views.Clientes
 {
-    /// <summary>
-    /// Lógica de interacción para SubVClientes4.xaml
-    /// </summary>
     public partial class SubVClientes4 : Page
     {
-        public Frame FrameClientes;
-        public SubVClientes2 subVClientes2;
+        public Frame Mainframe;
+        string ciCliente, nombres, apellidos;
 
-        public SubVClientes4()
+        public SubVClientes4(Frame framemain, string ciclient, string nombre, string apellido)
         {
             InitializeComponent();
-            FrameClientes = new Frame();
-            //subVClientes2 = new SubVClientes2();
+            Mainframe = framemain;
+            ciCliente = ciclient;
+            nombres = nombre;
+            apellidos = apellido;
+            this.Loaded += SubVClientes4_Loaded;
         }
 
+        private void SubVClientes4_Loaded(object sender, RoutedEventArgs e)
+        {
+            // Llenar los campos con los datos del cliente
+            txtidCliente.Text = ciCliente;
+            txtNombreCliente.Text = nombres;
+            txtApellidosCliente.Text = apellidos;
+        }
         private void btnActualizarClientes_Click(object sender, RoutedEventArgs e)
         {
-            // Obtén los nuevos valores de los TextBox en la página subVClientes4
+            // Obtén los nuevos valores de los TextBox en la página SubVClientes4
             string nuevoCI = txtidCliente.Text;
             string nuevosNombres = txtNombreCliente.Text;
             string nuevosApellidos = txtApellidosCliente.Text;
 
-            string connectionString = "server=(LocalDB)\\MSSQLLocalDB; database=BDInventarioVenta; integrated security=true; TrustServerCertificate=true";
+            string connectionString = "Server=(LocalDB)\\MSSQLLocalDB; database=BDInventarioVenta; integrated security=true; TrustServerCertificate=true";
 
             using (SqlConnection conexion = new SqlConnection(connectionString))
             {
@@ -135,7 +132,6 @@ namespace Dashboard_WPF.Views.Clientes
             return int.TryParse(text, out _);
         }
 
-
         private void txtNombreCliente_PreviewTextInput(object sender, TextCompositionEventArgs e)
         {
             // Verificar si el carácter ingresado no es una letra
@@ -179,6 +175,5 @@ namespace Dashboard_WPF.Views.Clientes
             }
             return string.Join(" ", words);
         }
-
     }
 }

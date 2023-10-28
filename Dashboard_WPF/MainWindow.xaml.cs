@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -24,6 +25,7 @@ using Dashboard_WPF.Views.Reportes;
 using Dashboard_WPF.Views.Usuarios;
 using Dashboard_WPF.Views.Ventas;
 
+
 namespace Dashboard_WPF
 {
     /// <summary>
@@ -31,8 +33,7 @@ namespace Dashboard_WPF
     /// </summary>
     public partial class MainWindow : Window
     {
-        //Holaaaaaaaaaaaaaaaaa
-        //HOla marco
+        
         VPCategoria vpCategorias = new VPCategoria();
         VPClientes vpClientes = new VPClientes();
         VPCompras vpCompras = new VPCompras();
@@ -43,9 +44,11 @@ namespace Dashboard_WPF
         VPUsuarios vpUsuarios = new VPUsuarios();
         VPVentas vpVentas = new VPVentas();
 
-        public MainWindow()
+        public MainWindow(string nombreUsuario, string cargoUsuario)
         {
             InitializeComponent();
+            txtUsuario.Text = nombreUsuario;
+            txtCargo.Text = cargoUsuario;
             MyFrame.NavigationService.Navigate(new PDashboard(MyFrame));
         }
 
@@ -129,11 +132,32 @@ namespace Dashboard_WPF
         {
             // Establecer el ancho de la primera columna en 230*
             ColumnDefinition column0 = PaginaPrincipal.ColumnDefinitions[0];
-            column0.Width = new GridLength(95, GridUnitType.Star);
+            column0.Width = new GridLength(99, GridUnitType.Star);
 
             // Establecer el ancho de la segunda columna en 800*
             ColumnDefinition column1 = PaginaPrincipal.ColumnDefinitions[1];
             column1.Width = new GridLength(1050, GridUnitType.Star);
         }
+
+        private void btnCerrarSesion_Click(object sender, RoutedEventArgs e)
+        {
+            // Obtiene el nombre de usuario y cargo
+            string nombreUsuario = txtUsuario.Text;
+            string cargoUsuario = txtCargo.Text;
+
+            // Mensaje de despedida
+            MessageBox.Show("Hasta luego, " + nombreUsuario + ". Cargo: " + cargoUsuario);
+
+            // Cierra la ventana actual
+            this.Close();
+
+            // Crea una nueva instancia de la ventana de inicio de sesión
+            Login ventanaLogin = new Login(); // Reemplaza "Login" con el nombre de tu ventana de inicio de sesión.
+
+            // Muestra la ventana de inicio de sesión
+            ventanaLogin.Show();
+        }
+
+
     }
 }

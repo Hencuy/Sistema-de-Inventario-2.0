@@ -3,7 +3,6 @@ using System.Data.SqlClient;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
-using System.Windows.Navigation;
 
 namespace Dashboard_WPF.Views.Clientes
 {
@@ -16,15 +15,28 @@ namespace Dashboard_WPF.Views.Clientes
         {
             InitializeComponent();
             FrameClientes = new Frame();
-            //subVClientes2 = new SubVClientes2();
         }
 
         private void btnGuardarClientes_Click(object sender, RoutedEventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtidCliente.Text) || string.IsNullOrWhiteSpace(txtNombreCliente.Text) || string.IsNullOrWhiteSpace(txtApellidosCliente.Text))
+            {
+                MessageBox.Show("Por favor, complete todos los campos antes de guardar.");
+                return;
+            }
+
+            string ci = txtidCliente.Text.Trim();
+
+            if (ClienteExists(ci))
+            {
+                MessageBox.Show("El número de cédula ya está registrado.");
+                return;
+            }
+
             SqlConnection conexion = new SqlConnection("server=(LocalDB)\\MSSQLLocalDB; database=BDInventarioVenta; integrated security=true; TrustServerCertificate=true");
             conexion.Open();
-            string cadena = "INSERT INTO Cliente (CI, Nombres, Apellidos)" +
-                            "values ('" + txtidCliente.Text + "' , '" + txtNombreCliente.Text + "', '" + txtApellidosCliente.Text + "')";
+            string cadena = "INSERT INTO Cliente (CI, Nombres, Apellidos) " +
+                            "VALUES ('" + ci + "', '" + txtNombreCliente.Text + "', '" + txtApellidosCliente.Text + "')";
 
             SqlCommand comando = new SqlCommand(cadena, conexion);
             comando.ExecuteNonQuery();
@@ -38,6 +50,7 @@ namespace Dashboard_WPF.Views.Clientes
             // Redirige al usuario a la página subVClientes2
             FrameClientes.NavigationService.Navigate(subVClientes2);
         }
+
         private void txtIdCliente_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.Enter)
@@ -48,14 +61,12 @@ namespace Dashboard_WPF.Views.Clientes
 
         private void BuscarClientePorID()
         {
-            string idCliente = txtidCliente.Text.Trim(); // Obtener el ID del cliente
+            string idCliente = txtidCliente.Text.Trim();
             if (string.IsNullOrEmpty(idCliente))
             {
                 MessageBox.Show("Por favor, ingrese un número de cédula para buscar.");
                 return;
             }
-
-            // Realizar la búsqueda en la base de datos utilizando el ID ingresado
 
             string connectionString = "Server=(LocalDB)\\MSSQLLocalDB; database=BDInventarioVenta; integrated security=true; TrustServerCertificate=true";
 
@@ -70,13 +81,11 @@ namespace Dashboard_WPF.Views.Clientes
 
                 if (reader.Read())
                 {
-                    // Rellenar los campos con los datos encontrados
                     txtNombreCliente.Text = reader["Nombres"].ToString();
                     txtApellidosCliente.Text = reader["Apellidos"].ToString();
                 }
                 else
                 {
-                    // Mostrar mensaje si no se encuentra el cliente
                     MessageBox.Show("El número de cédula no está registrado.");
                     txtNombreCliente.Text = "";
                     txtApellidosCliente.Text = "";
@@ -93,59 +102,46 @@ namespace Dashboard_WPF.Views.Clientes
 
         private void txtIdCliente_PreviewTextInput(object sender, TextCompositionEventArgs e)
         {
-            // Verificar si el carácter ingresado no es un número
             if (!IsNumeric(e.Text))
             {
-                e.Handled = true; // Detener la entrada del carácter 
-                //MessageBox.Show("Solo se permiten números en este campo.");
+                e.Handled = true;
+                MessageBox.Show("Solo se permiten Numeros en este campo.");
             }
         }
 
-        // Función auxiliar para verificar si un carácter es un número
-        private bool IsNumeric(string text)
-        {
-            return int.TryParse(text, out _);
-        }
-
-
         private void txtNombreCliente_PreviewTextInput(object sender, TextCompositionEventArgs e)
         {
-            // Verificar si el carácter ingresado no es una letra 
             if (!IsLetter(e.Text))
             {
-                e.Handled = true; // Detener la entrada del carácter
+                e.Handled = true;
                 MessageBox.Show("Solo se permiten letras en este campo.");
             }
         }
 
         private void txtNombreCliente_LostFocus(object sender, RoutedEventArgs e)
         {
-            // Convertir el texto a formato "Palabra Capital" (mayúscula al principio de cada palabra)
             txtNombreCliente.Text = ToTitleCase(txtNombreCliente.Text);
         }
+
         private void txtApellidoCliente_PreviewTextInput(object sender, TextCompositionEventArgs e)
         {
-            // Verificar si el carácter ingresado no es una letra txtApellidoCliente_PreviewTextInput
             if (!IsLetter(e.Text))
             {
-                e.Handled = true; // Detener la entrada del carácter
+                e.Handled = true;
                 MessageBox.Show("Solo se permiten letras en este campo.");
             }
         }
 
-        private void txtApellidoCliente_PreviewTextInput(object sender, RoutedEventArgs e)
+        private bool IsNumeric(string text)
         {
-            // Convertir el texto a formato "Palabra Capital" (mayúscula al principio de cada palabra)
-            txtNombreCliente.Text = ToTitleCase(txtNombreCliente.Text);
+            return int.TryParse(text, out _);
         }
 
-        // Función auxiliar para verificar si un carácter es una letra
         private bool IsLetter(string text)
         {
             return char.IsLetter(text[0]);
         }
 
-        // Función auxiliar para convertir texto a "Palabra Capital"
         private string ToTitleCase(string text)
         {
             if (string.IsNullOrEmpty(text))
@@ -167,5 +163,21 @@ namespace Dashboard_WPF.Views.Clientes
             return string.Join(" ", words);
         }
 
+        private bool ClienteExists(string ci)
+        {
+            string connectionString = "Server=(LocalDB)\\MSSQLLocalDB; database=BDInventarioVenta; integrated security=true; TrustServerCertificate=true";
+
+            using (SqlConnection conexion = new SqlConnection(connectionString))
+            {
+                conexion.Open();
+                string consulta = "SELECT COUNT(*) FROM Cliente WHERE CI = @CI";
+                SqlCommand comando = new SqlCommand(consulta, conexion);
+                comando.Parameters.AddWithValue("@CI", ci);
+
+                int count = (int)comando.ExecuteScalar();
+
+                return count > 0;
+            }
+        }
     }
 }

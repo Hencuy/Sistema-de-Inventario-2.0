@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{163DBFC5-93A6-428E-8BEA-8DEE2BC4D34C}</ProjectGuid>
+    <ProjectGuid>{303230AA-2E81-412A-9824-1A566E4FE01A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Dashboard_WPF</RootNamespace>
     <AssemblyName>Dashboard_WPF</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
@@ -16,7 +16,6 @@
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -38,6 +37,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CircularProgressBar, Version=2.8.0.16, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\CircularProgressBar.2.8.0.16\lib\net40\CircularProgressBar.dll</HintPath>
+    </Reference>
     <Reference Include="MahApps.Metro.IconPacks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
       <HintPath>..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.dll</HintPath>
     </Reference>
@@ -137,17 +139,19 @@
     <Reference Include="MahApps.Metro.IconPacks.Zondicons, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0c0d510f9915137a, processorArchitecture=MSIL">
       <HintPath>..\packages\MahApps.Metro.IconPacks.4.11.0\lib\net47\MahApps.Metro.IconPacks.Zondicons.dll</HintPath>
     </Reference>
-    <Reference Include="MaterialDesignColors, Version=2.0.9.0, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
-      <HintPath>..\packages\MaterialDesignColors.2.0.9\lib\net462\MaterialDesignColors.dll</HintPath>
+    <Reference Include="MaterialDesignColors, Version=2.1.4.0, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignColors.2.1.4\lib\net462\MaterialDesignColors.dll</HintPath>
     </Reference>
-    <Reference Include="MaterialDesignThemes.Wpf, Version=4.6.1.0, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
-      <HintPath>..\packages\MaterialDesignThemes.4.6.1\lib\net462\MaterialDesignThemes.Wpf.dll</HintPath>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=4.9.0.0, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignThemes.4.9.0\lib\net462\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xaml.Behaviors, Version=1.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Xaml.Behaviors.Wpf.1.1.39\lib\net45\Microsoft.Xaml.Behaviors.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Data.SqlClient, Version=4.6.1.5, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Data.SqlClient.4.8.5\lib\net461\System.Data.SqlClient.dll</HintPath>
-    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -160,13 +164,22 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="WinFormAnimation, Version=1.6.0.4, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\WinFormAnimation.1.6.0.4\lib\net40\WinFormAnimation.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Modelos\Conexion.cs" />
+    <Compile Include="VentanaDeCarga.xaml.cs">
+      <DependentUpon>VentanaDeCarga.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Categorias\subVCategoraias1.xaml.cs">
       <DependentUpon>subVCategoraias1.xaml</DependentUpon>
     </Compile>
@@ -202,9 +215,6 @@
     </Compile>
     <Compile Include="Views\Compras\SubVCompras3.xaml.cs">
       <DependentUpon>SubVCompras3.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Compras\VDetalles.xaml.cs">
-      <DependentUpon>VDetalles.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Compras\VEmergente.xaml.cs">
       <DependentUpon>VEmergente.xaml</DependentUpon>
@@ -278,6 +288,18 @@
     <Compile Include="Views\Reportes\VPReportes.xaml.cs">
       <DependentUpon>VPReportes.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Usuarios\SubVUsuario1.xaml.cs">
+      <DependentUpon>SubVUsuario1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Usuarios\SubVUsuario2.xaml.cs">
+      <DependentUpon>SubVUsuario2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Usuarios\SubVUsuario3.xaml.cs">
+      <DependentUpon>SubVUsuario3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Usuarios\SubVUsuario4.xaml.cs">
+      <DependentUpon>SubVUsuario4.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Usuarios\VPUsuarios.xaml.cs">
       <DependentUpon>VPUsuarios.xaml</DependentUpon>
     </Compile>
@@ -296,6 +318,10 @@
     <Compile Include="Views\Ventas\VPVentas.xaml.cs">
       <DependentUpon>VPVentas.xaml</DependentUpon>
     </Compile>
+    <Page Include="Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -308,6 +334,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="VentanaDeCarga.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Categorias\subVCategoraias1.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -321,28 +351,28 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Categorias\VPCategoria.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Clientes\SubVClientes1.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Clientes\SubVClientes2.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Clientes\SubVClientes3.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Clientes\SubVClientes4.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Clientes\VPClientes.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Compras\SubVCompras1.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -356,10 +386,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Views\Compras\VDetalles.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="Views\Compras\VEmergente.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -369,24 +395,24 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Dashboard\PDashboard.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Kardex\SubVKardex1.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Kardex\SubVKardex2.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Kardex\SubVKardex3.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Kardex\VPKardex.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Productos\Sub_BuscarProducto.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -425,60 +451,76 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Proveedores\SubVProveedores1.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Proveedores\SubVProveedores2.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Proveedores\SubVProveedores3.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Proveedores\VPProveedores.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Reportes\SubVReportes1.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Reportes\SubVReportes2.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Reportes\SubVReportes3.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Reportes\VPReportes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Usuarios\SubVUsuario1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Reportes\VPReportes.xaml">
+    <Page Include="Views\Usuarios\SubVUsuario2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Usuarios\SubVUsuario3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Usuarios\SubVUsuario4.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Usuarios\VPUsuarios.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Ventas\SubVVentas1.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Ventas\SubVVentas2.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Ventas\SubVVentas3.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Ventas\SubVVentas4.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Ventas\VPVentas.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
@@ -509,16 +551,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="images\avatar.png" />
-    <Resource Include="images\illustration.png" />
-    <Resource Include="images\logo.png" />
-    <Resource Include="images\upgrade.png" />
-    <Resource Include="images\welcome.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="images\iconoUser.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Views\Productos\Imagenes\almacen.png" />
     <Resource Include="Views\Productos\Imagenes\almacen2.png" />
     <Resource Include="Views\Productos\Imagenes\categorias.png" />
@@ -526,12 +558,61 @@
     <Resource Include="Views\Productos\Imagenes\fecha-de-vencimiento.png" />
     <Resource Include="Views\Productos\Imagenes\mejor-vendido.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\avatar.png" />
+    <Resource Include="images\iconoUser.png" />
+    <Resource Include="images\illustration.png" />
+    <Resource Include="images\logo.png" />
+    <Resource Include="images\upgrade.png" />
+    <Resource Include="images\welcome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="recursos\imagen\cajaAzul.png" />
+    <Resource Include="recursos\imagen\cajaNaranja.png" />
+    <Resource Include="recursos\imagen\cajaNegro.png" />
+    <Resource Include="recursos\imagen\close1.png" />
+    <Resource Include="recursos\imagen\close2.png" />
+    <Resource Include="recursos\imagen\close3.png" />
+    <Resource Include="recursos\imagen\contraseña1.png" />
+    <Resource Include="recursos\imagen\contraseña2.png" />
+    <Resource Include="recursos\imagen\contraseña3.png" />
+    <Resource Include="recursos\imagen\flecha_coneccion.png" />
+    <Resource Include="recursos\imagen\fondo.png.jpg" />
+    <Resource Include="recursos\imagen\Imagen2.png" />
+    <Resource Include="recursos\imagen\key-icon.png" />
+    <Resource Include="recursos\imagen\lock %281%29.png" />
+    <Resource Include="recursos\imagen\LogoBlanco.png" />
+    <Resource Include="recursos\imagen\LogoDorado.png" />
+    <Resource Include="recursos\imagen\LogoNegro.png" />
+    <Resource Include="recursos\imagen\mini1.png" />
+    <Resource Include="recursos\imagen\mini2.png" />
+    <Resource Include="recursos\imagen\mini3.png" />
+    <Resource Include="recursos\imagen\ojo_visible.png" />
+    <Resource Include="recursos\imagen\punto.amarillo.png" />
+    <Resource Include="recursos\imagen\punto.azul.png" />
+    <Resource Include="recursos\imagen\punto.rojo.png" />
+    <Resource Include="recursos\imagen\punto.verde.png" />
+    <Resource Include="recursos\imagen\user %282%29.png" />
+    <Resource Include="recursos\imagen\user-icon.png" />
+    <Resource Include="recursos\imagen\usuario1.png" />
+    <Resource Include="recursos\imagen\usuario2.png" />
+    <Resource Include="recursos\imagen\usuario3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\key-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\user-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Import Project="..\packages\MaterialDesignThemes.4.6.1\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.4.6.1\build\MaterialDesignThemes.targets')" />
+  <Import Project="..\packages\MaterialDesignThemes.4.9.0\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.4.9.0\build\MaterialDesignThemes.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\MaterialDesignThemes.4.6.1\build\MaterialDesignThemes.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MaterialDesignThemes.4.6.1\build\MaterialDesignThemes.targets'))" />
+    <Error Condition="!Exists('..\packages\MaterialDesignThemes.4.9.0\build\MaterialDesignThemes.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MaterialDesignThemes.4.9.0\build\MaterialDesignThemes.targets'))" />
   </Target>
 </Project>

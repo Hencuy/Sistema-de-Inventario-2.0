@@ -3,12 +3,52 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:Dashboard_WPF.Views.Usuarios"
+      xmlns:local="clr-namespace:Dashboard_WPF.Views.Usuarios" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       mc:Ignorable="d" 
       d:DesignHeight="670" d:DesignWidth="950"
       Title="VPUsuarios">
 
     <Border Name="Page1" CornerRadius="15" Background="#EFF2F7" Height="610" Width="880">
-        <TextBlock FontSize="80" VerticalAlignment="Center" HorizontalAlignment="Center" >Vista Principal Usuarios</TextBlock>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80"></RowDefinition>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" Orientation="Horizontal">
+                <materialDesign:PackIcon Height="35" Width="35" Kind="CardAccountDetails" VerticalAlignment="Center" Margin="20 0 0 0"/>
+                <TextBlock  VerticalAlignment="Center" FontSize="25" Margin="20 0 0 0" FontFamily="Verdana">USUARIOS</TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Orientation="Horizontal">
+                <TextBlock Margin="20 0 0 0" TextWrapping="Wrap" Width="850" >
+            En el módulo CLIENTE podrá registrar en el sistema los datos de sus clientes más frecuentes para realizar ventas, además podrá realizar búsquedas de clientes, actualizar datos de sus clientes o eliminarlos si así lo desea.</TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button x:Name="C1"  Margin="0 0 0 0" Cursor="Hand" Click="CL1_Click" >
+                    <WrapPanel>
+                        <materialDesign:PackIcon Kind="CardAccountDetails" VerticalAlignment="Center" Margin="0 0 7 0"/>
+                        <TextBlock FontSize="14">Nuevo Usuario</TextBlock>
+                    </WrapPanel>
+                </Button>
+                <Button x:Name="C2"  Margin="15 0 0 0" Click="CL2_Click">
+                    <WrapPanel>
+                        <materialDesign:PackIcon Kind="ListBox" VerticalAlignment="Center" Margin="0 0 7 0"/>
+                        <TextBlock FontSize="14">Lista de Usuario</TextBlock>
+                    </WrapPanel>
+                </Button>
+                <Button x:Name="C3"  Margin="15 0 0 0" Click="CL3_Click" Cursor="Hand" >
+                    <WrapPanel>
+                        <materialDesign:PackIcon Kind="Magnify" VerticalAlignment="Center" Margin="0 0 7 0"/>
+                        <TextBlock FontSize="14">Buscar Usuario</TextBlock>
+                    </WrapPanel>
+                </Button>
+            </StackPanel>
+            <ScrollViewer Grid.Row="3">
+                <Frame x:Name="FrameUsuario" NavigationUIVisibility="Hidden" Margin="0,0,0,0" Width="880"></Frame>
+            </ScrollViewer>
+
+        </Grid>
     </Border>
 </Page>

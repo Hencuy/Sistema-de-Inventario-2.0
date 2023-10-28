@@ -14,24 +14,22 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Collections.ObjectModel;
-using Dashboard_WPF.Views.Proveedores;
+using Dashboard_WPF.Views.Clientes;
 
-namespace Dashboard_WPF.Views.Clientes
+namespace Dashboard_WPF.Views.Usuarios
 {
     /// <summary>
-    /// Interaction logic for SubVClientes2.xaml
+    /// Lógica de interacción para SubVUsuario2.xaml
     /// </summary>
-    public partial class SubVClientes2 : Page
+    public partial class SubVUsuario2 : Page
     {
         public Frame mainFrame;
         private string connectionString = "Server=(LocalDB)\\MSSQLLocalDB; Database=BDInventarioVenta; Integrated Security=true; TrustServerCertificate=true";
 
-        public SubVClientes2(Frame framemain)
+        public SubVUsuario2(Frame framemain)
         {
             InitializeComponent();
             mainFrame = framemain;
-
             Loaded += SubVClientes2_Load;
         }
 
@@ -40,22 +38,21 @@ namespace Dashboard_WPF.Views.Clientes
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
-                string query = "SELECT CI, Nombres, Apellidos FROM Cliente";
+                string query = "SELECT CI, Nombre, Apellidos, Cargo, UserName, Contraseña, Estado FROM Usuario";
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
                     SqlDataAdapter adapter = new SqlDataAdapter(command);
                     DataTable dataTable = new DataTable();
                     adapter.Fill(dataTable);
-                    dataGridClientes.ItemsSource = dataTable.DefaultView;
+                    dataGridUsuarios.ItemsSource = dataTable.DefaultView;
                 }
             }
         }
 
         private void ActualizarButton_Click(object sender, RoutedEventArgs e)
         {
-            string ciCliente, nombres, apellidos;
+            string ciUsuario, nombres, apellidos, cargos, usernames, contraseñas, estados;
 
-            // Obtén el botón que se hizo clic
             Button button = (Button)sender;
 
             // Obtén la fila que contiene el botón
@@ -69,12 +66,16 @@ namespace Dashboard_WPF.Views.Clientes
                 DataRowView rowView = (DataRowView)dataGridRow.Item;
 
                 // Accede al valor del campo "CI"
-                ciCliente = rowView["CI"].ToString();
-                nombres = rowView["Nombres"].ToString();
+                ciUsuario = rowView["CI"].ToString();
+                nombres = rowView["Nombre"].ToString();
                 apellidos = rowView["Apellidos"].ToString();
+                cargos = rowView["Cargo"].ToString();
+                usernames = rowView["UserName"].ToString();
+                contraseñas = rowView["Contraseña"].ToString();
+                estados = rowView["Estado"].ToString();
 
                 // Ahora puedes navegar a la página "ActualizarProvee" pasando los valores "nit" y "ventana" como argumentos
-                mainFrame.NavigationService.Navigate(new SubVClientes4(mainFrame, ciCliente, nombres, apellidos));
+                mainFrame.NavigationService.Navigate(new SubVUsuario4(mainFrame, ciUsuario, nombres, apellidos, cargos, usernames,contraseñas,estados));
             }
         }
 
@@ -93,23 +94,23 @@ namespace Dashboard_WPF.Views.Clientes
         private void EliminarButton_Click(object sender, RoutedEventArgs e)
         {
             // Verifica si se ha seleccionado una fila
-            if (dataGridClientes.SelectedItem == null)
+            if (dataGridUsuarios.SelectedItem == null)
             {
-                MessageBox.Show("Por favor, seleccione un cliente para eliminar.");
+                MessageBox.Show("Por favor, seleccione un usuario para eliminar.");
                 return;
             }
 
-            DataRowView selectedRow = (DataRowView)dataGridClientes.SelectedItem;
-            string ciCliente = selectedRow["CI"].ToString(); // Suponiendo que "CI" es el nombre de la columna
+            DataRowView selectedRow = (DataRowView)dataGridUsuarios.SelectedItem;
+            string ciUsuario = selectedRow["CI"].ToString(); // Suponiendo que "CI" es el nombre de la columna
 
             using (SqlConnection conexion = new SqlConnection(connectionString))
             {
                 conexion.Open();
-                string cadena = "DELETE FROM Cliente WHERE CI = @CI";
+                string cadena = "DELETE FROM Usuario WHERE CI = @CI";
                 SqlCommand comando = new SqlCommand(cadena, conexion);
 
                 // Agrega el parámetro para prevenir la inyección SQL
-                comando.Parameters.AddWithValue("@CI", ciCliente);
+                comando.Parameters.AddWithValue("@CI", ciUsuario);
 
                 try
                 {
@@ -117,19 +118,19 @@ namespace Dashboard_WPF.Views.Clientes
 
                     if (filasAfectadas > 0)
                     {
-                        MessageBox.Show("Los datos del cliente se eliminaron correctamente.");
+                        MessageBox.Show("Los datos del usuario se eliminaron correctamente.");
 
-                        // Actualiza la lista de clientes en el DataGrid
+                        // Actualiza la lista de usuarios en el DataGrid
                         SubVClientes2_Load(sender, e);
                     }
                     else
                     {
-                        MessageBox.Show("No se encontró ningún cliente con el número de cédula seleccionado.");
+                        MessageBox.Show("No se encontró ningún usuario con el número de cédula seleccionado.");
                     }
                 }
                 catch (SqlException ex)
                 {
-                    MessageBox.Show("Error al eliminar el cliente: " + ex.Message);
+                    MessageBox.Show("Error al eliminar el usuario: " + ex.Message);
                     // Puedes registrar la excepción o tomar acciones adicionales según sea necesario.
                 }
             }
