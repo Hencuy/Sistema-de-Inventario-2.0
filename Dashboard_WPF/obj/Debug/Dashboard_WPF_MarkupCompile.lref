@@ -1,6 +1,8 @@
-﻿C:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+﻿
 FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\App.xaml;;
+FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\Login.xaml;;
 FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\MainWindow.xaml;;
+FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\VentanaDeCarga.xaml;;
 FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\Views\Categorias\subVCategoraias1.xaml;;
 FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\Views\Categorias\subVCategoraias2.xaml;;
 FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\Views\Categorias\subVCategoraias3.xaml;;
@@ -13,7 +15,6 @@ FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\View
 FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\Views\Compras\SubVCompras1.xaml;;
 FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\Views\Compras\SubVCompras2.xaml;;
 FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\Views\Compras\SubVCompras3.xaml;;
-FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\Views\Compras\VDetalles.xaml;;
 FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\Views\Compras\VEmergente.xaml;;
 FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\Views\Compras\VPCompras.xaml;;
 FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\Views\Dashboard\PDashboard.xaml;;
@@ -38,6 +39,10 @@ FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\View
 FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\Views\Reportes\SubVReportes2.xaml;;
 FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\Views\Reportes\SubVReportes3.xaml;;
 FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\Views\Reportes\VPReportes.xaml;;
+FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\Views\Usuarios\SubVUsuario1.xaml;;
+FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\Views\Usuarios\SubVUsuario2.xaml;;
+FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\Views\Usuarios\SubVUsuario3.xaml;;
+FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\Views\Usuarios\SubVUsuario4.xaml;;
 FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\Views\Usuarios\VPUsuarios.xaml;;
 FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\Views\Ventas\SubVVentas1.xaml;;
 FC:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\Views\Ventas\SubVVentas2.xaml;;

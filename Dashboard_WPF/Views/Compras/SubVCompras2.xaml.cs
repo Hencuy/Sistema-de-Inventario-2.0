@@ -78,7 +78,7 @@ namespace Dashboard_WPF.Views.Compras
                 // Accede al valor del campo "CODIGO HOJA DE RUTA" (ID_Tramites)
                 id = rowView["idDetallesCompra"].ToString();
                
-                Main.NavigationService.Navigate(new VDetalles(Main,id));
+                //Main.NavigationService.Navigate(new VDetalles(Main,id));
             }
         }
         private T FindParent<T>(DependencyObject child) where T : DependencyObject

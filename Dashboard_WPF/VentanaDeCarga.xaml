@@ -4,7 +4,6 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Dashboard_WPF" 
-        xmlns:local1="clr-namespace:CircularProgressBar;assembly=CircularProgressBar"
         mc:Ignorable="d"
         Title="VentanaDeCarga" Height="500" Width="700"
         WindowStyle="None"

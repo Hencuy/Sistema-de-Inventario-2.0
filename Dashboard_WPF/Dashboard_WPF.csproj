@@ -567,18 +567,9 @@
     <Resource Include="images\welcome.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="recursos\imagen\cajaAzul.png" />
-    <Resource Include="recursos\imagen\cajaNaranja.png" />
-    <Resource Include="recursos\imagen\cajaNegro.png" />
     <Resource Include="recursos\imagen\close1.png" />
     <Resource Include="recursos\imagen\close2.png" />
     <Resource Include="recursos\imagen\close3.png" />
-    <Resource Include="recursos\imagen\contraseña1.png" />
-    <Resource Include="recursos\imagen\contraseña2.png" />
-    <Resource Include="recursos\imagen\contraseña3.png" />
-    <Resource Include="recursos\imagen\flecha_coneccion.png" />
-    <Resource Include="recursos\imagen\fondo.png.jpg" />
-    <Resource Include="recursos\imagen\Imagen2.png" />
     <Resource Include="recursos\imagen\key-icon.png" />
     <Resource Include="recursos\imagen\lock %281%29.png" />
     <Resource Include="recursos\imagen\LogoBlanco.png" />
@@ -587,16 +578,8 @@
     <Resource Include="recursos\imagen\mini1.png" />
     <Resource Include="recursos\imagen\mini2.png" />
     <Resource Include="recursos\imagen\mini3.png" />
-    <Resource Include="recursos\imagen\ojo_visible.png" />
-    <Resource Include="recursos\imagen\punto.amarillo.png" />
-    <Resource Include="recursos\imagen\punto.azul.png" />
-    <Resource Include="recursos\imagen\punto.rojo.png" />
-    <Resource Include="recursos\imagen\punto.verde.png" />
     <Resource Include="recursos\imagen\user %282%29.png" />
     <Resource Include="recursos\imagen\user-icon.png" />
-    <Resource Include="recursos\imagen\usuario1.png" />
-    <Resource Include="recursos\imagen\usuario2.png" />
-    <Resource Include="recursos\imagen\usuario3.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="images\key-icon.png" />
