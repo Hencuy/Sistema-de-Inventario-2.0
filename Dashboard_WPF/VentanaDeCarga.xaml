@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Dashboard_WPF" 
         mc:Ignorable="d"
-        Title="VentanaDeCarga" Height="500" Width="700"
+        Title="VentanaDeCarga" Height="368" Width="551"
         WindowStyle="None"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
@@ -31,10 +31,13 @@
             </Setter>
         </Style>
     </Window.Resources>
-    <Border Style="{DynamicResource BorderStyle1}">
+    <Border Style="{DynamicResource BorderStyle1}" BorderBrush="{x:Null}">
+        <Border.Background>
+            <ImageBrush ImageSource="recursos/imagen/Group_1_(1).png"/>
+        </Border.Background>
         <Grid>
-            <Label Name="lblMensaje" Content="Bienvenido" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
-            <ProgressBar Name="miProgressBar" Style="{StaticResource ProgressBarStyle}" Minimum="0" Maximum="100" Value="0" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="300" Height="20" Margin="0,0,0,60">
+            <Label Name="lblMensaje" Content="Bienvenido" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="50" Margin="10,131,0,0" Foreground="#DDFFFFFF" FontFamily="Headline R"/>
+            <ProgressBar Name="miProgressBar" Style="{StaticResource ProgressBarStyle}" Minimum="0" Maximum="100" Value="0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="300" Height="20" Margin="0,293,0,0">
                 <!-- Tu estilo personalizado aquí -->
             </ProgressBar>
 

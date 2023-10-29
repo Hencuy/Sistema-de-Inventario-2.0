@@ -54,7 +54,7 @@
                 <DataGridTemplateColumn Header="Actualizar" IsReadOnly="True" Width="200" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <Button x:Name="btnActualizar" Style="{StaticResource gridEditButton}" Background="Transparent" >
+                            <Button x:Name="btnActualizar" Style="{StaticResource gridEditButton}" Background="Transparent" Click="btnActualizar_Click_1" >
                                 <Icon:PackIconMaterial Kind="Pencil" Height="25" Width="25" Foreground="Green"/>
                             </Button>
                         </DataTemplate>
@@ -63,7 +63,7 @@
                 <DataGridTemplateColumn Header="Eliminar" IsReadOnly="True" Width="auto" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <Button Name="btnEliminar" Style="{StaticResource gridEditButton}" Background="Transparent" >
+                            <Button Name="btnEliminar" Style="{StaticResource gridEditButton}" Background="Transparent" Click="btnEliminar_Click_1" >
                                 <Icon:PackIconMaterial Kind="TrashCan" Height="25" Width="25" Foreground="Red" />
                             </Button>
                         </DataTemplate>

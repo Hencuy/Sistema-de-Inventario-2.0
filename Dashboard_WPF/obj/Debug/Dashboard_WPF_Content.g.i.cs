@@ -8,11 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("views/productos/imagenes/almacen.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("views/productos/imagenes/almacen2.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("views/productos/imagenes/categorias.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("views/productos/imagenes/default.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("views/productos/imagenes/fecha-de-vencimiento.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("views/productos/imagenes/mejor-vendido.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("group%201%20(1).png")]
 
 

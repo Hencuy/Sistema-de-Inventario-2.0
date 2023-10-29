@@ -1,4 +1,5 @@
-﻿using Dashboard_WPF.Views.Proveedores;
+﻿using Dashboard_WPF.Views.Clientes;
+using Dashboard_WPF.Views.Proveedores;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +23,6 @@ namespace Dashboard_WPF.Views.Categorias
     public partial class VPCategoria : Page
     {
         subVCategoraias1 subVCategoraias1 = new subVCategoraias1();
-        subVCategoraias2 subVCategoraias2 = new subVCategoraias2();
         subVCategoraias3 subVCategoraias3 = new subVCategoraias3();
         public VPCategoria()
         {
@@ -37,7 +37,7 @@ namespace Dashboard_WPF.Views.Categorias
 
         private void C2_Click(object sender, RoutedEventArgs e)
         {
-            FrameCategorias.NavigationService.Navigate(subVCategoraias2);
+            FrameCategorias.NavigationService.Navigate(new subVCategoraias2(FrameCategorias));
         }
 
         private void C3_Click(object sender, RoutedEventArgs e)
