@@ -38,7 +38,7 @@
         <StackPanel Background="#F9F5F6" Margin="0,207,0,0" Orientation="Vertical">
             <DataGrid x:Name="dataGridUsuarios" Visibility="Collapsed" AutoGenerateColumns="False" CanUserAddRows="False">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="#" Width="20" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Num}"/>
+                    <DataGridTextColumn Header="#" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Number}"/>
                     <DataGridTextColumn Header="CI" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding CI}"/>
                     <DataGridTextColumn Header="Nombre" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Nombre}"/>
                     <DataGridTextColumn Header="Apellidos" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Apellidos}"/>

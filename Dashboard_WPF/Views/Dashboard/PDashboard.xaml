@@ -20,76 +20,78 @@
             <StackPanel Grid.Row="0" Orientation="Horizontal">
                 <materialDesign:PackIcon Height="35" Width="35" Kind="Home" VerticalAlignment="Center" Margin="20 0 0 0"/>
                 <TextBlock VerticalAlignment="Center" FontSize="25" Margin="20 0 0 0" FontFamily="Verdana">DASHBOARD</TextBlock>
+                <TextBlock x:Name="txtUsuario" Visibility="Hidden" Text="Name" FontSize="15" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"  Margin="0 0 0 0"/>
+                <TextBlock x:Name="txtCargo" Visibility="Hidden" Text="Cargo" FontSize="10" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 0 0 0"/>
             </StackPanel>
             <StackPanel Grid.Row="1" Orientation="Horizontal">
                 <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="20 0 0 0" FontFamily="Verdana">!Bienvenido Nombre de Usuario!</TextBlock>
                 <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="5 0 0 0" FontFamily="Verdana">Este es el panel principal del sistema aca podra encontrar atajos para acceder a los distintos listados de cada modulo del sistema.</TextBlock>
             </StackPanel>
 
-            <StackPanel Grid.Row="2" Orientation="Horizontal">
-                <Button x:Name="btnDashCategoria" Width="150" Height="150" Margin="35 35 0 0" Background="#E4F1FF" BorderBrush="Transparent" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" materialDesign:ButtonAssist.CornerRadius="10"  materialDesign:RippleAssist.Feedback="White"  Cursor="Hand" Click="btnDashCategoria_Click">
+            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button x:Name="btnDashCategoria" Visibility="Collapsed" Width="150" Height="150" Margin="5 35 0 0" Background="#F1EFEF" BorderBrush="Transparent" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" materialDesign:ButtonAssist.CornerRadius="10"  materialDesign:RippleAssist.Feedback="White"  Cursor="Hand" Click="btnDashCategoria_Click">
                     <StackPanel Width="120">
                         <TextBlock HorizontalAlignment="Center">Categorias</TextBlock>
                         <materialDesign:PackIcon Kind="Shape" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 0 0 0" Height="70" Width="70"/>
-                        <TextBlock HorizontalAlignment="Center">26 Registrados</TextBlock>
+                        <TextBlock x:Name="TxtNumCategorias" HorizontalAlignment="Center">26 Registrados</TextBlock>
                     </StackPanel>
                 </Button>
-                <Button x:Name="btnDashProve" Width="150" Height="150" Margin="15 35 0 0" Background="#E4F1FF" BorderBrush="Transparent" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" materialDesign:ButtonAssist.CornerRadius="10"  materialDesign:RippleAssist.Feedback="White"  Cursor="Hand" Click="btnDashProve_Click">
+                <Button x:Name="btnDashProve" Visibility="Collapsed" Width="150" Height="150" Margin="15 35 0 0" Background="#F1EFEF" BorderBrush="Transparent" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" materialDesign:ButtonAssist.CornerRadius="10"  materialDesign:RippleAssist.Feedback="White"  Cursor="Hand" Click="btnDashProve_Click">
                     <StackPanel Width="120">
                         <TextBlock HorizontalAlignment="Center">Proveedores</TextBlock>
                         <materialDesign:PackIcon Kind="TruckFast" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 0 0 0" Height="70" Width="70"/>
-                        <TextBlock HorizontalAlignment="Center">26 Registrados</TextBlock>
+                        <TextBlock x:Name="TxtNumProveedores" HorizontalAlignment="Center">26 Registrados</TextBlock>
                     </StackPanel>
                 </Button>
-                <Button x:Name="btnDashCompras" Width="150" Height="150" Margin="15 35 0 0" Background="#E4F1FF" BorderBrush="Transparent" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" materialDesign:ButtonAssist.CornerRadius="10"  materialDesign:RippleAssist.Feedback="White"  Cursor="Hand" Click="btnDashCompras_Click">
+                <Button x:Name="btnDashCompras" Visibility="Collapsed" Width="150" Height="150" Margin="15 35 0 0" Background="#F1EFEF" BorderBrush="Transparent" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" materialDesign:ButtonAssist.CornerRadius="10"  materialDesign:RippleAssist.Feedback="White"  Cursor="Hand" Click="btnDashCompras_Click">
                     <StackPanel Width="120">
                         <TextBlock HorizontalAlignment="Center">Compras</TextBlock>
                         <materialDesign:PackIcon Kind="Cart" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 0 0 0" Height="70" Width="70"/>
-                        <TextBlock HorizontalAlignment="Center">26 Registrados</TextBlock>
+                        <TextBlock x:Name="TxtNumCompras" HorizontalAlignment="Center">26 Registrados</TextBlock>
                     </StackPanel>
                 </Button>
-                <Button x:Name="btnDashUsuarios" Width="150" Height="150" Margin="15 35 0 0" Background="#E4F1FF" BorderBrush="Transparent" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" materialDesign:ButtonAssist.CornerRadius="10"  materialDesign:RippleAssist.Feedback="White"  Cursor="Hand" Click="btnDashUsuarios_Click">
+                <Button x:Name="btnDashUsuarios" Visibility="Collapsed" Width="150" Height="150" Margin="15 35 0 0" Background="#F1EFEF" BorderBrush="Transparent" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" materialDesign:ButtonAssist.CornerRadius="10"  materialDesign:RippleAssist.Feedback="White"  Cursor="Hand" Click="btnDashUsuarios_Click">
                     <StackPanel Width="120">
                         <TextBlock HorizontalAlignment="Center">Usuarios</TextBlock>
                         <materialDesign:PackIcon Kind="Account" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 0 0 0" Height="70" Width="70"/>
-                        <TextBlock HorizontalAlignment="Center">26 Registrados</TextBlock>
+                        <TextBlock x:Name="TxtNumUsuario" HorizontalAlignment="Center">26 Registrados</TextBlock>
                     </StackPanel>
                 </Button>
-                <Button x:Name="btnDashClientes" Width="150" Height="150" Margin="15 35 0 0" Background="#E4F1FF" BorderBrush="Transparent" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" materialDesign:ButtonAssist.CornerRadius="10"  materialDesign:RippleAssist.Feedback="White"  Cursor="Hand" Click="btnDashClientes_Click">
+                <Button x:Name="btnDashClientes" Visibility="Collapsed" Width="150" Height="150" Margin="15 35 5 0" Background="#F1EFEF" BorderBrush="Transparent" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" materialDesign:ButtonAssist.CornerRadius="10"  materialDesign:RippleAssist.Feedback="White"  Cursor="Hand" Click="btnDashClientes_Click">
                     <StackPanel Width="120">
                         <TextBlock HorizontalAlignment="Center">Clientes</TextBlock>
                         <materialDesign:PackIcon Kind="AccountGroup" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 0 0 0" Height="70" Width="70"/>
-                        <TextBlock HorizontalAlignment="Center">26 Registrados</TextBlock>
+                        <TextBlock x:Name="TxtNumClientes" HorizontalAlignment="Center">26 Registrados</TextBlock>
                     </StackPanel>
                 </Button>
             </StackPanel>
-            <StackPanel Grid.Row="3" Orientation="Horizontal">
-                <Button x:Name="btnDashProductos" Width="150" Height="150" Margin="100 0 0 80" Background="#E4F1FF" BorderBrush="Transparent" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" materialDesign:ButtonAssist.CornerRadius="10"  materialDesign:RippleAssist.Feedback="White"  Cursor="Hand" Click="btnDashProductos_Click">
+            <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button x:Name="btnDashProductos" Visibility="Collapsed" Width="150" Height="150" Margin="5 0 0 80" Background="#F1EFEF" BorderBrush="Transparent" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" materialDesign:ButtonAssist.CornerRadius="10"  materialDesign:RippleAssist.Feedback="White"  Cursor="Hand" Click="btnDashProductos_Click">
                     <StackPanel Width="120">
                         <TextBlock HorizontalAlignment="Center">Productos</TextBlock>
                         <materialDesign:PackIcon Kind="PackageVariant" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 0 0 0" Height="70" Width="70"/>
-                        <TextBlock HorizontalAlignment="Center">26 Registrados</TextBlock>
+                        <TextBlock x:Name="TxtNumProductos" HorizontalAlignment="Center">26 Registrados</TextBlock>
                     </StackPanel>
                 </Button>
-                <Button x:Name="btnDashVentas" Width="150" Height="150" Margin="20 0 0 80" Background="#E4F1FF" BorderBrush="Transparent" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" materialDesign:ButtonAssist.CornerRadius="10"  materialDesign:RippleAssist.Feedback="White"  Cursor="Hand" Click="btnDashVentas_Click">
+                <Button x:Name="btnDashVentas" Visibility="Collapsed" Width="150" Height="150" Margin="20 0 0 80" Background="#F1EFEF" BorderBrush="Transparent" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" materialDesign:ButtonAssist.CornerRadius="10"  materialDesign:RippleAssist.Feedback="White"  Cursor="Hand" Click="btnDashVentas_Click">
                     <StackPanel Width="120">
                         <TextBlock HorizontalAlignment="Center">Ventas</TextBlock>
                         <materialDesign:PackIcon Kind="HandCoin" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 0 0 0" Height="70" Width="70"/>
-                        <TextBlock HorizontalAlignment="Center">26 Registrados</TextBlock>
+                        <TextBlock x:Name="TxtNumVentas" HorizontalAlignment="Center">26 Registrados</TextBlock>
                     </StackPanel>
                 </Button>
-                <Button x:Name="btnDashKardex" Width="150" Height="150"  Margin="20 0 0 80" Background="#E4F1FF" BorderBrush="Transparent" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" materialDesign:ButtonAssist.CornerRadius="10"  materialDesign:RippleAssist.Feedback="White"  Cursor="Hand" Click="btnDashKardex_Click">
+                <Button x:Name="btnDashKardex" Visibility="Collapsed" Width="150" Height="150"  Margin="20 0 0 80" Background="#F1EFEF" BorderBrush="Transparent" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" materialDesign:ButtonAssist.CornerRadius="10"  materialDesign:RippleAssist.Feedback="White"  Cursor="Hand" Click="btnDashKardex_Click">
                     <StackPanel Width="120">
                         <TextBlock HorizontalAlignment="Center">Kardex</TextBlock>
                         <materialDesign:PackIcon Kind="TextBox" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 0 0 0" Height="70" Width="70"/>
-                        <TextBlock HorizontalAlignment="Center">26 Registrados</TextBlock>
+                        <TextBlock x:Name="TxtNumKardex" HorizontalAlignment="Center">26 Registrados</TextBlock>
                     </StackPanel>
                 </Button>
-                <Button x:Name="btnDashReportes" Width="150" Height="150"  Margin="20 0 0 80" Background="#E4F1FF" BorderBrush="Transparent" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" materialDesign:ButtonAssist.CornerRadius="10"  materialDesign:RippleAssist.Feedback="White"  Cursor="Hand" Click="btnDashReportes_Click">
+                <Button x:Name="btnDashReportes" Visibility="Collapsed" Width="150" Height="150"  Margin="20 0 5 80" Background="#F1EFEF" BorderBrush="Transparent" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" materialDesign:ButtonAssist.CornerRadius="10"  materialDesign:RippleAssist.Feedback="White"  Cursor="Hand" Click="btnDashReportes_Click">
                     <StackPanel Width="120">
                         <TextBlock HorizontalAlignment="Center">Resportes</TextBlock>
                         <materialDesign:PackIcon Kind="File" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 0 0 0" Height="70" Width="70"/>
-                        <TextBlock HorizontalAlignment="Center">26 Registrados</TextBlock>
+                        <TextBlock x:Name="TxtNumReportes" HorizontalAlignment="Center">26 Registrados</TextBlock>
                     </StackPanel>
                 </Button>
             </StackPanel>

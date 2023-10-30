@@ -22,7 +22,7 @@
     <Grid Background="White" Height="420" Width="870">
         <DataGrid x:Name="dataGridClientes" AutoGenerateColumns="False" CanUserAddRows="False">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="#" Width="40" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Num}"/>
+                <DataGridTextColumn Header="#" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Number}"/>
                 <DataGridTextColumn Header="Documento CI" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding CI}"/>
                 <DataGridTextColumn Header="Nombre" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Nombres}"/>
                 <DataGridTextColumn Header="Apellidos" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Apellidos}"/>

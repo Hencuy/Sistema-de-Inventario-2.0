@@ -16,6 +16,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Collections.ObjectModel;
 using Dashboard_WPF.Views.Proveedores;
+using Dashboard_WPF.Modelos;
 
 namespace Dashboard_WPF.Views.Clientes
 {
@@ -45,11 +46,23 @@ namespace Dashboard_WPF.Views.Clientes
                 {
                     SqlDataAdapter adapter = new SqlDataAdapter(command);
                     DataTable dataTable = new DataTable();
+
+                    // Llena el dataTable con datos de la base de datos
                     adapter.Fill(dataTable);
+
+                    // Crea una nueva columna "Number" y la rellena
+                    dataTable.Columns.Add("Number", typeof(int));
+                    for (int i = 0; i < dataTable.Rows.Count; i++)
+                    {
+                        dataTable.Rows[i]["Number"] = i + 1;
+                    }
+
                     dataGridClientes.ItemsSource = dataTable.DefaultView;
                 }
             }
         }
+
+
 
         private void ActualizarButton_Click(object sender, RoutedEventArgs e)
         {

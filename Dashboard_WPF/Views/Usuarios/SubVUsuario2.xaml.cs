@@ -30,10 +30,10 @@ namespace Dashboard_WPF.Views.Usuarios
         {
             InitializeComponent();
             mainFrame = framemain;
-            Loaded += SubVClientes2_Load;
+            Loaded += SubVUsuario2_Load;
         }
 
-        private void SubVClientes2_Load(object sender, RoutedEventArgs e)
+        private void SubVUsuario2_Load(object sender, RoutedEventArgs e)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -44,10 +44,19 @@ namespace Dashboard_WPF.Views.Usuarios
                     SqlDataAdapter adapter = new SqlDataAdapter(command);
                     DataTable dataTable = new DataTable();
                     adapter.Fill(dataTable);
+
+                    // Agregar la columna "Number" y asignar valores consecutivos
+                    dataTable.Columns.Add("Number", typeof(int));
+                    for (int i = 0; i < dataTable.Rows.Count; i++)
+                    {
+                        dataTable.Rows[i]["Number"] = i + 1;
+                    }
+
                     dataGridUsuarios.ItemsSource = dataTable.DefaultView;
                 }
             }
         }
+
 
         private void ActualizarButton_Click(object sender, RoutedEventArgs e)
         {
@@ -121,7 +130,7 @@ namespace Dashboard_WPF.Views.Usuarios
                         MessageBox.Show("Los datos del usuario se eliminaron correctamente.");
 
                         // Actualiza la lista de usuarios en el DataGrid
-                        SubVClientes2_Load(sender, e);
+                        SubVUsuario2_Load(sender, e);
                     }
                     else
                     {

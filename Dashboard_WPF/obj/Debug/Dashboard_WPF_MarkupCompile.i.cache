@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-E:\Proyecto_sistemas\GitHubRepos\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\
+C:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\
 Dashboard_WPF
 none
 false
 DEBUG;TRACE
-E:\Proyecto_sistemas\GitHubRepos\Sistema-de-Inventario-2.0\Dashboard_WPF\App.xaml
+C:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\App.xaml
 501062011614
 
 56817792615
-521633639305
+52-1127494109
 Login.xaml;MainWindow.xaml;VentanaDeCarga.xaml;Views\Categorias\ActualizarCategoria.xaml;Views\Categorias\subVCategoraias1.xaml;Views\Categorias\subVCategoraias2.xaml;Views\Categorias\subVCategoraias3.xaml;Views\Categorias\VPCategoria.xaml;Views\Clientes\SubVClientes1.xaml;Views\Clientes\SubVClientes2.xaml;Views\Clientes\SubVClientes3.xaml;Views\Clientes\SubVClientes4.xaml;Views\Clientes\VPClientes.xaml;Views\Compras\SubVCompras1.xaml;Views\Compras\SubVCompras2.xaml;Views\Compras\SubVCompras3.xaml;Views\Compras\VEmergente.xaml;Views\Compras\VPCompras.xaml;Views\Dashboard\PDashboard.xaml;Views\Kardex\SubVKardex1.xaml;Views\Kardex\SubVKardex2.xaml;Views\Kardex\SubVKardex3.xaml;Views\Kardex\VPKardex.xaml;Views\Productos\Sub_BuscarProducto.xaml;Views\Productos\Sub_EnAlmacen.xaml;Views\Productos\Sub_MasVendido.xaml;Views\Productos\Sub_NuevoProducto.xaml;Views\Productos\Sub_PorCategorias.xaml;Views\Productos\Sub_PorVencimiento.xaml;Views\Productos\Sub_StockMinimo.xaml;Views\Productos\VPProductos.xaml;Views\Proveedores\ActualizarProvee.xaml;Views\Proveedores\SubVProveedores1.xaml;Views\Proveedores\SubVProveedores2.xaml;Views\Proveedores\SubVProveedores3.xaml;Views\Proveedores\VPProveedores.xaml;Views\Reportes\SubVReportes1.xaml;Views\Reportes\SubVReportes2.xaml;Views\Reportes\SubVReportes3.xaml;Views\Reportes\VPReportes.xaml;Views\Usuarios\SubVUsuario1.xaml;Views\Usuarios\SubVUsuario2.xaml;Views\Usuarios\SubVUsuario3.xaml;Views\Usuarios\SubVUsuario4.xaml;Views\Usuarios\VPUsuarios.xaml;Views\Ventas\SubVVentas1.xaml;Views\Ventas\SubVVentas2.xaml;Views\Ventas\SubVVentas3.xaml;Views\Ventas\SubVVentas4.xaml;Views\Ventas\VPVentas.xaml;
 
 False

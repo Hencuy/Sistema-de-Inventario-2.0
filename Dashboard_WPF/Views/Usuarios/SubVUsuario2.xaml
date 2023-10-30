@@ -22,38 +22,38 @@
     </Page.Resources>
 
     <Grid Background="White" Height="420" Width="870">
-        <DataGrid x:Name="dataGridUsuarios" AutoGenerateColumns="False" CanUserAddRows="False">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="#" Width="20" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Num}"/>
-                <DataGridTextColumn Header="CI" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding CI}"/>
-                <DataGridTextColumn Header="Nombre" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Nombre}"/>
-                <DataGridTextColumn Header="Apellidos" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Apellidos}"/>
-                <DataGridTextColumn Header="Cargo" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Cargo}"/>
-                <DataGridTextColumn Header="UserName" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding UserName}"/>
-                <DataGridTextColumn Header="Contraseña" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Contraseña}"/>
-                <DataGridTextColumn Header="Estado" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Estado}"/>
-                <!-- Columna de Actualizar con botón de edición -->
-                <DataGridTemplateColumn Header="Actualizar" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}">
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <Button Click="ActualizarButton_Click">
-                                <materialDesign:PackIcon Kind="Pencil" Height="16" Width="16" VerticalAlignment="Center" Margin="0 0 0 0"/>
-                            </Button>
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
+            <DataGrid x:Name="dataGridUsuarios" AutoGenerateColumns="False" CanUserAddRows="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="#" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Number}"/>
+                    <DataGridTextColumn Header="CI" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding CI}"/>
+                    <DataGridTextColumn Header="Nombre" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Nombre}"/>
+                    <DataGridTextColumn Header="Apellidos" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Apellidos}"/>
+                    <DataGridTextColumn Header="Cargo" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Cargo}"/>
+                    <DataGridTextColumn Header="UserName" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding UserName}"/>
+                    <DataGridTextColumn Header="Contraseña" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Contraseña}"/>
+                    <DataGridTextColumn Header="Estado" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Estado}"/>
+                    <!-- Columna de Actualizar con botón de edición -->
+                    <DataGridTemplateColumn Header="Actualizar" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Click="ActualizarButton_Click">
+                                    <materialDesign:PackIcon Kind="Pencil" Height="16" Width="16" VerticalAlignment="Center" Margin="0 0 0 0"/>
+                                </Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
 
-                <!-- Columna de Eliminar con botón de eliminación -->
-                <DataGridTemplateColumn Header="Eliminar" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}">
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <Button Click="EliminarButton_Click">
-                                <materialDesign:PackIcon Kind="Delete" Height="16" Width="16" VerticalAlignment="Center" Margin="0 0 0 0"/>
-                            </Button>
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
-            </DataGrid.Columns>
-        </DataGrid>
+                    <!-- Columna de Eliminar con botón de eliminación -->
+                    <DataGridTemplateColumn Header="Eliminar" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Click="EliminarButton_Click">
+                                    <materialDesign:PackIcon Kind="Delete" Height="16" Width="16" VerticalAlignment="Center" Margin="0 0 0 0"/>
+                                </Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
     </Grid>
 </Page>

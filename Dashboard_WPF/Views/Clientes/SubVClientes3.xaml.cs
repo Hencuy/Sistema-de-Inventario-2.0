@@ -43,7 +43,17 @@ namespace Dashboard_WPF.Views.Clientes
                 {
                     SqlDataAdapter adapter = new SqlDataAdapter(command);
                     DataTable dataTable = new DataTable();
+
+                    // Llena el dataTable con datos de la base de datos
                     adapter.Fill(dataTable);
+
+                    // Crea una nueva columna "Number" y la rellena
+                    dataTable.Columns.Add("Number", typeof(int));
+                    for (int i = 0; i < dataTable.Rows.Count; i++)
+                    {
+                        dataTable.Rows[i]["Number"] = i + 1;
+                    }
+
                     dataGridClientes.ItemsSource = dataTable.DefaultView;
                 }
             }
@@ -77,6 +87,13 @@ namespace Dashboard_WPF.Views.Clientes
                 DataTable dataTable = new DataTable();
                 SqlDataAdapter adapter = new SqlDataAdapter(comando);
                 adapter.Fill(dataTable);
+
+                // Agregar una nueva columna "Number"
+                dataTable.Columns.Add("Number", typeof(int));
+                for (int i = 0; i < dataTable.Rows.Count; i++)
+                {
+                    dataTable.Rows[i]["Number"] = i + 1;
+                }
 
                 if (dataTable.Rows.Count > 0)
                 {

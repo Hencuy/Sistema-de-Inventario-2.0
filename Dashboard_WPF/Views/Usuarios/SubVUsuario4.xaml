@@ -19,6 +19,12 @@
             <StackPanel Grid.Row="0" Orientation="Horizontal">
                 <materialDesign:PackIcon Height="35" Width="35" Kind="AccountDetailsOutline" VerticalAlignment="Center" Margin="7 0 0 0"/>
                 <TextBlock  VerticalAlignment="Center" FontSize="23" Margin="10 0 0 0" FontFamily="Verdana">Información personal</TextBlock>
+                <Button Name="btnRegresar"  Margin="300 0 0 0"  Cursor="Hand" Click="btnRegresar_Click">
+                    <WrapPanel>
+                        <materialDesign:PackIcon Kind="ArrowLeftTopBold" VerticalAlignment="Center" Margin="0 0 7 0"/>
+                        <TextBlock FontSize="14">Regresar</TextBlock>
+                    </WrapPanel>
+                </Button>
             </StackPanel>
 
             <StackPanel Grid.Row="1" Orientation="Vertical" Height="350" VerticalAlignment="Top">

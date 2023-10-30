@@ -104,13 +104,7 @@ namespace Dashboard_WPF.Views.Usuarios
             comando.ExecuteNonQuery();
 
             MessageBox.Show("Los datos se guardaron correctamente");
-            txtidCliente.Text = "";
-            txtNombreCliente.Text = "";
-            txtApellidosCliente.Text = "";
-            cbxCargo.SelectedIndex = -1;
-            txtUserName.Text = "";
-            txtContraseña.Text = "";
-            cbxEstado.SelectedIndex = -1;
+            LimpiarCampos();
 
             conexion.Close();
 
@@ -177,8 +171,7 @@ namespace Dashboard_WPF.Views.Usuarios
                 }
             }
         }
-
-        private void btnlimpiar_Click(object sender, RoutedEventArgs e)
+        private void LimpiarCampos()
         {
             txtidCliente.Text = "";
             txtNombreCliente.Text = "";
@@ -187,6 +180,12 @@ namespace Dashboard_WPF.Views.Usuarios
             txtUserName.Text = "";
             txtContraseña.Text = "";
             cbxEstado.SelectedIndex = -1;
+        }
+
+
+        private void btnlimpiar_Click(object sender, RoutedEventArgs e)
+        {
+            LimpiarCampos();   
         }
 
         private void txtIdCliente_PreviewTextInput(object sender, TextCompositionEventArgs e)

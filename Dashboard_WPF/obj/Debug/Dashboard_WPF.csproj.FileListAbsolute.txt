@@ -2770,3 +2770,5 @@ E:\Proyecto_sistemas\GitHubRepos\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Deb
 E:\Proyecto_sistemas\GitHubRepos\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.CopyComplete
 E:\Proyecto_sistemas\GitHubRepos\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Dashboard_WPF.exe
 E:\Proyecto_sistemas\GitHubRepos\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Dashboard_WPF.pdb
+C:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Views\Categorias\ActualizarCategoria.g.cs
+C:\Users\nogal\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Views\Categorias\ActualizarCategoria.baml

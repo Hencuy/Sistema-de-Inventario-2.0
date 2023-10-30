@@ -31,10 +31,10 @@ namespace Dashboard_WPF.Views.Usuarios
         {
             InitializeComponent();
             mainFrame = framemain;
-            Loaded += SubVClientes3_Load;
+            Loaded += SubVUsuario3_Load;
         }
 
-        private void SubVClientes3_Load(object sender, RoutedEventArgs e)
+        private void SubVUsuario3_Load(object sender, RoutedEventArgs e)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -45,10 +45,19 @@ namespace Dashboard_WPF.Views.Usuarios
                     SqlDataAdapter adapter = new SqlDataAdapter(command);
                     DataTable dataTable = new DataTable();
                     adapter.Fill(dataTable);
+
+                    // Agregar la columna "Number" y asignar valores consecutivos
+                    dataTable.Columns.Add("Number", typeof(int));
+                    for (int i = 0; i < dataTable.Rows.Count; i++)
+                    {
+                        dataTable.Rows[i]["Number"] = i + 1;
+                    }
+
                     dataGridUsuarios.ItemsSource = dataTable.DefaultView;
                 }
             }
         }
+
         private void btnBuscar_Click(object sender, RoutedEventArgs e)
         {
             RealizarBusqueda();
@@ -78,6 +87,13 @@ namespace Dashboard_WPF.Views.Usuarios
                 DataTable dataTable = new DataTable();
                 SqlDataAdapter adapter = new SqlDataAdapter(comando);
                 adapter.Fill(dataTable);
+
+                // Agregar una nueva columna "Number"
+                dataTable.Columns.Add("Number", typeof(int));
+                for (int i = 0; i < dataTable.Rows.Count; i++)
+                {
+                    dataTable.Rows[i]["Number"] = i + 1;
+                }
 
                 if (dataTable.Rows.Count > 0)
                 {
@@ -177,7 +193,7 @@ namespace Dashboard_WPF.Views.Usuarios
                         MessageBox.Show("Los datos del usuario se eliminaron correctamente.");
 
                         // Actualiza la lista de usuarios en el DataGrid
-                        SubVClientes3_Load(sender, e);
+                        SubVUsuario3_Load(sender, e);
                     }
                     else
                     {

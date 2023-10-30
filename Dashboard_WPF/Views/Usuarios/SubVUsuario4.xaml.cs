@@ -1,4 +1,5 @@
-﻿using MaterialDesignThemes.Wpf;
+﻿using Dashboard_WPF.Views.Clientes;
+using MaterialDesignThemes.Wpf;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -150,14 +151,7 @@ namespace Dashboard_WPF.Views.Usuarios
                 if (filasActualizadas > 0)
                 {
                     MessageBox.Show("Los datos se actualizaron correctamente");
-                    txtidUsuarios.Text = "";
-                    txtNombreUsuarios.Text = "";
-                    txtApellidosUsuarios.Text = "";
-                    cbxCargoUsuarios.SelectedIndex = -1;
-                    txtUserNameUsuarios.Text = "";
-                    PassContraseñaNuevaUsuarios.Password = "";
-                    PassContraseñaActualUsuarios.Password = "";
-                    cbxEstado.SelectedIndex = -1;
+                    LimpiarCampos();
                     mainFrame.NavigationService.Navigate(new SubVUsuario2(mainFrame));
 
                 }
@@ -269,13 +263,7 @@ namespace Dashboard_WPF.Views.Usuarios
                 else
                 {
                     MessageBox.Show("El número de cédula no está registrado.");
-                    txtNombreUsuarios.Text = "";
-                    txtApellidosUsuarios.Text = "";
-                    cbxCargoUsuarios.SelectedIndex = -1;
-                    txtUserNameUsuarios.Text = "";
-                    PassContraseñaActualUsuarios.Password = "";
-                    PassContraseñaNuevaUsuarios.Password = "";
-                    cbxEstado.SelectedIndex = -1;
+                    LimpiarCampos();
                 }
             }
         }
@@ -295,14 +283,16 @@ namespace Dashboard_WPF.Views.Usuarios
 
         private void btnlimpiar_Click(object sender, RoutedEventArgs e)
         {
-            txtidUsuarios.Text = "";
-            txtNombreUsuarios.Text = "";
-            txtApellidosUsuarios.Text = "";
-            cbxCargoUsuarios.SelectedIndex = -1;
-            txtUserNameUsuarios.Text = "";
-            PassContraseñaActualUsuarios.Password = "";
-            PassContraseñaNuevaUsuarios.Password = "";
-            cbxEstado.SelectedIndex = -1;
+            LimpiarCampos();
+        }
+
+        private void btnRegresar_Click(object sender, RoutedEventArgs e)
+        {
+            if (mainFrame != null)
+            {
+                // Navega a la página SubVClientes2 utilizando el objeto mainFrame
+                mainFrame.NavigationService.Navigate(new SubVUsuario2(mainFrame));
+            }
         }
 
         private void txtIdCliente_PreviewTextInput(object sender, TextCompositionEventArgs e)

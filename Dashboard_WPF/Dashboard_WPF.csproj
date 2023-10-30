@@ -575,21 +575,6 @@
     <Resource Include="images\welcome.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="recursos\imagen\close1.png" />
-    <Resource Include="recursos\imagen\close2.png" />
-    <Resource Include="recursos\imagen\close3.png" />
-    <Resource Include="recursos\imagen\key-icon.png" />
-    <Resource Include="recursos\imagen\lock %281%29.png" />
-    <Resource Include="recursos\imagen\LogoBlanco.png" />
-    <Resource Include="recursos\imagen\LogoDorado.png" />
-    <Resource Include="recursos\imagen\LogoNegro.png" />
-    <Resource Include="recursos\imagen\mini1.png" />
-    <Resource Include="recursos\imagen\mini2.png" />
-    <Resource Include="recursos\imagen\mini3.png" />
-    <Resource Include="recursos\imagen\user %282%29.png" />
-    <Resource Include="recursos\imagen\user-icon.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="images\key-icon.png" />
   </ItemGroup>
   <ItemGroup>
@@ -599,22 +584,19 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="recursos\imagen\Group1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="recursos\imagen\boton_salir.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="recursos\imagen\boton_min.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="recursos\imagen\user_man_account_profile_icon_181581.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="recursos\imagen\door_internet_key_lock_password_safe_security_icon_127075.png" />
-  </ItemGroup>
-  <ItemGroup>
+    <Resource Include="recursos\imagen\boton_salir.png" />
+    <Resource Include="recursos\imagen\close3.png" />
+    <Resource Include="recursos\imagen\Group1.png" />
     <Resource Include="recursos\imagen\Group_1_%281%29.png" />
+    <Resource Include="recursos\imagen\key-icon.png" />
+    <Resource Include="recursos\imagen\key_lock_password.png" />
+    <Resource Include="recursos\imagen\lock %281%29.png" />
+    <Resource Include="recursos\imagen\LogoDorado.png" />
+    <Resource Include="recursos\imagen\mini3.png" />
+    <Resource Include="recursos\imagen\user %282%29.png" />
+    <Resource Include="recursos\imagen\user-icon.png" />
+    <Resource Include="recursos\imagen\user_login1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MaterialDesignThemes.4.9.0\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.4.9.0\build\MaterialDesignThemes.targets')" />

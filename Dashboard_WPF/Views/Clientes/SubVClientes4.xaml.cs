@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Dashboard_WPF.Views.Proveedores;
+using System;
 using System.Data.SqlClient;
 using System.Windows;
 using System.Windows.Controls;
@@ -125,7 +126,6 @@ namespace Dashboard_WPF.Views.Clientes
                 //MessageBox.Show("Solo se permiten números en este campo.");
             }
         }
-
         // Función auxiliar para verificar si un carácter es un número
         private bool IsNumeric(string text)
         {
@@ -146,6 +146,15 @@ namespace Dashboard_WPF.Views.Clientes
         {
             // Convertir el texto a formato "Palabra Capital" (mayúscula al principio de cada palabra)
             txtNombreCliente.Text = ToTitleCase(txtNombreCliente.Text);
+        }
+
+        private void btnRegresar_Click(object sender, RoutedEventArgs e)
+        {
+            if (Mainframe != null)
+            {
+                // Navega a la página SubVClientes2 utilizando el objeto mainFrame
+                Mainframe.NavigationService.Navigate(new SubVClientes2(Mainframe));
+            }
         }
 
         // Función auxiliar para verificar si un carácter es una letra

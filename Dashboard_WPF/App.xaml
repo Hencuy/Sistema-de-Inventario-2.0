@@ -94,9 +94,10 @@
             <Style x:Key="BTNStyle2" TargetType="{x:Type Button}">
                 <Setter Property="Background">
                     <Setter.Value>
-                        <ImageBrush ImageSource="/recursos/imagen/mini2.png"/>
+                        <ImageBrush ImageSource="\recursos\imagen\boton_min.png"/>
                     </Setter.Value>
                 </Setter>
+
                 <Setter Property="BorderBrush" Value="Transparent"/>
                 <Setter Property="Foreground" Value="Transparent"/>
                 <Setter Property="BorderThickness" Value="1"/>
@@ -117,15 +118,15 @@
                     <Setter.Value>
                         <ControlTemplate TargetType="{x:Type Button}">
                             <Border x:Name="border" CornerRadius="0" Background="{TemplateBinding Background}"
-                          BorderThickness="{TemplateBinding BorderThickness}"
-                          BorderBrush="{TemplateBinding BorderBrush}"
-                          SnapsToDevicePixels="True">
+                      BorderThickness="{TemplateBinding BorderThickness}"
+                      BorderBrush="{TemplateBinding BorderBrush}"
+                      SnapsToDevicePixels="True">
                                 <ContentPresenter x:Name="contentPresenter"
-                          ContentTemplate="{TemplateBinding ContentTemplate}"
-                          Content="{TemplateBinding Content}"
-                          HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
-                          VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
-                          Margin="{TemplateBinding Padding}" />
+                      ContentTemplate="{TemplateBinding ContentTemplate}"
+                      Content="{TemplateBinding Content}"
+                      HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                      VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                      Margin="{TemplateBinding Padding}" />
                             </Border>
                             <ControlTemplate.Triggers>
                                 <Trigger Property="IsMouseOver" Value="True">
@@ -146,9 +147,10 @@
             <Style x:Key="BTNStyle3" TargetType="{x:Type Button}">
                 <Setter Property="Background">
                     <Setter.Value>
-                        <ImageBrush ImageSource="/recursos/imagen/close2.png"/>
+                        <ImageBrush ImageSource="recursos/imagen/boton_salir.png"/>
                     </Setter.Value>
                 </Setter>
+
                 <Setter Property="BorderBrush" Value="Transparent"/>
                 <Setter Property="Foreground" Value="Transparent"/>
                 <Setter Property="BorderThickness" Value="1"/>
@@ -169,15 +171,15 @@
                     <Setter.Value>
                         <ControlTemplate TargetType="{x:Type Button}">
                             <Border x:Name="border" CornerRadius="0" Background="{TemplateBinding Background}"
-                          BorderThickness="{TemplateBinding BorderThickness}"
-                          BorderBrush="{TemplateBinding BorderBrush}"
-                          SnapsToDevicePixels="True">
+                      BorderThickness="{TemplateBinding BorderThickness}"
+                      BorderBrush="{TemplateBinding BorderBrush}"
+                      SnapsToDevicePixels="True">
                                 <ContentPresenter x:Name="contentPresenter"
-                          ContentTemplate="{TemplateBinding ContentTemplate}"
-                          Content="{TemplateBinding Content}"
-                          HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
-                          VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
-                          Margin="{TemplateBinding Padding}" />
+                      ContentTemplate="{TemplateBinding ContentTemplate}"
+                      Content="{TemplateBinding Content}"
+                      HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                      VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                      Margin="{TemplateBinding Padding}" />
                             </Border>
                             <ControlTemplate.Triggers>
                                 <Trigger Property="IsMouseOver" Value="True">
@@ -218,15 +220,15 @@
             <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
             <Style x:Key="BTNStyle1" TargetType="{x:Type Button}">
                 <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual1}"/>
-                <Setter Property="Background" Value="#FFD4B068"/>
-                <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
-                <Setter Property="Foreground" Value="Black"/>
+                <Setter Property="Background" Value="#FF137DD9"/>
+                <Setter Property="BorderBrush" Value="{x:Null}"/>
+                <Setter Property="Foreground" Value="White"/>
                 <Setter Property="BorderThickness" Value="1"/>
                 <Setter Property="HorizontalContentAlignment" Value="Center"/>
                 <Setter Property="VerticalContentAlignment" Value="Center"/>
                 <Setter Property="Padding" Value="1"/>
                 <Setter Property="FontSize" Value="20"/>
-                <Setter Property="FontFamily" Value="Montserrat"/>
+                <Setter Property="FontFamily" Value="Headline R"/>
                 <Setter Property="Cursor" Value="Hand"/>
                 <Setter Property="Margin" Value="0,0,0,0"/>
                 <Setter Property="FontWeight" Value="Bold"/>
@@ -264,21 +266,48 @@
                 </Setter>
             </Style>
             <!--#ENDREGION-->
-            <!--#REGION BORDE1 STYLE-->
+            <!--#REGION BORDE 1 STYLE-->
             <Style x:Key="BorderStyle1" TargetType="{x:Type Border}">
-                <Setter Property="Background" Value="#FF2F2F2F"/>
-                <Setter Property="BorderBrush" Value="#FFD4B068"/>
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <ImageBrush ImageSource="recursos/imagen/Group1.png"/>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="BorderBrush" Value="{x:Null}"/>
                 <Setter Property="BorderThickness" Value="3"/>
                 <Setter Property="CornerRadius" Value="12"/>
             </Style>
-            <!--#ENDREGION-->            
+            <!--#ENDREGION-->
+            <!--#REGION BORDE 2 STYLE-->
+            <Style x:Key="BorderStyle2" TargetType="{x:Type Border}">
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <ImageBrush ImageSource="recursos/imagen/Group_1_(1).png"/>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="BorderBrush" Value="{x:Null}"/>
+                <Setter Property="BorderThickness" Value="3"/>
+                <Setter Property="CornerRadius" Value="12"/>
+            </Style>
+            <!--#ENDREGION-->
+            <!--#REGION BORDE 3 STYLE-->
+            <Style x:Key="BorderStyle3" TargetType="{x:Type Border}">
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="BorderBrush" Value="BlueViolet"/>
+                <Setter Property="BorderThickness" Value="3"/>
+                <Setter Property="CornerRadius" Value="12"/>
+                <Setter Property="Height" Value="28"/>
+                <Setter Property="Width" Value="400"/>
+                <Setter Property="CornerRadius" Value="12"/>
+            </Style>
+            <!--#ENDREGION-->
             <!--#REGION TEXtBLOCK1 stile-->
             <Style x:Key="TextBlockStyle1" TargetType="{x:Type TextBlock}">
                 <Setter Property="TextWrapping" Value="NoWrap"/>
                 <Setter Property="TextTrimming" Value="None"/>
-                <Setter Property="FontSize" Value="25"/>
-                <Setter Property="Foreground" Value="#FFD4B068"/>
-                <Setter Property="FontFamily" Value="Montserrat"/>
+                <Setter Property="FontSize" Value="17"/>
+                <Setter Property="Foreground" Value="#FF137DD9"/>
+                <Setter Property="FontFamily" Value="Headline R"/>
                 <Setter Property="VerticalAlignment" Value="Center"/>
                 <Setter Property="HorizontalAlignment" Value="Center"/>
                 <Setter Property="Margin" Value="0,0,0,0"/>
@@ -288,16 +317,34 @@
                 <Setter Property="Margin" Value="0,0,0,0"/>
             </Style>
             <!--#ENDREGION-->
+            <!--#REGION TEXtBLOCK1 stile-->
+            <Style x:Key="TextBlockStyle2" TargetType="{x:Type TextBlock}">
+                <Setter Property="TextWrapping" Value="NoWrap"/>
+                <Setter Property="TextTrimming" Value="None"/>
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="FontFamily" Value="Headline R"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="HorizontalAlignment" Value="Left"/>
+                <Setter Property="Margin" Value="0,0,0,0"/>
+                <Setter Property="Opacity" Value="1"/>
+                <Setter Property="FontWeight" Value="Medium"/>
+                <Setter Property="Padding" Value="0,0,0,0"/>
+                <Setter Property="Margin" Value="0,0,0,0"/>
+                <Setter Property="Height" Value="auto"/>
+                <Setter Property="Width" Value="auto"/>
+            </Style>
+            <!--#ENDREGION-->
             <!--#REGION pasword style-->
             <Style x:Key="PasswordBoxStyle1" TargetType="{x:Type PasswordBox}">
                 <Setter Property="PasswordChar" Value="●"/>
                 <Setter Property="Background">
                     <Setter.Value>
-                        <ImageBrush Stretch="Uniform" AlignmentX="Right" ImageSource="/images/key-icon.png"/>
+                        <ImageBrush AlignmentX="Right" ImageSource="\recursos\imagen\key_lock_password.png" Stretch="Uniform"/>
                     </Setter.Value>
                 </Setter>
-                <Setter Property="BorderBrush" Value="#FFD4B068"/>
-                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="BorderBrush" Value="#FF137DD9"/>
+                <Setter Property="Foreground" Value="Black"/>
                 <Setter Property="BorderThickness" Value="0,0,0,2"/>
                 <Setter Property="KeyboardNavigation.TabNavigation" Value="None"/>
                 <Setter Property="HorizontalContentAlignment" Value="Left"/>
@@ -316,11 +363,11 @@
             <Style x:Key="TextBoxStyle1" TargetType="{x:Type TextBox}">
                 <Setter Property="Background">
                     <Setter.Value>
-                        <ImageBrush ImageSource="/images/user-icon.png" Stretch="Uniform" AlignmentX="Right"/>
+                        <ImageBrush AlignmentX="Right" ImageSource="\recursos\imagen\user_login1.png" Stretch="Uniform"/>
                     </Setter.Value>
                 </Setter>
-                <Setter Property="BorderBrush" Value="#FFD4B068"/>
-                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="BorderBrush" Value="#FF137DD9"/>
+                <Setter Property="Foreground" Value="Black"/>
                 <Setter Property="BorderThickness" Value="0,0,0,2"/>
                 <Setter Property="KeyboardNavigation.TabNavigation" Value="None"/>
                 <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
@@ -332,6 +379,78 @@
                 <Setter Property="Padding" Value="40,10,0,0"/>
             </Style>
             <!--#ENDREGION-->
-        </ResourceDictionary>        
+            <!--#REGION modelo textbox 2-->
+            <Style x:Key="TextBoxStyle2" TargetType="{x:Type TextBox}">
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <ImageBrush AlignmentX="Right" ImageSource="\recursos\imagen\key_lock_password.png" Stretch="Uniform"/>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="BorderBrush" Value="#FF137DD9"/>
+                <Setter Property="Foreground" Value="Black"/>
+                <Setter Property="BorderThickness" Value="0,0,0,2"/>
+                <Setter Property="KeyboardNavigation.TabNavigation" Value="None"/>
+                <Setter Property="HorizontalContentAlignment" Value="Left"/>
+                <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+                <Setter Property="AllowDrop" Value="true"/>
+                <Setter Property="ScrollViewer.PanningMode" Value="VerticalFirst"/>
+                <Setter Property="Stylus.IsFlicksEnabled" Value="False"/>
+                <Setter Property="Height" Value="30"/>
+                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                <Setter Property="Padding" Value="40,0,0,0"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="Margin" Value="0,0,0,0"/>
+            </Style>
+            <!--#ENDREGION-->
+            <!--#REGION modelo CheckBox 1-->
+            <Style x:Key="MostrarContrasenaCheckBoxStyle" TargetType="CheckBox">
+                <Setter Property="Content" Value="Mostrar Contraseña"/>
+                <Setter Property="Width" Value="20"/>
+                <Setter Property="Height" Value="20"/>
+                <Setter Property="Margin" Value="297,384,109,157"/>
+            </Style>
+            <!--#ENDREGION-->
+            <!--#REGION modelo label 1-->
+            <Style x:Key="LabelStyle1" TargetType="{x:Type Label}">
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="Foreground" Value="#DDFFFFFF"/>
+                <Setter Property="FontFamily" Value="Headline R"/>
+                <Setter Property="FontSize" Value="27"/>
+                <Setter Property="Margin" Value="0 0 0 0"/>
+                <Setter Property="HorizontalAlignment" Value="Left"/>
+                <Setter Property="VerticalAlignment" Value="Top"/>
+                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                <Setter Property="Padding" Value="4"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type Label}">
+                            <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Padding="{TemplateBinding Padding}" SnapsToDevicePixels="true">
+                                <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsEnabled" Value="false">
+                                    <Setter Property="Opacity" Value=".56"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="VerticalContentAlignment" Value="Top"/>
+            </Style>
+            <!--#ENDREGION-->
+
+            <!--#REGION modelo MiProgressBarStyle 1-->
+            <Style x:Key="MiProgressBarStyle" TargetType="ProgressBar">
+                <Setter Property="BorderThickness" Value="1" />
+                <Setter Property="Background" Value="Blue" />
+                <Setter Property="Minimum" Value="0" />
+                <Setter Property="Maximum" Value="100" />
+                <Setter Property="Height" Value="28" />
+                <Setter Property="Width" Value="400" />
+
+            </Style>
+
+            <!--#ENDREGION-->
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
