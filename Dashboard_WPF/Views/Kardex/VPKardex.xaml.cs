@@ -21,18 +21,18 @@ namespace Dashboard_WPF.Views.Kardex
     /// </summary>
     public partial class VPKardex : Page
     {
-        SubVKardex1 subVKardex1 = new SubVKardex1();
+        
         SubVKardex2 subVKardex2 = new SubVKardex2();
         SubVKardex3 subVKardex3 = new SubVKardex3();
         public VPKardex()
         {
             InitializeComponent();
-            FrameProveedores.NavigationService.Navigate(subVKardex1);
+            FrameProveedores.NavigationService.Navigate(new SubVKardex1(FrameProveedores));
         }
 
         private void btnKardexGeneral_Click(object sender, RoutedEventArgs e)
         {
-            FrameProveedores.NavigationService.Navigate(subVKardex1);
+            FrameProveedores.NavigationService.Navigate(new SubVKardex1(FrameProveedores));
         }
 
         private void btnBuscarKardex_Click(object sender, RoutedEventArgs e)

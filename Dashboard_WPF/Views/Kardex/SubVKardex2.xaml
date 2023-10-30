@@ -4,32 +4,62 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Dashboard_WPF.Views.Kardex"
-      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
       mc:Ignorable="d" 
       d:DesignHeight="420" d:DesignWidth="870"
       Title="SubVProveedores3">
+    <Page.Resources>
+        <Style x:Key="DataGridColumnHeaderStyle" TargetType="{x:Type DataGridColumnHeader}">
+            <Setter Property="Background" Value="#2D4356"/>
+            <!-- Cambia "ColorDeFondoDeseado" al color que desees -->
+            <Setter Property="Foreground" Value="White"/>
+            <!-- Cambia "Blanco" al color de fuente que desees -->
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+
+    </Page.Resources>
+    
+    
     <Grid Background="White" Height="420" Width="870">
-        <StackPanel Background="#F9F5F6" Height="200" Margin="0,37,0,183" Orientation="Vertical">
+        <StackPanel Background="White" Height="420" Margin="0,0,0,183" Orientation="Vertical">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <StackPanel Margin="0 30 80 0">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="0 0 0 0" FontFamily="Verdana" Foreground="#455A64">Mes</TextBlock>
                     </StackPanel>
-                    <ComboBox Width="300" Margin="0 0 0 0" Foreground="#455A64"></ComboBox>
+                    <TextBox x:Name="txtMes" Width="300" Margin="0 0 0 0" Foreground="#455A64"></TextBox>
                 </StackPanel>
                 <StackPanel Margin="0 30 0 0">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="0 0 0 0" FontFamily="Verdana" Foreground="#455A64">Año</TextBlock>
                     </StackPanel>
-                    <TextBox Foreground="#455A64" Width="300" Margin="0 0 0 0"></TextBox>
+                    <TextBox Name="txtAño" Foreground="#455A64" Width="300" Margin="0 0 0 0"></TextBox>
                 </StackPanel>
             </StackPanel>
-            <Button Margin="0 40 0 0" Width="150">
+            <Button Name="btnBuscar" Margin="0 40 0 0" Width="150" Click="btnBuscar_Click">
                 <WrapPanel>
                     <materialDesign:PackIcon Kind="Magnify" VerticalAlignment="Center" Margin="0 0 7 0"/>
                     <TextBlock FontSize="14">Buscar</TextBlock>
                 </WrapPanel>
             </Button>
+            
         </StackPanel>
+        <Grid Height="250" VerticalAlignment="Bottom">
+            <DataGrid x:Name="TablaBuscador1"  IsReadOnly="True" CanUserAddRows="False" AutoGenerateColumns="False" Cursor="" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="#" Width="40" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Number}"/>
+                    <DataGridTextColumn Header="CodigoBarra" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding CodigoBarraProducto}"/>
+                    <DataGridTextColumn Header="Año" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Anio}"/>
+                    <DataGridTextColumn Header="Mes" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Mes}"/>
+                    <DataGridTextColumn Header="Producto" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Producto}"/>
+                    <DataGridTextColumn Header="Entrada" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Entrada}"/>
+                    <DataGridTextColumn Header="C.T. Entrada" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding TotalCompras}"/>
+                    <DataGridTextColumn Header="Salida" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"  Binding="{Binding Salida}"/>
+                    <DataGridTextColumn Header="C.T. Salida" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"  Binding="{Binding TotalVentas}"/>
+
+
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
     </Grid>
 </Page>

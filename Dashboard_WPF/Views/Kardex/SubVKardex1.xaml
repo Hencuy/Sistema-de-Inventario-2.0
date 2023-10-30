@@ -3,10 +3,10 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:Dashboard_WPF.Views.Kardex"
+      xmlns:local="clr-namespace:Dashboard_WPF.Views.Kardex" xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
       mc:Ignorable="d" 
       d:DesignHeight="420" d:DesignWidth="870"
-      Title="SubVProveedores2">
+      Title="SubVProveedores2" Loaded="Page_Loaded">
     <Page.Resources>
         <Style x:Key="DataGridColumnHeaderStyle" TargetType="{x:Type DataGridColumnHeader}">
             <Setter Property="Background" Value="#2D4356"/>
@@ -19,19 +19,27 @@
     </Page.Resources>
 
     <Grid Background="White" Height="420" Width="870">
-        <DataGrid>
+        <DataGrid x:Name="Tablakardex" IsReadOnly="True" CanUserAddRows="False" AutoGenerateColumns="False">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="#" Width="40" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
-                <DataGridTextColumn Header="Fecha" Width="100" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
-                <DataGridTextColumn Header="Producto" Width="90" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
-                <DataGridTextColumn Header="U. Entrada" Width="80" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
-                <DataGridTextColumn Header="C.U. Entrada" Width="80" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
-                <DataGridTextColumn Header="U. Salida" Width="80" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
-                <DataGridTextColumn Header="C.U. Salida" Width="90" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
-                <DataGridTextColumn Header="Inventario INI." Width="90" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
-                <DataGridTextColumn Header="Inventario AC." Width="90" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
-                <DataGridTextColumn Header="C. Inventario" Width="90" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
-                <DataGridTextColumn Header="DET." Width="40" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
+                <DataGridTextColumn Header="#" Width="40" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Number}"/>
+                <DataGridTextColumn Header="CodigoBarra" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding CodigoBarraProducto}"/>
+                <DataGridTextColumn Header="Año" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Anio}"/>
+                <DataGridTextColumn Header="Mes" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Mes}"/>
+                <DataGridTextColumn Header="Producto" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Producto}"/>
+                <DataGridTextColumn Header="Entrada" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding Entrada}"/>
+                <DataGridTextColumn Header="C.T. Entrada" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Binding="{Binding TotalCompras}"/>
+                <DataGridTextColumn Header="Salida" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"  Binding="{Binding Salida}"/>
+                <DataGridTextColumn Header="C.T. Salida" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"  Binding="{Binding TotalVentas}"/>
+
+                <DataGridTemplateColumn Header="Detalles" IsReadOnly="True" Width="*"  HeaderStyle="{StaticResource DataGridColumnHeaderStyle}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="btnDetalles" Style="{StaticResource gridEditButton}" Background="Transparent" Click="btnDetalles_Click_1">
+                                <Icon:PackIconMaterial Kind="Information" Height="25" Width="25"  Foreground="#279EFF"/>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>
