@@ -59,5 +59,38 @@ namespace Dashboard_WPF.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;head&gt;
+        ///    &lt;title&gt;Document&lt;/title&gt;
+        ///    &lt;style&gt;
+        ///        body {
+        ///            border: 1px solid black;
+        ///            padding: 20px;
+        ///        }
+        ///        table {
+        ///            width: 100%;
+        ///        }
+        ///        th, td {
+        ///            padding: 5px;
+        ///            border: 1px solid black;
+        ///        }
+        ///        .first-column {
+        ///            width: 40%;
+        ///        }
+        ///        .second-column {
+        ///            width: 60%;
+        ///        }
+        ///        .container {
+        ///            display: flex;
+        ///            justify-con [resto de la cadena truncado]&quot;;.
+        /// </summary>
+        internal static string plantilla {
+            get {
+                return ResourceManager.GetString("plantilla", resourceCulture);
+            }
+        }
     }
 }

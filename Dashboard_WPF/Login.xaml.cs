@@ -108,7 +108,7 @@ namespace Dashboard_WPF
 
                     // Configura un temporizador para cerrar la ventana de bienvenida después de 30 segundos
                     DispatcherTimer timer = new DispatcherTimer();
-                    timer.Interval = TimeSpan.FromSeconds(30); // 30 segundos
+                    timer.Interval = TimeSpan.FromSeconds(0.7); // 30 segundos
                     timer.Tick += (s, args) =>
                     {
                         timer.Stop();
@@ -175,7 +175,7 @@ namespace Dashboard_WPF
 
                         // Configura un temporizador para cerrar la ventana de bienvenida después de 30 segundos
                         DispatcherTimer timer = new DispatcherTimer();
-                        timer.Interval = TimeSpan.FromMilliseconds(1000); // 30 segundos
+                        timer.Interval = TimeSpan.FromSeconds(0.7); // 30 segundos
                         timer.Tick += (s, args) =>
                         {
                             timer.Stop();

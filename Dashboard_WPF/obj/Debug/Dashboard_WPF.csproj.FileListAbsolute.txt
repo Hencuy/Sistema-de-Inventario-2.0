@@ -2152,7 +2152,6 @@ C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\bin\D
 C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.Zondicons.dll
 C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\bin\Debug\MaterialDesignColors.dll
 C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
-C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\bin\Debug\System.Data.SqlClient.dll
 C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.pdb
 C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.xml
 C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\bin\Debug\MahApps.Metro.IconPacks.BootstrapIcons.pdb
@@ -2222,7 +2221,6 @@ C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\bin\D
 C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\bin\Debug\MaterialDesignColors.pdb
 C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
 C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
-C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\bin\Debug\System.Data.SqlClient.xml
 C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Dashboard_WPF.csproj.AssemblyReference.cache
 C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\MainWindow.g.cs
 C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Views\Categorias\subVCategoraias1.g.cs
@@ -3001,3 +2999,27 @@ D:\4to Semestre\Proyecto Sistemas I\Sistema de Inventario 2.0\Septimo Repositori
 D:\4to Semestre\Proyecto Sistemas I\Sistema de Inventario 2.0\Septimo Repositorio\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Dashboard_WPF.pdb
 D:\4to Semestre\Proyecto Sistemas I\Sistema de Inventario 2.0\Septimo Repositorio\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Views\Compras\VDetalles.g.cs
 D:\4to Semestre\Proyecto Sistemas I\Sistema de Inventario 2.0\Septimo Repositorio\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Views\Compras\VDetalles.baml
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\bin\Debug\WinFormAnimation.dll
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Login.g.cs
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\VentanaDeCarga.g.cs
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Views\Categorias\ActualizarCategoria.g.cs
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Views\Kardex\DetallesKardex.g.cs
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Views\Usuarios\SubVUsuario1.g.cs
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Views\Usuarios\SubVUsuario2.g.cs
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Views\Usuarios\SubVUsuario3.g.cs
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Views\Usuarios\SubVUsuario4.g.cs
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Login.baml
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\VentanaDeCarga.baml
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Views\Categorias\ActualizarCategoria.baml
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Views\Kardex\DetallesKardex.baml
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Views\Usuarios\SubVUsuario1.baml
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Views\Usuarios\SubVUsuario2.baml
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Views\Usuarios\SubVUsuario3.baml
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\obj\Debug\Views\Usuarios\SubVUsuario4.baml
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\bin\Debug\itextsharp.dll
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\bin\Debug\itextsharp.xml
+C:\Users\antou\source\repos\Hencuy\Sistema-de-Inventario-2.0\Dashboard_WPF\bin\Debug\itextsharp.xmlworker.dll

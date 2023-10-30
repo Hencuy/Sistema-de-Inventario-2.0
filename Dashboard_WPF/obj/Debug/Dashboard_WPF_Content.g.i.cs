@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("group%201%20(1).png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/plantilla.txt")]
 
 

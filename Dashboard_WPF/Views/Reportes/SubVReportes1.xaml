@@ -11,12 +11,9 @@
     <Page.Resources>
         <Style x:Key="DataGridColumnHeaderStyle" TargetType="{x:Type DataGridColumnHeader}">
             <Setter Property="Background" Value="#2D4356"/>
-            <!-- Cambia "ColorDeFondoDeseado" al color que desees -->
             <Setter Property="Foreground" Value="White"/>
-            <!-- Cambia "Blanco" al color de fuente que desees -->
             <Setter Property="HorizontalContentAlignment" Value="Center"/>
         </Style>
-
     </Page.Resources>
     <Grid Background="#F9F5F6" Height="420" Width="870">
         <StackPanel>
@@ -26,16 +23,46 @@
                     Estadísticas de ventas de hoy (16-10-2023)
                 </TextBlock>
                 <Grid Background="White" Height="120" Width="870">
-                    <DataGrid>
+                    <DataGrid x:Name="EnAlmacen" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True" BorderThickness="0">
+                        <DataGrid.CellStyle>
+                            <Style TargetType="DataGridCell">
+                                <Setter Property="HorizontalAlignment" Value="Center" />
+                                <Setter Property="VerticalAlignment" Value="Center" />
+                            </Style>
+                        </DataGrid.CellStyle>
                         <DataGrid.Columns>
-                            <DataGridTextColumn Header="Ventas Realizadas" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
-                            <DataGridTextColumn Header="Total en Ventas" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
-                            <DataGridTextColumn Header="Costo en Ventas" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
-                            <DataGridTextColumn Header="Ganancias" Width="*" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}"/>
+                            <DataGridTemplateColumn Header="Ventas Realizadas" Width="auto">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding CodigoBarra}" Foreground="Black"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Total en Ventas" Width="auto">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Nombre}" Foreground="Black"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Costo en Ventas" Width="auto">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Presentacion}" Foreground="Black"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="Ganancias" Width="auto">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Marca}" Foreground="Black"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
                         </DataGrid.Columns>
                     </DataGrid>
                 </Grid>
-                <Button Margin="0 10 0 0" Width="120" Background="Transparent" Foreground="#2196F3">
+                <Button x:Name="btnGenerarPDF" Margin="0 10 0 0" Width="120" Background="Transparent" Foreground="#2196F3" Click="btnGenerarPDF_Click">
                     <WrapPanel>
                         <materialDesign:PackIcon Kind="FilePdfBox" VerticalAlignment="Center" Margin="0 0 7 0"/>
                         <TextBlock FontSize="14">Imprimir</TextBlock>

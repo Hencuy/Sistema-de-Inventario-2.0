@@ -21,7 +21,7 @@ namespace Dashboard_WPF
 
             ProgressBarCarga = FindName("ProgressBarCarga") as ProgressBar;
             timer = new DispatcherTimer();
-            timer.Interval = TimeSpan.FromMilliseconds(100); // Ajusta el intervalo según tu preferencia
+            timer.Interval = TimeSpan.FromMilliseconds(10); // Ajusta el intervalo según tu preferencia
             timer.Tick += Timer_Tick;
             timer.Start();
         }
