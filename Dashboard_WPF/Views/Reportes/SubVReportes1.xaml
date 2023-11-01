@@ -18,7 +18,7 @@
     <Grid Background="#F9F5F6" Height="420" Width="870">
         <StackPanel>
             <StackPanel Margin="0 0 0 0">
-                <TextBlock VerticalAlignment="Center" FontSize="20" Margin="0 10 0 5" 
+                <TextBlock x:Name="buenDia" VerticalAlignment="Center" FontSize="20" Margin="0 10 0 5" 
                        FontFamily="Verdana" Foreground="#455A64" HorizontalAlignment="Center">
                     Estadísticas de ventas de hoy (16-10-2023)
                 </TextBlock>

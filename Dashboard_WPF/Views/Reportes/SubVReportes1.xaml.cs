@@ -39,6 +39,7 @@ namespace Dashboard_WPF.Views.Reportes
             generadorPDF = new generarPDF();
             CargarDatos();
             EnAlmacen.ItemsSource = ventas;
+            buenDia.Text = "";
         }
 
         private void CargarDatos()
@@ -101,20 +102,96 @@ namespace Dashboard_WPF.Views.Reportes
 
             if (fechaInicial != null && fechaFinal != null)
             {
-                // Formatear las fechas en un formato compatible con SQL
                 string formato = "yyyy-MM-dd HH:mm:ss";
                 string fechaInicioSQL = fechaInicial.Value.ToString(formato);
                 string fechaFinSQL = fechaFinal.Value.ToString(formato);
 
-                // Llamar a CargarDatosFecha con las fechas formateadas
-                CargarDatosFecha(fechaInicioSQL, fechaFinSQL);
+                // Crear la lista de ventas
+                List<VentaDetalle> ventas = new List<VentaDetalle>();
+
+                using (SqlConnection conexion = new SqlConnection("Server= (LocalDB)\\MSSQLLocalDB;Database=BDInventarioVenta;Integrated Security=true; TrustServerCertificate=True"))
+                {
+                    conexion.Open();
+                    string consulta = @"
+WITH VentasDetalle AS (
+    SELECT
+        DV.idDetallesVenta,
+        PV.PrecioVenta,
+        PV.PrecioCompra,
+        PV.StockSalida,
+        DV.Fecha
+    FROM DetallesVenta AS DV
+    JOIN ProductosVenta AS PV ON DV.idDetallesVenta = PV.idDetallesVenta
+    WHERE DV.Fecha >= @FechaInicio AND DV.Fecha <= @FechaFin
+),
+VentasTotales AS (
+    SELECT
+        VT.idDetallesVenta,
+        SUM(VT.PrecioVenta * VT.StockSalida) AS TotalVenta,
+        SUM(VT.PrecioCompra * VT.StockSalida) AS CostoVenta
+    FROM VentasDetalle AS VT
+    GROUP BY VT.idDetallesVenta
+)
+SELECT
+    VT.idDetallesVenta AS 'ID Venta',
+    VT.TotalVenta AS 'Total en Ventas',
+    VT.CostoVenta AS 'Costo en Ventas',
+    VT.TotalVenta - VT.CostoVenta AS 'Ganancias',
+    CONVERT(VARCHAR, DV.Fecha, 101) AS 'Fecha de Compra',
+    CONVERT(VARCHAR, DV.Fecha, 108) AS 'Hora de Compra'
+FROM VentasTotales AS VT, DetallesVenta as DV
+ORDER BY DV.Fecha;
+        ";
+                    using (SqlCommand command = new SqlCommand(consulta, conexion))
+                    {
+                        command.Parameters.AddWithValue("@FechaInicio", fechaInicioSQL);
+                        command.Parameters.AddWithValue("@FechaFin", fechaFinSQL);
+
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                VentaDetalle venta = new VentaDetalle();
+                                venta.IDVenta = reader["ID Venta"] != DBNull.Value ? reader["ID Venta"].ToString() : string.Empty;
+                                venta.FechaCompra = reader["Fecha de Compra"] != DBNull.Value ? reader["Fecha de Compra"].ToString() : string.Empty;
+                                venta.HoraCompra = reader["Hora de Compra"] != DBNull.Value ? reader["Hora de Compra"].ToString() : string.Empty;
+                                venta.TotalEnVentas = reader["Total en Ventas"] != DBNull.Value ? (int.TryParse(reader["Total en Ventas"].ToString(), out int totalEnVentas) ? totalEnVentas : 0) : 0;
+                                venta.CostoEnVentas = reader["Costo en Ventas"] != DBNull.Value ? (int.TryParse(reader["Costo en Ventas"].ToString(), out int costoEnVentas) ? costoEnVentas : 0) : 0;
+                                venta.Ganancias = reader["Ganancias"] != DBNull.Value ? (int.TryParse(reader["Ganancias"].ToString(), out int ganancias) ? ganancias : 0) : 0;
+                                ventas.Add(venta);
+                            }
+                        }
+                    }
+                }
+
+                if (ventas.Count > 0)
+                {
+                    // Mostrar el cuadro de diálogo para seleccionar la ubicación y el nombre del archivo PDF
+                    Microsoft.Win32.SaveFileDialog saveFileDialog = new Microsoft.Win32.SaveFileDialog();
+                    saveFileDialog.FileName = "Informe.pdf";
+                    saveFileDialog.Filter = "Archivos PDF|*.pdf";
+                    saveFileDialog.DefaultExt = "pdf";
+                    bool? result = saveFileDialog.ShowDialog();
+
+                    if (result == true)
+                    {
+                        string filePath = saveFileDialog.FileName;
+                        generarPDF generadorPDF = new generarPDF();
+                        generadorPDF.GenerarPDF(filePath, ventas);
+                    }
+                }
+                else
+                {
+                    // Manejo de error si no hay datos para mostrar
+                }
             }
             else
             {
-                // Manejar el caso en el que las fechas sean nulas o inválidas
-                // Puedes mostrar un mensaje de error o realizar alguna otra acción apropiada.
+                // Manejo de error si las fechas son nulas
             }
         }
+
+
 
         private void CargarDatosFecha(string fechaInicio, string fechaFin)
         {
@@ -182,11 +259,11 @@ namespace Dashboard_WPF.Views.Reportes
             saveFileDialog.DefaultExt = "pdf";
             bool? result = saveFileDialog.ShowDialog();
 
-            if (result == true)
+            /*if (result == true)
             {
                 string filePath = saveFileDialog.FileName;
                 generadorPDF.GenerarPDF(filePath, "valor1", "valor2", "valor3", "valor4", "valor5", "valor6", "valor7", "valor8", "valor9", "valor10", "valor11");
-            }
+            }*/
         }
     }
 }

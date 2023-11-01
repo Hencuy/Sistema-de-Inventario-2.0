@@ -5,26 +5,27 @@ using iTextSharp.text.pdf;
 using iTextSharp.tool.xml;
 using System.IO;
 using System.Diagnostics;
+using System.Collections.Generic; // Agregar este namespace
+using Dashboard_WPF.Views.Reportes;
 
 public class generarPDF
 {
-    public void GenerarPDF(string outputFilePath, string valor1, string valor2, string valor3, string valor4, string valor5, string valor6, string valor7, string valor8, string valor9, string valor10, string valor11)
+    public void GenerarPDF(string outputFilePath, List<VentaDetalle> ventas)
     {
         string htmlContent = Dashboard_WPF.Properties.Resources.plantilla;
 
-        MessageBox.Show(htmlContent);
-
-        htmlContent = htmlContent.Replace("@p1", valor1 + "%");
-        htmlContent = htmlContent.Replace("@p2", valor2);
-        htmlContent = htmlContent.Replace("@p3", valor3);
-        htmlContent = htmlContent.Replace("@p4", valor4);
-        htmlContent = htmlContent.Replace("@p5", valor5);
-        htmlContent = htmlContent.Replace("@p6", valor6);
-        htmlContent = htmlContent.Replace("@p7", valor7);
-        htmlContent = htmlContent.Replace("@p8", valor8);
-        htmlContent = htmlContent.Replace("@p9", valor9);
-        htmlContent = htmlContent.Replace("@pe", valor10);
-        htmlContent = htmlContent.Replace("@pi", valor11);
+        // Reemplazar el contenido en el HTML con los datos de ventas
+        htmlContent = htmlContent.Replace("@p1", ""); // Puedes dejar esto en blanco
+        htmlContent = htmlContent.Replace("@p2", ""); // Puedes dejar esto en blanco
+        htmlContent = htmlContent.Replace("@p3", ""); // Puedes dejar esto en blanco
+        htmlContent = htmlContent.Replace("@p4", ""); // Puedes dejar esto en blanco
+        htmlContent = htmlContent.Replace("@p5", ""); // Puedes dejar esto en blanco
+        htmlContent = htmlContent.Replace("@p6", ""); // Puedes dejar esto en blanco
+        htmlContent = htmlContent.Replace("@p7", ""); // Puedes dejar esto en blanco
+        htmlContent = htmlContent.Replace("@p8", ""); // Puedes dejar esto en blanco
+        htmlContent = htmlContent.Replace("@p9", ""); // Puedes dejar esto en blanco
+        htmlContent = htmlContent.Replace("@pe", ""); // Puedes dejar esto en blanco
+        htmlContent = htmlContent.Replace("@pi", ""); // Puedes dejar esto en blanco
 
         using (FileStream stream = new FileStream(outputFilePath, FileMode.Create))
         {
@@ -33,10 +34,30 @@ public class generarPDF
 
             pdfDoc.Open();
             pdfDoc.Add(new Phrase(""));
-            using (StringReader sr = new StringReader(htmlContent))
+
+            // Crear una tabla para mostrar los datos de ventas
+            PdfPTable table = new PdfPTable(6); // 6 columnas para ID Venta, Fecha de Compra, Hora de Compra, Total en Ventas, Costo en Ventas, Ganancias
+
+            // Agregar encabezados
+            table.AddCell("ID Venta");
+            table.AddCell("Fecha de Compra");
+            table.AddCell("Hora de Compra");
+            table.AddCell("Total en Ventas");
+            table.AddCell("Costo en Ventas");
+            table.AddCell("Ganancias");
+
+            foreach (VentaDetalle venta in ventas)
             {
-                XMLWorkerHelper.GetInstance().ParseXHtml(writer, pdfDoc, sr);
+                // Agregar datos de ventas a la tabla
+                table.AddCell(venta.IDVenta);
+                table.AddCell(venta.FechaCompra);
+                table.AddCell(venta.HoraCompra);
+                table.AddCell(venta.TotalEnVentas.ToString());
+                table.AddCell(venta.CostoEnVentas.ToString());
+                table.AddCell(venta.Ganancias.ToString());
             }
+
+            pdfDoc.Add(table);
             pdfDoc.Close();
         }
     }

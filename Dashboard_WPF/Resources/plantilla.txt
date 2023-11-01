@@ -3,79 +3,30 @@
 <head>
     <title>Document</title>
     <style>
-        body {
-            border: 1px solid black;
-            padding: 20px;
-        }
         table {
+            border-collapse: collapse;
             width: 100%;
         }
         th, td {
-            padding: 5px;
             border: 1px solid black;
+            padding: 4px; /* Reduje el espacio entre el texto y el borde */
+            text-align: center;
         }
-        .first-column {
-            width: 40%;
-        }
-        .second-column {
-            width: 60%;
-        }
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
+     
     </style>
 </head>
 <body>
-    <div class="container">
-        <h3>DETALLES DE TRÁMITE Y HOJA DE RUTA</h3>
-    </div>
-    <p>Proceso del trámite: @p1</p>
-    <progress id="progress" value="50" max="100"></progress>
-    <table>
-      
-        <tr>
-            <td class="first-column">Código de Hoja de Ruta:</td>
-            <td class="second-column">@p2</td>
-        </tr>
-        <tr>
-            <td class="first-column">Nombre Completo del Interesado:</td>
-            <td class="second-column">@p3</td>
-        </tr>
-        <tr>
-            <td class="first-column">Número de Celular del Interesado:</td>
-            <td class="second-column">@p4</td>
-        </tr>
-        <tr>
-            <td class="first-column">Fecha de Inicio de Trámite:</td>
-            <td class="second-column">@p5</td>
-        </tr>
-        <tr>
-            <td class="first-column">Fecha de Finalización de Trámite:</td>
-            <td class="second-column">@p6</td>
-        </tr>
-        <tr>
-            <td class="first-column">Tipo de Trámite:</td>
-            <td class="second-column">@p7</td>
-        </tr>
-        <tr>
-            <td class="first-column">Estado del Trámite:</td>
-            <td class="second-column">@p8</td>
-        </tr>
-        <tr>
-            <td class="first-column">Ente Observador:</td>
-            <td class="second-column">@p9</td>
-        </tr>
-        <tr>
-            <td class="first-column">Descripción del Trámite:</td>
-            <td class="second-column">@pe</td>
-        </tr>
-        <tr>
-            <td class="first-column">Observación del Trámite:</td>
-            <td class="second-column">@pi</td>
-        </tr>
-    </table>
+    <h3>Tabla de Ventas</h3>
+ <table>
+    <tr>
+        <th style="background-color: #F0F0F0; color: #333; font-size: 7px;">ID Venta</th>
+        <th style="background-color: #F0F0F0; color: #333; font-size: 7px;">Fecha de Compra</th>
+        <th style="background-color: #F0F0F0; color: #333; font-size: 7px;">Hora de Compra</th>
+        <th style="background-color: #F0F0F0; color: #333; font-size: 7px;">Total en Ventas</th>
+        <th style="background-color: #F0F0F0; color: #333; font-size: 7px;">Costo en Ventas</th>
+        <th style="background-color: #F0F0F0; color: #333; font-size: 7px;">Ganancias</th>
+    </tr>
+</table>
+
 </body>
 </html>
