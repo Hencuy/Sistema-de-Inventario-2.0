@@ -129,7 +129,7 @@
             <StackPanel Grid.Row="2" Orientation="Horizontal">
                 <StackPanel Margin="0 0 7 0" >
                     <StackPanel Orientation="Horizontal" Margin="10 0 0 0">
-                        <TextBlock VerticalAlignment="Center" FontSize="10" Margin="0 0 0 0" FontFamily="Verdana">Cliente</TextBlock>
+                        <TextBlock VerticalAlignment="Center" FontSize="10" Margin="0 0 0 0" FontFamily="Verdana" Text="Cliente (CI)"/>
                     </StackPanel>
                     <TextBox Name="CiCliente" Foreground="Black" Width="200" Height="23" Margin="7 0 0 0"></TextBox>
                 </StackPanel>

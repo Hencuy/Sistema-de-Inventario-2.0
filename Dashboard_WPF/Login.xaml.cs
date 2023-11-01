@@ -79,20 +79,24 @@ namespace Dashboard_WPF
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
             SqlConnection conexion = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB; Initial Catalog=BDInventarioVenta; Integrated Security=True;");
-
             conexion.Open();
+
             string username = txtusuario.Text;
             string password = txtPass.Password;
             string pass = txtPass2.Text;
+
             string query = "SELECT Nombre, Apellidos, Cargo, UserName, Contraseña FROM Usuario WHERE UserName = @UserName";
             SqlCommand comando = new SqlCommand(query, conexion);
             comando.Parameters.AddWithValue("@UserName", username);
+
             SqlDataReader registros = comando.ExecuteReader();
+
             if (registros.Read())
             {
                 string contraseñaHash = registros["Contraseña"].ToString();
+                string dbUsername = registros["UserName"].ToString();
 
-                if (VerificarContraseña(password, contraseñaHash) || VerificarContraseña(pass, contraseñaHash))
+                if (dbUsername.Equals(username) && (VerificarContraseña(password, contraseñaHash) || VerificarContraseña(pass, contraseñaHash)))
                 {
                     nombreUsuario = registros["Nombre"].ToString();
                     cargoUsuario = registros["Cargo"].ToString();
@@ -118,7 +122,6 @@ namespace Dashboard_WPF
                         formBienvenida.Close(); // Cierra la ventana de bienvenida después de abrir la principal
                     };
                     timer.Start();
-
                 }
                 else
                 {
@@ -136,9 +139,15 @@ namespace Dashboard_WPF
                 {
                     MessageBox.Show("No ingresó ningún dato.");
                 }
+                else
+                {
+                    MessageBox.Show("Nombre de usuario incorrecto.");
+                }
             }
+
             conexion.Close();
         }
+
 
 
         private void txtID_KeyDown(object sender, KeyEventArgs e)
@@ -146,26 +155,30 @@ namespace Dashboard_WPF
             if (e.Key == Key.Enter)
             {
                 SqlConnection conexion = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB; Initial Catalog=BDInventarioVenta; Integrated Security=True;");
-
                 conexion.Open();
+
                 string username = txtusuario.Text;
                 string password = txtPass.Password;
                 string pass = txtPass2.Text;
-                string query = "SELECT Nombre,Apellidos, Cargo, UserName, Contraseña FROM Usuario WHERE UserName = @UserName";
+
+                string query = "SELECT Nombre, Apellidos, Cargo, UserName, Contraseña FROM Usuario WHERE UserName = @UserName";
                 SqlCommand comando = new SqlCommand(query, conexion);
                 comando.Parameters.AddWithValue("@UserName", username);
+
                 SqlDataReader registros = comando.ExecuteReader();
+
                 if (registros.Read())
                 {
                     string contraseñaHash = registros["Contraseña"].ToString();
+                    string dbUsername = registros["UserName"].ToString();
 
-                    if (VerificarContraseña(password, contraseñaHash) || VerificarContraseña(pass, contraseñaHash))
+                    if (dbUsername.Equals(username) && (VerificarContraseña(password, contraseñaHash) || VerificarContraseña(pass, contraseñaHash)))
                     {
-                        string nombreUsuario = registros["Nombre"].ToString();
-                        string cargoUsuario = registros["Cargo"].ToString();
+                        nombreUsuario = registros["Nombre"].ToString();
+                        cargoUsuario = registros["Cargo"].ToString();
                         apellidosUsuario = registros["Apellidos"].ToString();
-
                         MessageBox.Show("Bienvenido, " + nombreUsuario + ". Cargo: " + cargoUsuario);
+
                         // Oculta la ventana de inicio de sesión
                         Hide();
 
@@ -179,10 +192,10 @@ namespace Dashboard_WPF
                         timer.Tick += (s, args) =>
                         {
                             timer.Stop();
-                            formBienvenida.Close(); // Cierra la ventana de bienvenida
-                                                    // Abre la ventana principal
+                            // Abre la ventana principal
                             MainWindow mainWindow = new MainWindow(nombreUsuario, cargoUsuario);
                             mainWindow.Show();
+                            formBienvenida.Close(); // Cierra la ventana de bienvenida después de abrir la principal
                         };
                         timer.Start();
                     }
@@ -202,7 +215,12 @@ namespace Dashboard_WPF
                     {
                         MessageBox.Show("No ingresó ningún dato.");
                     }
+                    else
+                    {
+                        MessageBox.Show("Nombre de usuario incorrecto.");
+                    }
                 }
+
                 conexion.Close();
             }
         }

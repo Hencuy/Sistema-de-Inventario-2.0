@@ -61,5 +61,7 @@ namespace Dashboard_WPF.Views.Categorias
 
             txtNombreCat.Clear();
         }
+
+
     }
 }

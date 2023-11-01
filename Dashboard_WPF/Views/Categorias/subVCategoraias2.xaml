@@ -21,7 +21,7 @@
     </Page.Resources>
 
     <Grid Background="White" Height="420" Width="870">
-        <DataGrid Name="tablaCategorias" AutoGenerateColumns="False" CanUserAddRows="False" ColumnHeaderStyle="{StaticResource DataGridColumnHeaderStyle}">
+        <DataGrid Name="tablaCategorias" AutoGenerateColumns="False" CanUserAddRows="False" ColumnHeaderStyle="{StaticResource DataGridColumnHeaderStyle}" SelectionChanged="tablaCategorias_SelectionChanged">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="#" IsReadOnly="True" CanUserResize="False" Width="auto" Binding="{Binding Number}" HeaderStyle="{StaticResource DataGridColumnHeaderStyle}">
                     <DataGridTextColumn.ElementStyle>

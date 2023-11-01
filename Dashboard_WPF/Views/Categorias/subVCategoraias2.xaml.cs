@@ -71,31 +71,49 @@ namespace Dashboard_WPF.Views.Categorias
                 // Abre la conexión a la base de datos
                 conexion.Open();
 
-                // Consulta SQL para actualizar el estado del proveedor
-                string consulta = "UPDATE Categoria SET Estado = 0 WHERE idCategoria = @id";
+                // Consulta SQL para verificar el estado actual de la categoría
+                string consultaEstado = "SELECT Estado FROM Categoria WHERE idCategoria = @id";
 
-                using (SqlCommand comando = new SqlCommand(consulta, conexion))
+                using (SqlCommand comandoEstado = new SqlCommand(consultaEstado, conexion))
                 {
-                    // Agrega el parámetro NIT a la consulta SQL
-                    comando.Parameters.AddWithValue("@id", idcatego);
+                    comandoEstado.Parameters.AddWithValue("@id", idcatego);
 
-                    // Ejecuta la consulta
-                    int filasAfectadas = comando.ExecuteNonQuery();
+                    // Obtener el estado actual de la categoría
+                    int estadoActual = Convert.ToInt32(comandoEstado.ExecuteScalar());
 
-                    // Verifica si se actualizó al menos una fila
-                    if (filasAfectadas > 0)
+                    // Verificar si el estado actual ya es 0 
+                    if (estadoActual == 0)
                     {
-                        MessageBox.Show("Proveedor Eliminado correctamente.");
+                        MessageBox.Show("Esta Categoria ya está eliminada y no se puede eliminar nuevamente.");
                     }
                     else
                     {
-                        MessageBox.Show("No se pudo eliminar al proveedor.");
+                        // Consulta SQL para actualizar el estado de la categoría
+                        string consulta = "UPDATE Categoria SET Estado = 0 WHERE idCategoria = @id";
+
+                        using (SqlCommand comando = new SqlCommand(consulta, conexion))
+                        {
+                            comando.Parameters.AddWithValue("@id", idcatego);
+
+                            // Ejecuta la consulta
+                            int filasAfectadas = comando.ExecuteNonQuery();
+
+                            // Verifica si se actualizó al menos una fila
+                            if (filasAfectadas > 0)
+                            {
+                                MessageBox.Show("La Categoria fue eliminada correctamente.");
+                            }
+                            else
+                            {
+                                MessageBox.Show("No se pudo eliminar la Categoria.");
+                            }
+                        }
                     }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error al cambiar el estado del proveedor: " + ex.Message);
+                MessageBox.Show("Error al cambiar el estado de la categoria: " + ex.Message);
             }
             finally
             {
@@ -103,6 +121,7 @@ namespace Dashboard_WPF.Views.Categorias
                 conexion.Close();
             }
         }
+
         private T FindParent<T>(DependencyObject child) where T : DependencyObject
         {
             DependencyObject parent = VisualTreeHelper.GetParent(child);
@@ -159,6 +178,11 @@ namespace Dashboard_WPF.Views.Categorias
                 CambiarEstadoCategoria(idcatego);
                 CargarTabla();
             }
+        }
+
+        private void tablaCategorias_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

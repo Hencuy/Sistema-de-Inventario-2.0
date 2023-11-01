@@ -9,7 +9,16 @@
       mc:Ignorable="d" 
       d:DesignHeight="420" d:DesignWidth="870"
       Title="subVCategoraias3">
+    <Page.Resources>
+        <Style x:Key="DataGridColumnHeaderStyle" TargetType="{x:Type DataGridColumnHeader}">
+            <Setter Property="Background" Value="#2D4356"/>
+            <!-- Cambia "ColorDeFondoDeseado" al color que desees -->
+            <Setter Property="Foreground" Value="White"/>
+            <!-- Cambia "Blanco" al color de fuente que desees -->
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
 
+    </Page.Resources>
     <Grid Background="White" Height="420" Width="870">
         <StackPanel>
             <StackPanel Background="#F9F5F6" Height="200" Margin="0,37,0,0" Orientation="Vertical">
@@ -23,57 +32,41 @@
                 </Button>
             </StackPanel>
             <StackPanel>
-                
-                <DataGrid Name="tablaCategoriasBuscar" AutoGenerateColumns="False" CanUserAddRows="False" ColumnHeaderStyle="{DynamicResource DataGridColumnHeaderStyle2}">
+                <DataGrid Name="tablaCategoriasBuscar" AutoGenerateColumns="False" CanUserAddRows="False" ColumnHeaderStyle="{StaticResource DataGridColumnHeaderStyle}" Style="{DynamicResource MaterialDesignDataGrid}" >
                     <DataGrid.Columns>
-                        <DataGridTemplateColumn Header="#" IsReadOnly="True" CanUserResize="False" Width="auto">
+                        <DataGridTemplateColumn Header="#" IsReadOnly="True" CanUserResize="False" Width="50">
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
-                                    <StackPanel Orientation="Horizontal">
-                                        <Border Width="auto" Height="auto" CornerRadius="3" Margin="0 0 0 0" Background="Transparent" BorderBrush="Transparent" BorderThickness="2">
-                                            <TextBlock Text="{Binding Number}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
-                                        </Border>
-                                    </StackPanel>
+                                    <TextBlock Text="{Binding Number}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
                                 </DataTemplate>
                             </DataGridTemplateColumn.CellTemplate>
                         </DataGridTemplateColumn>
-                        <DataGridTemplateColumn Header="Nombre" IsReadOnly="True" CanUserResize="False" Width="auto">
+                        <DataGridTemplateColumn Header="Nombre" IsReadOnly="True" CanUserResize="False" Width="100">
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
-                                    <StackPanel Orientation="Horizontal">
-                                        <Border Width="auto" Height="auto" CornerRadius="3" Margin="0 0 0 0" Background="Transparent" BorderBrush="Transparent" BorderThickness="2">
-                                            <TextBlock Text="{Binding Nombre}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
-                                        </Border>
-                                    </StackPanel>
+                                    <TextBlock Text="{Binding Nombre}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
                                 </DataTemplate>
                             </DataGridTemplateColumn.CellTemplate>
                         </DataGridTemplateColumn>
-                        <DataGridTemplateColumn Header="Ubicacion" IsReadOnly="True" CanUserResize="False" Width="auto">
+                        <DataGridTemplateColumn Header="Ubicacion" IsReadOnly="True" CanUserResize="False" Width="100">
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
-                                    <StackPanel Orientation="Horizontal">
-                                        <Border Width="auto" Height="auto" CornerRadius="3" Margin="0 0 0 0" Background="Transparent" BorderBrush="Transparent" BorderThickness="2">
-                                            <TextBlock Text="{Binding Ubicacion}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
-                                        </Border>
-                                    </StackPanel>
+                                    <TextBlock Text="{Binding Ubicacion}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
                                 </DataTemplate>
                             </DataGridTemplateColumn.CellTemplate>
                         </DataGridTemplateColumn>
-                        <DataGridTemplateColumn Header="Estado" IsReadOnly="True" CanUserResize="False" Width="auto">
+                        <DataGridTemplateColumn Header="Estado" IsReadOnly="True" CanUserResize="False" Width="100">
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
-                                    <StackPanel Orientation="Horizontal">
-                                        <Border Width="auto" Height="auto" CornerRadius="3" Margin="0 0 0 0" Background="Transparent" BorderBrush="Transparent" BorderThickness="2">
-                                            <TextBlock Text="{Binding Estado}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
-                                        </Border>
-                                    </StackPanel>
+                                    <TextBlock Text="{Binding Estado}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black"/>
                                 </DataTemplate>
                             </DataGridTemplateColumn.CellTemplate>
                         </DataGridTemplateColumn>
-
-                       
                     </DataGrid.Columns>
                 </DataGrid>
+
+
+
             </StackPanel>
         </StackPanel>
     </Grid>

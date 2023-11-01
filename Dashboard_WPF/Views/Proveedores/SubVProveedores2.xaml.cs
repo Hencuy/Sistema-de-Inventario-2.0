@@ -114,6 +114,7 @@ namespace Dashboard_WPF.Views.Proveedores
                 
             }
         }
+
         private void CambiarEstadoProveedor(string nit)
         {
             try
@@ -121,25 +122,43 @@ namespace Dashboard_WPF.Views.Proveedores
                 // Abre la conexión a la base de datos
                 conexion.Open();
 
-                // Consulta SQL para actualizar el estado del proveedor
-                string consulta = "UPDATE Proveedor SET Estado = 0 WHERE NIT = @NIT";
+                // Consulta SQL para verificar el estado actual del proveedor
+                string consultaEstado = "SELECT Estado FROM Proveedor WHERE NIT = @NIT";
 
-                using (SqlCommand comando = new SqlCommand(consulta, conexion))
+                using (SqlCommand comandoEstado = new SqlCommand(consultaEstado, conexion))
                 {
-                    // Agrega el parámetro NIT a la consulta SQL
-                    comando.Parameters.AddWithValue("@NIT", nit);
+                    comandoEstado.Parameters.AddWithValue("@NIT", nit);
 
-                    // Ejecuta la consulta
-                    int filasAfectadas = comando.ExecuteNonQuery();
+                    // Obtener el estado actual del proveedor
+                    int estadoActual = Convert.ToInt32(comandoEstado.ExecuteScalar());
 
-                    // Verifica si se actualizó al menos una fila
-                    if (filasAfectadas > 0)
+                    // Verificar si el estado actual ya es 0
+                    if (estadoActual == 0)
                     {
-                        MessageBox.Show("Proveedor Eliminado correctamente.");
+                        MessageBox.Show("Este proveedor ya está eliminado y no se puede eliminar nuevamente.");
                     }
                     else
                     {
-                        MessageBox.Show("No se pudo eliminar al proveedor.");
+                        // Consulta SQL para actualizar el estado del proveedor
+                        string consulta = "UPDATE Proveedor SET Estado = 0 WHERE NIT = @NIT";
+
+                        using (SqlCommand comando = new SqlCommand(consulta, conexion))
+                        {
+                            comando.Parameters.AddWithValue("@NIT", nit);
+
+                            // Ejecuta la consulta
+                            int filasAfectadas = comando.ExecuteNonQuery();
+
+                            // Verifica si se actualizó al menos una fila
+                            if (filasAfectadas > 0)
+                            {
+                                MessageBox.Show("Proveedor eliminado correctamente.");
+                            }
+                            else
+                            {
+                                MessageBox.Show("No se pudo eliminar al proveedor.");
+                            }
+                        }
                     }
                 }
             }
