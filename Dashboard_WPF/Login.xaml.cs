@@ -55,8 +55,6 @@ namespace Dashboard_WPF
             {
                 // Convertir la contraseña en un array de bytes
                 byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(contraseña));
-
-                // Convertir el array de bytes en una cadena hexadecimal
                 StringBuilder builder = new StringBuilder();
                 for (int i = 0; i < bytes.Length; i++)
                 {
@@ -83,7 +81,6 @@ namespace Dashboard_WPF
 
             string username = txtusuario.Text;
             string password = txtPass.Password;
-            string pass = txtPass2.Text;
 
             string query = "SELECT Nombre, Apellidos, Cargo, UserName, Contraseña FROM Usuario WHERE UserName = @UserName";
             SqlCommand comando = new SqlCommand(query, conexion);
@@ -96,12 +93,13 @@ namespace Dashboard_WPF
                 string contraseñaHash = registros["Contraseña"].ToString();
                 string dbUsername = registros["UserName"].ToString();
 
-                if (dbUsername.Equals(username) && (VerificarContraseña(password, contraseñaHash) || VerificarContraseña(pass, contraseñaHash)))
+                if (VerificarContraseña(password, contraseñaHash))
+                if (dbUsername.Equals(username) && (VerificarContraseña(password, contraseñaHash)))
+
                 {
                     nombreUsuario = registros["Nombre"].ToString();
                     cargoUsuario = registros["Cargo"].ToString();
                     apellidosUsuario = registros["Apellidos"].ToString();
-                    MessageBox.Show("Bienvenido, " + nombreUsuario + ". Cargo: " + cargoUsuario);
 
                     // Oculta la ventana de inicio de sesión
                     Hide();
@@ -159,9 +157,9 @@ namespace Dashboard_WPF
 
                 string username = txtusuario.Text;
                 string password = txtPass.Password;
-                string pass = txtPass2.Text;
 
                 string query = "SELECT Nombre, Apellidos, Cargo, UserName, Contraseña FROM Usuario WHERE UserName = @UserName";
+
                 SqlCommand comando = new SqlCommand(query, conexion);
                 comando.Parameters.AddWithValue("@UserName", username);
 
@@ -172,7 +170,11 @@ namespace Dashboard_WPF
                     string contraseñaHash = registros["Contraseña"].ToString();
                     string dbUsername = registros["UserName"].ToString();
 
-                    if (dbUsername.Equals(username) && (VerificarContraseña(password, contraseñaHash) || VerificarContraseña(pass, contraseñaHash)))
+
+                    if (VerificarContraseña(password, contraseñaHash))
+
+                    if (dbUsername.Equals(username) && (VerificarContraseña(password, contraseñaHash)))
+
                     {
                         nombreUsuario = registros["Nombre"].ToString();
                         cargoUsuario = registros["Cargo"].ToString();
@@ -224,19 +226,5 @@ namespace Dashboard_WPF
                 conexion.Close();
             }
         }
-        private void chkMostrarContrasena_Checked(object sender, RoutedEventArgs e)
-        {
-            txtPass.Visibility = Visibility.Collapsed;
-            txtPass2.Text = txtPass.Password;
-            txtPass2.Visibility = Visibility.Visible;
-        }
-
-        private void chkMostrarContrasena_Unchecked(object sender, RoutedEventArgs e)
-        {
-            txtPass.Visibility = Visibility.Visible;
-            txtPass.Password = txtPass2.Text;
-            txtPass2.Visibility = Visibility.Collapsed;
-        }
-
     }
 }

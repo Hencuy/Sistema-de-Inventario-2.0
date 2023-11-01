@@ -15,9 +15,9 @@ namespace Dashboard_WPF
         public VentanaDeCarga(string nombreUsuario, string apellidosUsuario, string cargoUsuario)
         {
             InitializeComponent();
-            txtCargarNombre.Content = nombreUsuario;
-            txtCargarApellido.Content = apellidosUsuario;
-            txtCargarCargos.Content = cargoUsuario;
+            txtCargarNombre.Content = nombreUsuario.ToUpper();
+            txtCargarApellido.Content = apellidosUsuario.ToUpper();
+            txtCargarCargos.Content = cargoUsuario.ToUpper();
 
             ProgressBarCarga = FindName("ProgressBarCarga") as ProgressBar;
             timer = new DispatcherTimer();

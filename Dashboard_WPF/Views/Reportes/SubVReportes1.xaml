@@ -23,7 +23,7 @@
                     Estadísticas de ventas de hoy (16-10-2023)
                 </TextBlock>
                 <Grid Background="White" Height="120" Width="870">
-                    <DataGrid x:Name="EnAlmacen" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True" BorderThickness="0">
+                    <DataGrid x:Name="EnAlmacen" AutoGenerateColumns="False" ItemsSource="{Binding ventas}" CanUserAddRows="False" IsReadOnly="True" BorderThickness="0">
                         <DataGrid.CellStyle>
                             <Style TargetType="DataGridCell">
                                 <Setter Property="HorizontalAlignment" Value="Center" />
@@ -31,34 +31,12 @@
                             </Style>
                         </DataGrid.CellStyle>
                         <DataGrid.Columns>
-                            <DataGridTemplateColumn Header="Ventas Realizadas" Width="auto">
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding CodigoBarra}" Foreground="Black"/>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn>
-                            <DataGridTemplateColumn Header="Total en Ventas" Width="auto">
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding Nombre}" Foreground="Black"/>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn>
-                            <DataGridTemplateColumn Header="Costo en Ventas" Width="auto">
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding Presentacion}" Foreground="Black"/>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn>
-                            <DataGridTemplateColumn Header="Ganancias" Width="auto">
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding Marca}" Foreground="Black"/>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn>
+                            <DataGridTextColumn Header="ID Venta" Width="auto" Binding="{Binding IDVenta}" />
+                            <DataGridTextColumn Header="Fecha de Compra" Width="auto" Binding="{Binding FechaCompra}" />
+                            <DataGridTextColumn Header="Hora de Compra" Width="auto" Binding="{Binding HoraCompra}" />
+                            <DataGridTextColumn Header="Total en Ventas" Width="auto" Binding="{Binding TotalEnVentas}" />
+                            <DataGridTextColumn Header="Costo en Ventas" Width="auto" Binding="{Binding CostoEnVentas}" />
+                            <DataGridTextColumn Header="Ganancias" Width="auto" Binding="{Binding Ganancias}" />
                         </DataGrid.Columns>
                     </DataGrid>
                 </Grid>
@@ -84,17 +62,17 @@
                             </TextBlock>
                             <materialDesign:PackIcon Height="10" Width="10" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0" Foreground="#455A64"/>
                         </StackPanel>
-                        <DatePicker Foreground="#455A64" Width="300"/>
+                        <DatePicker Name="FechaInicial" Foreground="#455A64" Width="300"/>
                     </StackPanel>
                     <StackPanel Margin="0 30 0 0">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="0 0 0 0" FontFamily="Verdana" Foreground="#455A64">Fecha final (dia/mes/año)</TextBlock>
                             <materialDesign:PackIcon Height="10" Width="10" Kind="Flag" VerticalAlignment="Center" Margin="0 0 0 0" Foreground="#455A64"/>
                         </StackPanel>
-                        <DatePicker Foreground="#455A64" Width="300"/>
+                        <DatePicker  Name="FechaFinal" Foreground="#455A64" Width="300"/>
                     </StackPanel>
                 </StackPanel>
-                <Button Margin="0 40 0 0" Width="160">
+                <Button x:Name="GenerarReporte" Margin="0 40 0 0" Width="160" Click="GenerarReporte_Click">
                     <WrapPanel>
                         <materialDesign:PackIcon Kind="FilePdfBox" VerticalAlignment="Center" Margin="0 0 7 0"/>
                         <TextBlock FontSize="14">Generar Reporte</TextBlock>

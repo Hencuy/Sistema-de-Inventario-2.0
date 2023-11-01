@@ -5,41 +5,74 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:local="clr-namespace:Dashboard_WPF"
     mc:Ignorable="d"
-    Height="597" Width="432"
+    Height="450" Width="800"
     WindowStyle="None"
     ResizeMode="NoResize"
     WindowStartupLocation="CenterScreen"
     AllowsTransparency="True"
     MouseDown="MOVER" Style="{DynamicResource WindowStyle1}">
     <Border CornerRadius="12" Style="{DynamicResource BorderStyle1}">
-        <Grid >
-            <Grid.RowDefinitions>
-                <RowDefinition Height="40"/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
-            <Grid Grid.Row="0" Cursor="">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition Width="27"/>
-                    <ColumnDefinition Width="30"/>
-                    <ColumnDefinition Width="16"/>
-                </Grid.ColumnDefinitions>
-                <TextBlock Text="LOGIN" Grid.Column="0" Margin="19,0,0,0" Style="{DynamicResource TextBlockStyle2}"/>
-                <Button x:Name="btnminimizar" Click="btnminimizar_Click" Style="{DynamicResource BTNStyle2}" Grid.Column="1"/>
-                <Button x:Name="btnclose" Grid.Column="2" Click="btnclose_Click" Style="{DynamicResource BTNStyle3}"/>
-            </Grid>
-            <StackPanel Grid.Row="1" Orientation="Vertical" Margin="57,200,57,33">
-                <TextBlock Text="USUARIO" HorizontalAlignment="Left"  Margin="0,35,0,0" Style="{DynamicResource TextBlockStyle1}"/>
-                <TextBox Style="{DynamicResource TextBoxStyle1}" x:Name="txtusuario" KeyDown="txtID_KeyDown"/>
-                <TextBlock Text="CONTRASEÑA" HorizontalAlignment="Left" Margin="0,25,0,0" Style="{DynamicResource TextBlockStyle1}"/>
-                <StackPanel Margin="0,15,0,0">
-                    <PasswordBox Style="{DynamicResource PasswordBoxStyle1}" x:Name="txtPass" KeyDown="txtID_KeyDown"/>
-                    <TextBox x:Name="txtPass2" Visibility="Collapsed" KeyDown="txtID_KeyDown" Style="{DynamicResource TextBoxStyle2}"/>
-                </StackPanel>           
-                <Button x:Name="btnLogin"  Margin="0,50,0,0" Height="40" Width="150" Content="INICIAR" Click="btnLogin_Click" Style="{DynamicResource BTNStyle1}"/>
+        <Grid Name="Inicio" Panel.ZIndex="3" Visibility="Visible" Cursor="">
+            <Grid.Resources>
+                <Style TargetType="Image">
+                    <Setter Property="Effect">
+                        <Setter.Value>
+                            <BlurEffect Radius="3"/>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Grid.Resources>
+            <Image Source="/AdobeStock_630206907.jpeg" Margin="-52,-45,-45,-48"/>
+            <Border CornerRadius="10" BorderThickness="2" BorderBrush="Black" Background="Black" Margin="64,19,76,19" Opacity="0.6"/>
+            <Label Content="LOGIN" FontSize="60" Foreground="White" Margin="296,40,308,306" FontFamily="Segoe UI Variable Small Semibold"/>
+           
+            <StackPanel Orientation="Vertical" Margin="251,123,251,0" Cursor="">
+                <TextBlock Text="Username" Foreground="White" FontSize="20" FontWeight="Medium" FontFamily="Montserrat" Margin="0,35,0,0"/>
+                <TextBox x:Name="txtusuario"
+                     Margin="0,10,0,0"
+                     FontSize="13"
+                     FontWeight="Medium"
+                     FontFamily="Montserrat"                            
+                     Foreground="White"
+                     CaretBrush="LightGray"
+                     BorderBrush="DarkGray"
+                     BorderThickness="0,0,0,2"
+                     Height="28"
+                     VerticalContentAlignment="Center"
+                     Background="Transparent" Cursor="Hand">
+                </TextBox>
+                <TextBlock Text="Password" Foreground="White" FontSize="20" FontWeight="Medium" FontFamily="Montserrat" Margin="0,25,0,0"/>
+                <PasswordBox x:Name="txtPass"  Margin="0,10,0,0" FontSize="15" FontWeight="Medium" FontFamily="Montserrat" Foreground="White" CaretBrush="LightGray" BorderBrush="DarkGray" BorderThickness="0,0,0,2" Height="28" VerticalContentAlignment = "Center" Background="Transparent" KeyDown="txtID_KeyDown"/>
+                <Button x:Name="btnLogin"                          
+                    BorderThickness="0"
+                    Content="Ingresar"
+                    Foreground="White"
+                    FontSize="20"
+                    FontFamily="Montserrat"
+                    Cursor="Hand"                           
+                    Margin="0,30,0,0" Click="btnLogin_Click">
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Background" Value="#FFE7AE5A"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#FFDCA658"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Width="300" Height="40"
+                                CornerRadius="1"
+                                Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+                                              HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
             </StackPanel>
-            <CheckBox x:Name="chkMostrarContrasena" Grid.Row="1" Height="20" Width="20" Checked="chkMostrarContrasena_Checked" Unchecked="chkMostrarContrasena_Unchecked" Margin="323,356,83,175"/>
-            <Label Style="{DynamicResource LabelStyle1}" Content="INICIAR SESION" Margin="10,28,0,0" Foreground="#DDFFFFFF" FontSize="27" Grid.Row="1"/>
         </Grid>
     </Border>
 </Window>

@@ -20,7 +20,7 @@
                         <StackPanel Orientation="Horizontal">
                             <TextBlock  VerticalAlignment="Center" FontSize="10" Margin="0 0 0 0" FontFamily="Verdana" Foreground="#455A64">Ordenar por</TextBlock>
                         </StackPanel>
-                        <ComboBox Width="300" Margin="0 0 0 0" Foreground="#455A64"></ComboBox>
+                        <ComboBox x:Name="ComboEstado" Width="300" Margin="0 10 0 0" Foreground="#455A64" SelectedIndex="0">                            <ComboBoxItem>Nombre</ComboBoxItem>                            <ComboBoxItem>Stock</ComboBoxItem>                            <ComboBoxItem>Precio</ComboBoxItem>                            <ComboBoxItem>Precio mayoreo</ComboBoxItem>                        </ComboBox>
                     </StackPanel>
                 </StackPanel>
                 <Button Margin="0 40 0 0" Width="160">

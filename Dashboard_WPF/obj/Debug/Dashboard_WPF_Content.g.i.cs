@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/plantilla.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("adobestock_630206907.jpeg")]
 
 

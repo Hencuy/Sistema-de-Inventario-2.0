@@ -5,39 +5,49 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Dashboard_WPF" 
         mc:Ignorable="d"
-        Title="VentanaDeCarga" Height="368" Width="551"
+        Title="VentanaDeCarga" Height="450" Width="800"
         WindowStyle="None"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
         AllowsTransparency="True"
         MouseDown="MOVER" Style="{DynamicResource WindowStyle1}">
-    <Border Style="{DynamicResource BorderStyle2}">
-        <StackPanel>
-            <Label Name="lblMensaje" Content="Bienvenido" FontSize="50" Margin="10,48,0,0" Style="{DynamicResource LabelStyle1}"/>
-            <StackPanel Orientation="Horizontal" Width="auto" Height="auto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="49,15,0,0">
-                <Label x:Name="txtCargarNombre" Content="NOMBRE" Style="{DynamicResource LabelStyle1}"/>
-                <Label x:Name="txtCargarApellido" Content="APELLIDOS" Style="{DynamicResource LabelStyle1}"/>
-            </StackPanel>
-            <StackPanel Orientation="Horizontal" Width="auto" Height="auto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="119,65,0,0">
-                <Label x:Name="txtCargo" Content="CARGO: " Foreground="Black" Style="{DynamicResource LabelStyle1}"/>
-                <Label x:Name="txtCargarCargos" Content="CARGOS USUARIO" Foreground="Black" Style="{DynamicResource LabelStyle1}"/>
-            </StackPanel>
-            <Grid Margin="0 20 0 0">
-                <ProgressBar x:Name="ProgressBarCarga" Minimum="0" Maximum="10" Value="0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="400" Height="28" Margin="0,0,0,0" >
-                    <ProgressBar.Background>
-                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                            <GradientStop Color="Black" Offset="0"/>
-                            <GradientStop Color="#FF4986E6" Offset="1"/>
-                        </LinearGradientBrush>
-                    </ProgressBar.Background>
-                </ProgressBar>
-                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" FontWeight="Bold" Foreground="White">
-                    <Run Text="{Binding ElementName=ProgressBarCarga, Path=Value}" />
-                    <Run Text=" / " />
-                    <Run Text="{Binding ElementName=ProgressBarCarga, Path=Maximum}" />
-                </TextBlock>
-            </Grid>
+    <Border>
+        <Grid Name="Inicio" Panel.ZIndex="3" Visibility="Visible" Cursor="">
+            <Grid.Resources>
+                <Style TargetType="Image">
+                    <Setter Property="Effect">
+                        <Setter.Value>
+                            <BlurEffect Radius="5"/>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Grid.Resources>
+            <Image Source="/AdobeStock_630206907.jpeg" Margin="-52,-45,-45,-48"/>
+            <Border CornerRadius="10" BorderThickness="2" BorderBrush="Black" Background="Black" Margin="64,19,76,19" Opacity="0.6"/>
+            <Grid>
+                <Label Name="lblMensaje" Content="BIENVENIDO" FontSize="50" Margin="0,75,0,0" Style="{DynamicResource LabelStyle1}" HorizontalAlignment="Center"/>
+                <Label x:Name="txtCargarNombre" Content="NOMBRE" Style="{DynamicResource LabelStyle1}" Margin="289,185,0,0"/>
+                <Label x:Name="txtCargarApellido" Content="APELLIDOS" Style="{DynamicResource LabelStyle1}" Margin="407,185,0,0"/>
+                <Label x:Name="txtCargo" Content="CARGO: " Foreground="White" Style="{DynamicResource LabelStyle1}" Margin="153,243,0,0"/>
+                <Label x:Name="txtCargarCargos" Content="CARGOS USUARIO" Foreground="White" Style="{DynamicResource LabelStyle1}" Margin="289,243,0,0"/>
+                <Grid Margin="0 20 0 0">
+                    <ProgressBar x:Name="ProgressBarCarga" Minimum="0" Maximum="10" Value="0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="484" Height="28" Margin="0,301,0,0" >
+                        <ProgressBar.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFDCA658" Offset="0"/>
+                                <GradientStop Color="#FFDCA658" Offset="1"/>
+                            </LinearGradientBrush>
+                        </ProgressBar.Background>
+                    </ProgressBar>
+                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Foreground="White" Margin="0,304,0,0">
+                        <Run Text="{Binding ElementName=ProgressBarCarga, Path=Value}" />
+                        <Run Text=" / " />
+                        <Run Text="{Binding ElementName=ProgressBarCarga, Path=Maximum}" />
+                    </TextBlock>
+                </Grid>
+                <Label x:Name="txtCargo_Copiar" Content="NOMBRE: " Foreground="White" Style="{DynamicResource LabelStyle1}" Margin="153,185,0,0"/>
 
-        </StackPanel>
+            </Grid>
+        </Grid>
     </Border>
 </Window>
