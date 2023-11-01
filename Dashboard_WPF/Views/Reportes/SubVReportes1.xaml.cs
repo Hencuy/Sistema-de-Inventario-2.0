@@ -36,10 +36,7 @@ namespace Dashboard_WPF.Views.Reportes
         public SubVReportes1()
         {
             InitializeComponent();
-            generadorPDF = new generarPDF();
-            CargarDatos();
-            EnAlmacen.ItemsSource = ventas;
-            buenDia.Text = "";
+ 
         }
 
         private void CargarDatos()
@@ -264,6 +261,16 @@ ORDER BY DV.Fecha;
                 string filePath = saveFileDialog.FileName;
                 generadorPDF.GenerarPDF(filePath, "valor1", "valor2", "valor3", "valor4", "valor5", "valor6", "valor7", "valor8", "valor9", "valor10", "valor11");
             }*/
+        }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            generadorPDF = new generarPDF();
+            CargarDatos();
+            EnAlmacen.ItemsSource = ventas;
+            string fechaActual = DateTime.Now.ToString("dd-MM-yyyy");
+
+            buenDia.Text = "Estadísticas de ventas de hoy (" + fechaActual + ")";
         }
     }
 }

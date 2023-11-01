@@ -66,30 +66,88 @@ namespace Dashboard_WPF.Properties {
         ///&lt;head&gt;
         ///    &lt;title&gt;Document&lt;/title&gt;
         ///    &lt;style&gt;
-        ///        body {
-        ///            border: 1px solid black;
-        ///            padding: 20px;
-        ///        }
         ///        table {
+        ///            border-collapse: collapse;
         ///            width: 100%;
         ///        }
         ///        th, td {
-        ///            padding: 5px;
         ///            border: 1px solid black;
+        ///            padding: 4px; /* Reduje el espacio entre el texto y el borde */
+        ///            text-align: center;
         ///        }
-        ///        .first-column {
-        ///            width: 40%;
-        ///        }
-        ///        .second-column {
-        ///            width: 60%;
-        ///        }
-        ///        .container {
-        ///            display: flex;
-        ///            justify-con [resto de la cadena truncado]&quot;;.
+        ///     
+        ///    &lt;/style&gt;
+        ///&lt;/head&gt;
+        ///&lt;body&gt;
+        ///    &lt;h3&gt;Tabla de Ventas&lt;/h3&gt;
+        /// &lt;table&gt;
+        ///    &lt;tr&gt;
+        ///        &lt;th style=&quot;background-color: #F0F0F0; color: #333; font-size: 7px;&quot;&gt;ID [resto de la cadena truncado]&quot;;.
         /// </summary>
         internal static string plantilla {
             get {
                 return ResourceManager.GetString("plantilla", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;head&gt;
+        ///    &lt;title&gt;Document&lt;/title&gt;
+        ///    &lt;style&gt;
+        ///        table {
+        ///            border-collapse: collapse;
+        ///            width: 100%;
+        ///        }
+        ///        th, td {
+        ///            border: 1px solid black;
+        ///            padding: 4px; /* Reduje el espacio entre el texto y el borde */
+        ///            text-align: center;
+        ///        }
+        ///     
+        ///    &lt;/style&gt;
+        ///&lt;/head&gt;
+        ///&lt;body&gt;
+        ///    &lt;h3&gt;Tabla de Ventas&lt;/h3&gt;
+        /// &lt;table&gt;
+        ///    &lt;tr&gt;
+        ///       &lt;tr&gt;
+        ///    &lt;th style=&quot;background-color: #F0F0F0; color: #333; font-size: [resto de la cadena truncado]&quot;;.
+        /// </summary>
+        internal static string plantilla2 {
+            get {
+                return ResourceManager.GetString("plantilla2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;head&gt;
+        ///    &lt;title&gt;Document&lt;/title&gt;
+        ///    &lt;style&gt;
+        ///        table {
+        ///            border-collapse: collapse;
+        ///            width: 100%;
+        ///        }
+        ///        th, td {
+        ///            border: 1px solid black;
+        ///            padding: 4px; /* Reduje el espacio entre el texto y el borde */
+        ///            text-align: center;
+        ///        }
+        ///     
+        ///    &lt;/style&gt;
+        ///&lt;/head&gt;
+        ///&lt;body&gt;
+        ///    &lt;h3&gt;Tabla de Ventas&lt;/h3&gt;
+        /// &lt;table&gt;
+        ///    &lt;tr&gt;
+        ///        &lt;th style=&quot;background-color: #F0F0F0; color: #333; font-size: 7px;&quot;&gt;ID [resto de la cadena truncado]&quot;;.
+        /// </summary>
+        internal static string plantilla3 {
+            get {
+                return ResourceManager.GetString("plantilla3", resourceCulture);
             }
         }
     }

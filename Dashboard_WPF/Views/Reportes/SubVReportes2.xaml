@@ -23,7 +23,7 @@
                         <ComboBox x:Name="ComboEstado" Width="300" Margin="0 10 0 0" Foreground="#455A64" SelectedIndex="0">                            <ComboBoxItem>Nombre</ComboBoxItem>                            <ComboBoxItem>Stock</ComboBoxItem>                            <ComboBoxItem>Precio</ComboBoxItem>                            <ComboBoxItem>Precio mayoreo</ComboBoxItem>                        </ComboBox>
                     </StackPanel>
                 </StackPanel>
-                <Button Margin="0 40 0 0" Width="160">
+                <Button Name="BtnReporte" Margin="0 40 0 0" Width="160" Click="BtnReporte_Click">
                     <WrapPanel>
                         <materialDesign:PackIcon Kind="FilePdfBox" VerticalAlignment="Center" Margin="0 0 7 0"/>
                         <TextBlock FontSize="14">Generar Reporte</TextBlock>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 4px; /* Reduje el espacio entre el texto y el borde */
+            text-align: center;
+        }
+     
+    </style>
+</head>
+<body>
+    <h3>Tabla de Ventas</h3>
+ <table>
+    <tr>
+       <tr>
+    <th style="background-color: #F0F0F0; color: #333; font-size: 7px;">Código de Barra</th>
+    <th style="background-color: #F0F0F0; color: #333; font-size: 7px;">Nombre</th>
+    <th style="background-color: #F0F0F0; color: #333; font-size: 7px;">Precio de Venta</th>
+    <th style="background-color: #F0F0F0; color: #333; font-size: 7px;">Stock en Existencia</th>
+    <th style="background-color: #F0F0F0; color: #333; font-size: 7px;">Unidad</th>
+</tr>
+
+    </tr>
+</table>
+
+</body>
+</html>

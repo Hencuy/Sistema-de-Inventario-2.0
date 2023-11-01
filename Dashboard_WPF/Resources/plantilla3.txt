@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 4px; /* Reduje el espacio entre el texto y el borde */
+            text-align: center;
+        }
+     
+    </style>
+</head>
+<body>
+    <h3>Tabla de Ventas</h3>
+ <table>
+    <tr>
+        <th style="background-color: #F0F0F0; color: #333; font-size: 7px;">ID Venta</th>
+        <th style="background-color: #F0F0F0; color: #333; font-size: 7px;">Fecha de Compra</th>
+        <th style="background-color: #F0F0F0; color: #333; font-size: 7px;">Hora de Compra</th>
+        <th style="background-color: #F0F0F0; color: #333; font-size: 7px;">Total en Ventas</th>
+    </tr>
+</table>
+
+</body>
+</html>

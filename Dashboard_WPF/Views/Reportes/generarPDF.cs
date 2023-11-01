@@ -29,7 +29,7 @@ public class generarPDF
 
         using (FileStream stream = new FileStream(outputFilePath, FileMode.Create))
         {
-            Document pdfDoc = new Document(PageSize.A4, 25, 25, 25, 25);
+            Document pdfDoc = new Document(PageSize.A4.Rotate(), 25, 25, 25, 25);
             PdfWriter writer = PdfWriter.GetInstance(pdfDoc, stream);
 
             pdfDoc.Open();
@@ -60,5 +60,6 @@ public class generarPDF
             pdfDoc.Add(table);
             pdfDoc.Close();
         }
+        Process.Start(outputFilePath);
     }
 }
