@@ -636,6 +636,24 @@
   <ItemGroup>
     <None Include="Resources\plantilla3.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="recursos\imagen\cerrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="recursos\imagen\usuario%283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="recursos\imagen\VentPrin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="recursos\imagen\VentanaPrincipal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="recursos\imagen\ImagenCel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="recursos\imagen\logito.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MaterialDesignThemes.4.9.0\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.4.9.0\build\MaterialDesignThemes.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

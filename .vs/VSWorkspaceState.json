@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Dashboard_WPF",
+    "\\Dashboard_WPF\\Views",
+    "\\Dashboard_WPF\\Views\\Reportes"
   ],
+  "SelectedNode": "\\Dashboard_WPF\\Views\\Reportes\\SubVReportes1.xaml.cs",
   "PreviewInSolutionExplorer": false
 }

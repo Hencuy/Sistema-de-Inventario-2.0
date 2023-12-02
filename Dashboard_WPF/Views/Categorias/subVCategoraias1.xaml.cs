@@ -1,32 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Dashboard_WPF.Views.Categorias
 {
     public partial class subVCategoraias1 : Page
     {
-        //kjhhjkhk
-        //hjihhoj
         int v;
         string Nombre = "";
         string Ubicacion = "";
         int Estado = 0;
         SqlConnection conexion = new SqlConnection("Server= (LocalDB)\\MSSQLLocalDB;Database=BDInventarioVenta;Integrated Security=true; TrustServerCertificate=True");
+
         public subVCategoraias1()
         {
             InitializeComponent();
@@ -44,6 +32,13 @@ namespace Dashboard_WPF.Views.Categorias
             // Si todos los campos están llenos, continúa con el proceso de guardar los datos
             SacarDatos();
 
+            // Verifica si ya existe un registro con el mismo nombre o ubicación
+            if (ExisteRegistroDuplicado(Nombre, Ubicacion))
+            {
+                MessageBox.Show("Ya existe un registro con el mismo nombre o ubicación.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                return; // Sale del método sin guardar los datos
+            }
+
             conexion.Open();
             string sqlQuery = "INSERT INTO Categoria (Nombre, Ubicacion, Estado) VALUES (@Nombre, @Ubicacion, @Estado);";
 
@@ -57,6 +52,21 @@ namespace Dashboard_WPF.Views.Categorias
             LimpiarXD();
             MessageBox.Show("Se ha añadido la categoría con éxito");
         }
+
+        // Método para verificar si ya existe un registro con el mismo nombre o ubicación
+        private bool ExisteRegistroDuplicado(string nombre, string ubicacion)
+        {
+            conexion.Open();
+            string sqlQuery = "SELECT COUNT(*) FROM Categoria WHERE Nombre = @Nombre OR Ubicacion = @Ubicacion;";
+            SqlCommand command = new SqlCommand(sqlQuery, conexion);
+            command.Parameters.AddWithValue("@Nombre", nombre);
+            command.Parameters.AddWithValue("@Ubicacion", ubicacion);
+            int count = (int)command.ExecuteScalar();
+            conexion.Close();
+
+            return count > 0;
+        }
+
         private void SacarDatos()
         {
             Nombre = txtNombre.Text;
@@ -81,6 +91,7 @@ namespace Dashboard_WPF.Views.Categorias
         {
             LimpiarXD();
         }
+
         private void LimpiarXD()
         {
             txtNombre.Text = "";

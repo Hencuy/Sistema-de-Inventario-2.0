@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Dashboard_WPF" 
         mc:Ignorable="d"
-        Title="VentanaDeCarga" Height="450" Width="800"
+        Title="VentanaDeCarga" Height="450" Width="730"
         WindowStyle="None"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
@@ -22,20 +22,22 @@
                     </Setter>
                 </Style>
             </Grid.Resources>
-            <Image Source="/AdobeStock_630206907.jpeg" Margin="-52,-45,-45,-48"/>
             <Border CornerRadius="10" BorderThickness="2" BorderBrush="Black" Background="Black" Margin="64,19,76,19" Opacity="0.6"/>
-            <Grid>
-                <Label Name="lblMensaje" Content="BIENVENIDO" FontSize="50" Margin="0,75,0,0" Style="{DynamicResource LabelStyle1}" HorizontalAlignment="Center"/>
-                <Label x:Name="txtCargarNombre" Content="NOMBRE" Style="{DynamicResource LabelStyle1}" Margin="289,185,0,0"/>
-                <Label x:Name="txtCargarApellido" Content="APELLIDOS" Style="{DynamicResource LabelStyle1}" Margin="407,185,0,0"/>
-                <Label x:Name="txtCargo" Content="CARGO: " Foreground="White" Style="{DynamicResource LabelStyle1}" Margin="153,243,0,0"/>
-                <Label x:Name="txtCargarCargos" Content="CARGOS USUARIO" Foreground="White" Style="{DynamicResource LabelStyle1}" Margin="289,243,0,0"/>
+            <Grid Margin="10,0,0,0">
+                <Grid.Background>
+                    <ImageBrush ImageSource="/recursos/imagen/VentanaPrincipal.png"/>
+                </Grid.Background>
+                <Label Name="lblMensaje" Content="BIENVENIDO" FontSize="72" Margin="199,20,0,0" Style="{DynamicResource LabelStyle1}" Foreground="#FF5FBDFF"/>
+                <Label x:Name="txtCargarNombre" Content="NOMBRE" Style="{DynamicResource LabelStyle1}" Margin="360,156,0,0" Foreground="Black"/>
+                <Label x:Name="txtCargarApellido" Content="APELLIDOS" Style="{DynamicResource LabelStyle1}" Margin="467,156,0,0" Foreground="Black"/>
+                <Label x:Name="txtCargo" Content="CARGO: " Foreground="Black" Style="{DynamicResource LabelStyle1}" Margin="270,223,0,0"/>
+                <Label x:Name="txtCargarCargos" Content="CARGOS USUARIO" Foreground="Black" Style="{DynamicResource LabelStyle1}" Margin="409,223,0,0"/>
                 <Grid Margin="0 20 0 0">
                     <ProgressBar x:Name="ProgressBarCarga" Minimum="0" Maximum="10" Value="0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="484" Height="28" Margin="0,301,0,0" >
                         <ProgressBar.Background>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                <GradientStop Color="#FFDCA658" Offset="0"/>
-                                <GradientStop Color="#FFDCA658" Offset="1"/>
+                                <GradientStop Color="#5FBDFF" Offset="0"/>
+                                <GradientStop Color="#5FBDFF" Offset="1"/>
                             </LinearGradientBrush>
                         </ProgressBar.Background>
                     </ProgressBar>
@@ -45,7 +47,7 @@
                         <Run Text="{Binding ElementName=ProgressBarCarga, Path=Maximum}" />
                     </TextBlock>
                 </Grid>
-                <Label x:Name="txtCargo_Copiar" Content="NOMBRE: " Foreground="White" Style="{DynamicResource LabelStyle1}" Margin="153,185,0,0"/>
+                <Label x:Name="txtCargo_Copiar" Content="NOMBRE: " Foreground="Black" Style="{DynamicResource LabelStyle1}" Margin="214,156,0,0"/>
 
             </Grid>
         </Grid>

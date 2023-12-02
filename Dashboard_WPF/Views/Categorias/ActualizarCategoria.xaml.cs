@@ -1,19 +1,8 @@
 ﻿using Dashboard_WPF.Views.Proveedores;
 using System;
-using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Dashboard_WPF.Views.Categorias
 {
@@ -25,6 +14,7 @@ namespace Dashboard_WPF.Views.Categorias
         public Frame Main;
         string Idcat, Ventanas;
         SqlConnection conexion = new SqlConnection("Server= (LocalDB)\\MSSQLLocalDB;Database=BDInventarioVenta;Integrated Security=true; TrustServerCertificate=True");
+
         public ActualizarCategoria(Frame main, string idcat, string ventanas)
         {
             InitializeComponent();
@@ -39,12 +29,56 @@ namespace Dashboard_WPF.Views.Categorias
             {
                 // Obtén los valores de los campos de texto y ComboBox
                 string idcat = Idcat;
-                string nombre = txtNombre.Text;
-                string ubicacion = txtUbicacion.Text;
-                int estado = ComboEstado.SelectedIndex; // Debes asegurarte de que el ComboBox tenga los valores correctos.
+                string nombre = txtNombre.Text.Trim();
+                string ubicacion = txtUbicacion.Text.Trim();
+                int estado = ComboEstado.SelectedIndex; // Asegúrate de que el ComboBox tenga los valores correctos.
+
+                // Validación: El campo 'Nombre' solo puede contener letras
+                if (!System.Text.RegularExpressions.Regex.IsMatch(nombre, "^[a-zA-Z]+$"))
+                {
+                    MessageBox.Show("El campo 'Nombre' solo puede contener letras.");
+                    return;
+                }
+
+                // Validate inputs (prevenir valores vacíos o nulos)
+                if (string.IsNullOrEmpty(nombre) || string.IsNullOrEmpty(ubicacion))
+                {
+                    MessageBox.Show("Por favor, completa todos los campos.");
+                    return;
+                }
 
                 // Abre la conexión a la base de datos
                 conexion.Open();
+
+                // Check for duplicate category names
+                string duplicateCategoryQuery = "SELECT COUNT(*) FROM Categoria WHERE Nombre = @Nombre AND idCategoria != @id";
+                SqlCommand duplicateCategoryCommand = new SqlCommand(duplicateCategoryQuery, conexion);
+                duplicateCategoryCommand.Parameters.AddWithValue("@id", idcat);
+                duplicateCategoryCommand.Parameters.AddWithValue("@Nombre", nombre);
+
+                int duplicateCategoryCount = (int)duplicateCategoryCommand.ExecuteScalar();
+
+                if (duplicateCategoryCount > 0)
+                {
+                    MessageBox.Show("Ya existe una categoría con ese nombre. Por favor, elige un nombre diferente.");
+                    conexion.Close();
+                    return;
+                }
+
+                // Check for duplicate aisle names
+                string duplicateAisleQuery = "SELECT COUNT(*) FROM Categoria WHERE Ubicacion = @Ubicacion AND idCategoria != @id";
+                SqlCommand duplicateAisleCommand = new SqlCommand(duplicateAisleQuery, conexion);
+                duplicateAisleCommand.Parameters.AddWithValue("@id", idcat);
+                duplicateAisleCommand.Parameters.AddWithValue("@Ubicacion", ubicacion);
+
+                int duplicateAisleCount = (int)duplicateAisleCommand.ExecuteScalar();
+
+                if (duplicateAisleCount > 0)
+                {
+                    MessageBox.Show("Ya existe un pasillo con esa ubicación. Por favor, elige una ubicación diferente.");
+                    conexion.Close();
+                    return;
+                }
 
                 // Crea una consulta SQL para actualizar los datos del proveedor
                 string consulta = "UPDATE Categoria SET Nombre = @Nombre, Ubicacion = @Ubicacion, Estado = @Estado WHERE idcategoria = @id";
@@ -103,7 +137,6 @@ namespace Dashboard_WPF.Views.Categorias
 
             if (reader.Read())
             {
-
                 txtNombre.Text = reader["Nombre"].ToString();
                 txtUbicacion.Text = reader["Ubicacion"].ToString();
                 int estado = (int)reader["Estado"];
@@ -115,4 +148,3 @@ namespace Dashboard_WPF.Views.Categorias
         }
     }
 }
-
